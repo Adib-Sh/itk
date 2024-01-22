@@ -1,0 +1,8 @@
+{
+    "ModuleTypeConfigFiles": [
+        "QCstudy/config/R5-room-conf.json"
+    ],
+    "Title": "Hybrid streams",
+    "Variable" : "innse",
+    "OnlyBad" : true
+}

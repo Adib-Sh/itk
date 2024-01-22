@@ -1,0 +1,7 @@
+{
+    "ModuleTypeConfigFiles": [
+        "QCstudy/config/R4-room-Polaris.json",
+        "QCstudy/config/R5-room-Polaris.json"
+    ],
+    "Title": "Classification statistics - R3, R4, R5\nroom temperature, Polaris"
+}

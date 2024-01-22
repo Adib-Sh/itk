@@ -1,0 +1,9 @@
+{
+  "warm_itkdb_testids":[],
+  "cold_itkdb_testids":[],
+  "warm_filenames_nominal":["GPC2149_X_002_C_H5_RC_7_38.txt", "GPC2149_X_002_C_H5_RC_7_102.txt", "GPC2149_X_002_C_H5_RC_7_166.txt", "GPC2149_X_002_C_H5_RC_7_230.txt", "GPC2149_X_002_C_H5_RC_7_294.txt", "GPC2149_X_002_C_H5_RC_7_358.txt", "GPC2149_X_002_C_H5_RC_14_6.txt", "GPC2149_X_002_C_H5_RC_14_70.txt", "GPC2149_X_002_C_H5_RC_14_134.txt", "GPC2149_X_002_C_H5_RC_14_198.txt", "GPC2149_X_002_C_H5_RC_14_262.txt", "GPC2149_X_002_C_H5_RC_14_326.txt" ],
+  "cold_filenames_nominal":["GPC2149_X_002_C_H5_RC_7_6.txt", "GPC2149_X_002_C_H5_RC_7_70.txt", "GPC2149_X_002_C_H5_RC_7_134.txt", "GPC2149_X_002_C_H5_RC_7_198.txt" ,"GPC2149_X_002_C_H5_RC_7_262.txt", "GPC2149_X_002_C_H5_RC_7_326.txt",
+   "GPC2149_X_002_C_H5_RC_14_38.txt", "GPC2149_X_002_C_H5_RC_14_102.txt", "GPC2149_X_002_C_H5_RC_14_166.txt", "GPC2149_X_002_C_H5_RC_14_230.txt", "GPC2149_X_002_C_H5_RC_14_294.txt"],
+  "warm_filenames_open_shunts":[],
+  "cold_filenames_open_shunts":[]
+}

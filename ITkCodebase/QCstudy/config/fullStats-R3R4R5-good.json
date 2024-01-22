@@ -1,0 +1,9 @@
+{
+    "ModuleTypeConfigFiles": [
+        "QCstudy/config/R3-room-good.json",
+        "QCstudy/config/R4-room-good.json",
+        "QCstudy/config/R5-room-good.json"
+    ],
+    "Title": "Classification statistics - R3, R4, R5, room temperature, only good modules",
+    "yLimits" : [0, 2.1]
+}
