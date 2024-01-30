@@ -1,0 +1,5 @@
+{"Criteria" : {"ModuleType" : "R4",
+	       "TemperatureCategory" : "Room",
+               "HandPicked" : "Yes"},
+ "Title" : "R4 channel classification, room temperature",
+ "yScale" : "log"}

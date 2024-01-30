@@ -1,0 +1,4 @@
+{"Criteria" : {"ModuleType" : "R3",
+	           "TemperatureCategory" : "Cold",
+               "HandPicked" : ["Yes", "JJcold"]},
+ "Title" : "R3 channel classification, cold\nincluding modules with unexplained high noise"}

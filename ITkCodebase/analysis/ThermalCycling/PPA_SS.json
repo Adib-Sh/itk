@@ -1,0 +1,6 @@
+{
+  "warm_itkdb_testids":[ ],
+  "cold_itkdb_testids":[],
+  "warm_filenames":["SS06_PPA_Plus18C_hybrid_BHM_P11_X_Pos1_RC_824_8.txt","SS06_PPA_Plus18C_hybrid_BHM_P11_Y_Pos0_RC_824_8.txt"],
+  "cold_filenames":["SS06_PPA_Minus40C_hybrid_BHM_P11_X_Pos1_RC_824_24.txt","SS06_PPA_Minus40C_hybrid_BHM_P11_Y_Pos0_RC_824_24.txt"]
+}

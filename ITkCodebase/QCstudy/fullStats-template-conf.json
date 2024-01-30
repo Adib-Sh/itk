@@ -1,0 +1,8 @@
+{
+    "ModuleTypeConfigFiles": [
+        "QCstudy/config/R0-config-file.json",
+        "QCstudy/config/R1-config-file.json",
+        "etc"
+    ],
+    "Title": "Classification statistics - all module types, room temperature"
+}

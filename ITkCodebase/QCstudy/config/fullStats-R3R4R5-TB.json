@@ -1,0 +1,8 @@
+{
+    "ModuleTypeConfigFiles": [
+        "QCstudy/config/R3-room-TB.json",
+        "QCstudy/config/R4-room-TB.json",
+        "QCstudy/config/R5-room-TB.json"
+    ],
+    "Title": "Classification statistics - R3, R4, R5\nroom temperature, True Blue"
+}
