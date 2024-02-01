@@ -1,6 +1,0 @@
-{
-  "warm_itkdb_testids":[ ],
-  "cold_itkdb_testids":[],
-  "warm_filenames":["BHM_PPB_SS01_Plus18C_hybrid_X_RC_844_6.txt","BHM_PPB_SS01_Plus18C_hybrid_Y_RC_844_6.txt"],
-  "cold_filenames":["BHM_PPB_SS01_Minus40C_hybrid_X_RC_841_54.txt","BHM_PPB_SS01_Minus40C_hybrid_Y_RC_841_54.txt"]
-}

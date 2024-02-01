@@ -1,1 +1,0 @@
-# Cold Noise Features Study

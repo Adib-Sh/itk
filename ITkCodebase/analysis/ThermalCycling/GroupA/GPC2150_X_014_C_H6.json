@@ -1,9 +1,0 @@
-{
-  "warm_itkdb_testids":[],
-  "cold_itkdb_testids":[],
-  "warm_filenames_nominal":[],
-  "cold_filenames_nominal":["GPC2150_X_014_C_H6_RC_5_6.txt", "GPC2150_X_014_C_H6_RC_5_70.txt", "GPC2150_X_014_C_H6_RC_5_278.txt",
-   "GPC2150_X_014_C_H6_RC_11_38.txt", "GPC2150_X_014_C_H6_RC_11_102.txt", "GPC2150_X_014_C_H6_RC_11_166.txt", "GPC2150_X_014_C_H6_RC_11_230.txt", "GPC2150_X_014_C_H6_RC_11_294.txt", "GPC2150_X_014_C_H6_RC_11_358.txt"],
-  "warm_filenames_open_shunts":[],
-  "cold_filenames_open_shunts":[]
-}

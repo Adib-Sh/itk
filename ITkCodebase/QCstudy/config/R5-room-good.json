@@ -1,5 +1,0 @@
-{"Criteria" : {"ModuleType" : "R5",
-	       "TemperatureCategory" : "Room",
-               "HandPicked" : "Yes",
-            "IncludeBad" : false},
- "Title" : "R5 channel classification, room temperature, only good modules"}
