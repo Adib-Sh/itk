@@ -1,0 +1,559 @@
+{
+    "comments": [
+        "L0Ch9 TR 2 step 0.66 (ideal 1.43 error 53.84%)",
+        "L0Ch7 TR 2 step 0.63 (ideal 1.34 error 52.74%)",
+        "L0Ch6 TR 2 step 0.56 (ideal 1.23 error 54.67%)",
+        "L0Ch5 TR 2 step 0.58 (ideal 1.28 error 54.46%)",
+        "L0Ch3 TR 2 step 0.69 (ideal 1.46 error 52.82%)",
+        "L0Ch2 TR 2 step 0.69 (ideal 1.45 error 52.66%)",
+        "L0Ch1 TR 2 step 0.67 (ideal 1.45 error 53.54%)",
+        "L0Ch0 TR 2 step 0.71 (ideal 1.51 error 52.69%)",
+        "L1Ch9 TR 2 step 0.65 (ideal 1.42 error 54.27%)",
+        "L1Ch7 TR 2 step 0.63 (ideal 1.36 error 53.58%)",
+        "L1Ch6 TR 2 step 0.55 (ideal 1.20 error 53.87%)",
+        "L1Ch5 TR 2 step 0.61 (ideal 1.32 error 53.90%)",
+        "L1Ch3 TR 2 step 0.67 (ideal 1.44 error 53.24%)",
+        "L1Ch2 TR 2 step 0.68 (ideal 1.44 error 52.49%)",
+        "L1Ch1 TR 2 step 0.68 (ideal 1.44 error 52.92%)",
+        "L1Ch0 TR 2 step 0.70 (ideal 1.49 error 53.01%)"
+    ],
+    "date": "2023-07-04T15:22:13.000Z",
+    "defects": [
+        {
+            "description": "Bad trim range",
+            "name": "TR_RANGE",
+            "properties": {
+                "chip_bank": "under",
+                "chip_in_histo": 0
+            }
+        },
+        {
+            "description": "Bad trim range",
+            "name": "TR_RANGE",
+            "properties": {
+                "chip_bank": "under",
+                "chip_in_histo": 2
+            }
+        },
+        {
+            "description": "Bad trim range",
+            "name": "TR_RANGE",
+            "properties": {
+                "chip_bank": "under",
+                "chip_in_histo": 3
+            }
+        },
+        {
+            "description": "Bad trim range",
+            "name": "TR_RANGE",
+            "properties": {
+                "chip_bank": "under",
+                "chip_in_histo": 4
+            }
+        },
+        {
+            "description": "Bad trim range",
+            "name": "TR_RANGE",
+            "properties": {
+                "chip_bank": "under",
+                "chip_in_histo": 6
+            }
+        },
+        {
+            "description": "Bad trim range",
+            "name": "TR_RANGE",
+            "properties": {
+                "chip_bank": "under",
+                "chip_in_histo": 7
+            }
+        },
+        {
+            "description": "Bad trim range",
+            "name": "TR_RANGE",
+            "properties": {
+                "chip_bank": "under",
+                "chip_in_histo": 8
+            }
+        },
+        {
+            "description": "Bad trim range",
+            "name": "TR_RANGE",
+            "properties": {
+                "chip_bank": "under",
+                "chip_in_histo": 9
+            }
+        },
+        {
+            "description": "Bad trim range",
+            "name": "TR_RANGE",
+            "properties": {
+                "chip_bank": "away",
+                "chip_in_histo": 0
+            }
+        },
+        {
+            "description": "Bad trim range",
+            "name": "TR_RANGE",
+            "properties": {
+                "chip_bank": "away",
+                "chip_in_histo": 2
+            }
+        },
+        {
+            "description": "Bad trim range",
+            "name": "TR_RANGE",
+            "properties": {
+                "chip_bank": "away",
+                "chip_in_histo": 3
+            }
+        },
+        {
+            "description": "Bad trim range",
+            "name": "TR_RANGE",
+            "properties": {
+                "chip_bank": "away",
+                "chip_in_histo": 4
+            }
+        },
+        {
+            "description": "Bad trim range",
+            "name": "TR_RANGE",
+            "properties": {
+                "chip_bank": "away",
+                "chip_in_histo": 6
+            }
+        },
+        {
+            "description": "Bad trim range",
+            "name": "TR_RANGE",
+            "properties": {
+                "chip_bank": "away",
+                "chip_in_histo": 7
+            }
+        },
+        {
+            "description": "Bad trim range",
+            "name": "TR_RANGE",
+            "properties": {
+                "chip_bank": "away",
+                "chip_in_histo": 8
+            }
+        },
+        {
+            "description": "Bad trim range",
+            "name": "TR_RANGE",
+            "properties": {
+                "chip_bank": "away",
+                "chip_in_histo": 9
+            }
+        },
+        {
+            "description": "Bad Trim offset",
+            "name": "TR_OFFSET",
+            "properties": {
+                "channel": 56,
+                "chip_bank": "under",
+                "chip_in_histo": 2
+            }
+        }
+    ],
+    "info": {
+        "points": [
+            {
+                "range": 2.0,
+                "trims": [
+                    0.0,
+                    8.0,
+                    16.0,
+                    24.0,
+                    31.0
+                ]
+            },
+            {
+                "range": 4.0,
+                "trims": [
+                    0.0,
+                    8.0,
+                    16.0,
+                    24.0,
+                    31.0
+                ]
+            },
+            {
+                "range": 6.0,
+                "trims": [
+                    0.0,
+                    8.0,
+                    16.0,
+                    24.0,
+                    31.0
+                ]
+            },
+            {
+                "range": 8.0,
+                "trims": [
+                    0.0,
+                    8.0,
+                    16.0,
+                    24.0,
+                    31.0
+                ]
+            }
+        ]
+    },
+    "passed": false,
+    "problems": false,
+    "properties": {
+        "DCS": {
+            "ABC_temp_raw_1": 2390.0,
+            "ABC_temp_raw_10": 2324.0,
+            "ABC_temp_raw_2": 2528.0,
+            "ABC_temp_raw_3": 2447.0,
+            "ABC_temp_raw_4": 2446.0,
+            "ABC_temp_raw_5": 2331.0,
+            "ABC_temp_raw_6": 2202.0,
+            "ABC_temp_raw_7": 2413.0,
+            "ABC_temp_raw_8": 2401.0,
+            "ABC_temp_raw_9": 2384.0,
+            "HCC_temp_raw": 367.0,
+            "HCC_temp_rough_cal": 54.48699951171875
+        },
+        "charge": 1.0,
+        "det_info": {
+            "ABC_Fuse": [
+                "8943d84d",
+                "8943d84e",
+                "8943d84f",
+                "8943d850",
+                "8943d851",
+                "8943d852",
+                "8943d853",
+                "8943d855",
+                "8943d856",
+                "8943d857"
+            ],
+            "Address": [
+                9,
+                8,
+                7,
+                6,
+                5,
+                4,
+                3,
+                2,
+                1,
+                0
+            ],
+            "Channel": [
+                10,
+                9,
+                8,
+                7,
+                6,
+                5,
+                4,
+                3,
+                2,
+                1
+            ],
+            "DUT_type": "ABCStar_Test     #FMC-DP connec",
+            "HCC_Fuse": "20401216",
+            "name": "star_barrel_LS_X_chipset_10"
+        },
+        "method": 0,
+        "method_desc": "trim whole module",
+        "scan_info": {
+            "event_count": 112
+        },
+        "system_info": {
+            "Analysis_time": "2023-07-04T15:26:46.000Z",
+            "Firmware revision": "0xb5fb",
+            "GIT URL": "https://gitlab.cern.ch/atlas-itk-strips-daq/itsdaq-sw.git/-/tree/b9a5b33fea316d90d9f09cbc39f7953d622a8ac5",
+            "GIT branch": "",
+            "GIT build date": "2023-06-05 11:53:03 +0000 (Mon, 05 Jun 2023)",
+            "GIT commit date": "2023-05-31 14:41:57 +0000 (Wed, 31 May 2023)",
+            "GIT describe": "itsdaq_23_3_2023-170-gb9a5b33",
+            "GIT revision": "b9a5b33fea316d90d9f09cbc39f7953d622a8ac5",
+            "Location": "LUND",
+            "User": "LUND",
+            "analysis_version": "3.43",
+            "dedication": "New dedication as we're going for PPA",
+            "host": "itkdaq"
+        },
+        "trim": -1.0
+    },
+    "results": {
+        "best_ntrim": {
+            "away": {
+                "chip": [
+                    256.0,
+                    256.0,
+                    256.0,
+                    256.0,
+                    256.0,
+                    256.0,
+                    256.0,
+                    256.0,
+                    256.0,
+                    256.0
+                ]
+            },
+            "under": {
+                "chip": [
+                    256.0,
+                    256.0,
+                    256.0,
+                    256.0,
+                    256.0,
+                    256.0,
+                    256.0,
+                    256.0,
+                    256.0,
+                    256.0
+                ]
+            }
+        },
+        "mean_offset": {
+            "away": {
+                "chip": [
+                    -27.669662475585938,
+                    -26.4648494720459,
+                    -28.092269897460938,
+                    -29.43020248413086,
+                    -29.689043045043945,
+                    -25.082778930664063,
+                    -27.041208267211914,
+                    -25.923181533813477,
+                    -28.460311889648438,
+                    -27.781089782714844
+                ]
+            },
+            "under": {
+                "chip": [
+                    -27.59252166748047,
+                    -26.297025680541992,
+                    -29.776126861572266,
+                    -30.39795684814453,
+                    -32.587684631347656,
+                    -24.430553436279297,
+                    -27.023914337158203,
+                    -26.287450790405273,
+                    -27.67898941040039,
+                    -28.086301803588867
+                ]
+            }
+        },
+        "mean_step": {
+            "away": {
+                "chip": [
+                    0.4727080762386322,
+                    0.4641435742378235,
+                    0.4548249840736389,
+                    0.4006013870239258,
+                    0.4392915964126587,
+                    0.5107827186584473,
+                    0.4792138934135437,
+                    0.479716420173645,
+                    0.4805692434310913,
+                    0.4974646270275116
+                ]
+            },
+            "under": {
+                "chip": [
+                    0.47517597675323486,
+                    0.4469408094882965,
+                    0.44539976119995117,
+                    0.4087701141834259,
+                    0.42679306864738464,
+                    0.5514913201332092,
+                    0.48651981353759766,
+                    0.4844982922077179,
+                    0.48189643025398254,
+                    0.5021153092384338
+                ]
+            }
+        },
+        "rms_offset": {
+            "away": {
+                "chip": [
+                    3.728665351867676,
+                    3.211533308029175,
+                    4.031692028045654,
+                    4.776455879211426,
+                    5.320287704467773,
+                    3.667656898498535,
+                    5.049860000610352,
+                    4.625492572784424,
+                    4.639702796936035,
+                    4.941505432128906
+                ]
+            },
+            "under": {
+                "chip": [
+                    3.7722280025482178,
+                    3.5125300884246826,
+                    4.258360862731934,
+                    5.044768333435059,
+                    6.341010570526123,
+                    5.949090480804443,
+                    5.006219387054443,
+                    4.360483169555664,
+                    4.159534931182861,
+                    5.0245256423950195
+                ]
+            }
+        },
+        "rms_step": {
+            "away": {
+                "chip": [
+                    0.057038210332393646,
+                    0.05830029770731926,
+                    0.0501653291285038,
+                    0.05590096861124039,
+                    0.04862261563539505,
+                    0.05509702116250992,
+                    0.05469527095556259,
+                    0.04348590970039368,
+                    0.055370450019836426,
+                    0.05132026970386505
+                ]
+            },
+            "under": {
+                "chip": [
+                    0.055349014699459076,
+                    0.05295858904719353,
+                    0.05526193976402283,
+                    0.05676870048046112,
+                    0.05494517460465431,
+                    0.10219205170869827,
+                    0.049640633165836334,
+                    0.04775781184434891,
+                    0.050394028425216675,
+                    0.05437229201197624
+                ]
+            }
+        },
+        "trim_range": {
+            "away": {
+                "chip": [
+                    2.0,
+                    4.0,
+                    2.0,
+                    2.0,
+                    2.0,
+                    4.0,
+                    2.0,
+                    2.0,
+                    2.0,
+                    2.0
+                ]
+            },
+            "under": {
+                "chip": [
+                    2.0,
+                    4.0,
+                    2.0,
+                    2.0,
+                    2.0,
+                    4.0,
+                    2.0,
+                    2.0,
+                    2.0,
+                    2.0
+                ]
+            }
+        },
+        "trim_target": {
+            "away": {
+                "chip": [
+                    25.0,
+                    25.0,
+                    25.0,
+                    25.0,
+                    25.0,
+                    25.0,
+                    25.0,
+                    25.0,
+                    25.0,
+                    25.0
+                ]
+            },
+            "under": {
+                "chip": [
+                    25.0,
+                    25.0,
+                    25.0,
+                    25.0,
+                    25.0,
+                    25.0,
+                    25.0,
+                    25.0,
+                    25.0,
+                    25.0
+                ]
+            }
+        },
+        "trimmed_mean": {
+            "away": {
+                "chip": [
+                    25.014423370361328,
+                    24.985647201538086,
+                    24.965986251831055,
+                    25.004013061523438,
+                    24.9988956451416,
+                    24.963132858276367,
+                    24.996166229248047,
+                    25.047269821166992,
+                    24.961288452148438,
+                    24.996753692626953
+                ]
+            },
+            "under": {
+                "chip": [
+                    25.01031494140625,
+                    24.966123580932617,
+                    25.001298904418945,
+                    25.0102481842041,
+                    24.993209838867188,
+                    24.99823570251465,
+                    25.000558853149414,
+                    24.965316772460938,
+                    24.998926162719727,
+                    24.982097625732422
+                ]
+            }
+        },
+        "trimmed_rms": {
+            "away": {
+                "chip": [
+                    0.2159121334552765,
+                    0.226718470454216,
+                    0.1918218433856964,
+                    0.21077068150043488,
+                    0.20330195128917694,
+                    0.24430620670318604,
+                    0.21965236961841583,
+                    0.1980668157339096,
+                    0.19608819484710693,
+                    0.20445752143859863
+                ]
+            },
+            "under": {
+                "chip": [
+                    0.21874114871025085,
+                    0.23575270175933838,
+                    0.21187426149845123,
+                    0.19543227553367615,
+                    0.19251398742198944,
+                    0.24522392451763153,
+                    0.21713410317897797,
+                    0.19939981400966644,
+                    0.198715940117836,
+                    0.20748212933540344
+                ]
+            }
+        }
+    },
+    "runNumber": "128-24",
+    "testType": "TRIM_RANGE_PPA"
+}

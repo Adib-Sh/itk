@@ -1,0 +1,129 @@
+{
+    "date": "2024-01-18T15:52:49.000Z",
+    "institution": "LUND",
+    "passed": true,
+    "problems": false,
+    "properties": {
+        "DCS": {
+            "ABC_temp_raw_1": 2392.0,
+            "ABC_temp_raw_10": 2315.0,
+            "ABC_temp_raw_2": 2517.0,
+            "ABC_temp_raw_3": 2439.0,
+            "ABC_temp_raw_4": 2441.0,
+            "ABC_temp_raw_5": 2326.0,
+            "ABC_temp_raw_6": 2194.0,
+            "ABC_temp_raw_7": 2411.0,
+            "ABC_temp_raw_8": 2392.0,
+            "ABC_temp_raw_9": 2380.0,
+            "HCC_temp_raw": 365.0,
+            "HCC_temp_rough_cal": 55.76499938964844,
+            "LV Module 1_LV_current": 270.0,
+            "LV Module 1_LV_voltage": 11000.0
+        },
+        "FRACTION": 0.57,
+        "det_info": {
+            "ABC_Fuse": [
+                "8943d857",
+                "8943d856",
+                "8943d855",
+                "8943d853",
+                "8943d852",
+                "8943d851",
+                "8943d850",
+                "8943d84f",
+                "8943d84e",
+                "8943d84d"
+            ],
+            "Address": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "Channel": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "DUT_type": "R0H0      #FMC-DP connector M1 ",
+            "HCC_Fuse": "20401216",
+            "LV Module 1_LV_model": "72-2710",
+            "LV Module 1_LV_serial": "V2.5",
+            "ccr_identifier": "0",
+            "daq_stream": "8",
+            "name": "star_barrel_LS_X_chipset_10"
+        },
+        "scan_info": {
+            "event_count": 32
+        },
+        "system_info": {
+            "Analysis_time": "2024-01-18T15:52:50.000Z",
+            "Firmware revision": "0xb5fb",
+            "GIT URL": "https://gitlab.cern.ch/atlas-itk-strips-daq/itsdaq-sw.git/-/tree/70018b79248f486e912e4a7487f320ce83eeed24",
+            "GIT branch": "",
+            "GIT build date": "2024-01-18 15:50:47 +0000 (Thu, 18 Jan 2024)",
+            "GIT commit date": "2024-01-17 13:29:11 +0000 (Wed, 17 Jan 2024)",
+            "GIT describe": "itsdaq_23_3_2023-1044-g70018b792",
+            "GIT modified": "locally modified",
+            "GIT revision": "70018b79248f486e912e4a7487f320ce83eeed24",
+            "Location": "COLDBOX",
+            "User": "EWAL",
+            "analysis_version": "3.43",
+            "dedication": "New dedication as we're going for PPA",
+            "host": "itkdaq"
+        }
+    },
+    "results": {
+        "StrobeDelay_away": [
+            24,
+            24,
+            26,
+            20,
+            26,
+            28,
+            23,
+            21,
+            23,
+            24,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ],
+        "StrobeDelay_under": [
+            24,
+            23,
+            26,
+            20,
+            26,
+            28,
+            23,
+            21,
+            23,
+            24,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ]
+    },
+    "runNumber": "377-1",
+    "testType": "STROBE_DELAY_PPA"
+}

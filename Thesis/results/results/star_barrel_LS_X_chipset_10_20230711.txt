@@ -1,0 +1,1898 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : star_barrel_LS_X_chipset_10
+TEST MADE BY   : LUND
+LOCATION NAME  : LUND
+Run number     : 178-1
+TEST_DATE      : 11/07/2023
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test     #FMC-DP connec"
+#TIME
+"15:55:39"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+24 23 25 19 26 27 23 20 22 23 -1 -1 -1 -1 -1 -1 
+#
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+24 23 25 19 26 27 23 20 23 23 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : S03 Low SD width: 10.3 (module average 13.9)
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : star_barrel_LS_X_chipset_10
+TEST MADE BY   : LUND
+LOCATION NAME  : LUND
+Run number     : 178-2
+TEST_DATE      : 11/07/2023
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test     #FMC-DP connec"
+#TIME
+"15:56:04"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+24 23 25 19 26 27 23 20 22 23 -1 -1 -1 -1 -1 -1 
+#
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+24 23 25 19 26 27 23 20 22 23 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : star_barrel_LS_X_chipset_10
+TEST MADE BY   : LUND
+LOCATION NAME  : LUND
+Run number     : 180-1
+TEST_DATE      : 11/07/2023
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test     #FMC-DP connec"
+#TIME
+"16:06:07"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+24 23 25 19 26 28 22 20 23 23 -1 -1 -1 -1 -1 -1 
+#
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+24 23 25 19 26 28 23 20 22 23 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : star_barrel_LS_X_chipset_10
+TEST MADE BY   : LUND
+LOCATION NAME  : LUND
+Run number     : 180-4
+TEST_DATE      : 11/07/2023
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test     #FMC-DP connec"
+#TIME
+"16:11:48"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+23 23 25 18 25 28 22 19 22 23 -1 -1 -1 -1 -1 -1 
+#
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+23 23 25 18 26 28 22 20 22 23 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : M00 High SD width: 11.6 (module average 9.2)
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : star_barrel_LS_X_chipset_10
+TEST MADE BY   : LUND
+LOCATION NAME  : LUND
+Run number     : 180-5
+TEST_DATE      : 11/07/2023
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test     #FMC-DP connec"
+#TIME
+"16:11:59"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+23 23 25 18 25 27 22 20 22 23 -1 -1 -1 -1 -1 -1 
+#
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+23 23 25 18 26 28 22 20 22 23 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : S05 High SD width: 12.0 (module average 9.0)
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : star_barrel_LS_X_chipset_10
+TEST MADE BY   : LUND
+LOCATION NAME  : LUND
+Run number     : 180-6
+TEST_DATE      : 11/07/2023
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test     #FMC-DP connec"
+#TIME
+"16:12:11"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+23 23 25 18 25 28 22 20 22 23 -1 -1 -1 -1 -1 -1 
+#
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+23 23 25 18 26 28 22 20 22 23 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : star_barrel_LS_X_chipset_10
+TEST MADE BY   : LUND
+LOCATION NAME  : LUND
+Run number     : 180-8
+TEST_DATE      : 11/07/2023
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test     #FMC-DP connec"
+#TIME
+"16:13:29"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+23 22 25 19 26 28 22 20 22 23 -1 -1 -1 -1 -1 -1 
+#
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+23 23 25 19 26 28 22 20 22 23 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : star_barrel_LS_X_chipset_10
+TEST MADE BY   : LUND
+LOCATION NAME  : LUND
+Run number     : 180-9
+TEST_DATE      : 11/07/2023
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test     #FMC-DP connec"
+#TIME
+"16:14:54"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M00
+	4 	30.96 	74.32 	0.00
+#S01
+	4 	30.75 	73.70 	0.00
+#S02
+	4 	30.68 	70.93 	0.00
+#S03
+	4 	31.31 	73.09 	0.00
+#S04
+	4 	30.98 	71.43 	0.00
+#S05
+	4 	31.74 	71.67 	0.00
+#S06
+	4 	31.03 	70.79 	0.00
+#S07
+	4 	31.36 	74.76 	0.00
+#S08
+	4 	31.15 	70.05 	0.00
+#E09
+	4 	30.62 	74.43 	0.00
+#M00
+	4 	31.52 	74.25 	0.00
+#S01
+	4 	31.40 	73.67 	0.00
+#S02
+	4 	31.37 	70.98 	0.00
+#S03
+	4 	31.70 	73.47 	0.00
+#S04
+	4 	31.59 	71.77 	0.00
+#S05
+	4 	32.39 	72.09 	0.00
+#S06
+	4 	31.54 	70.53 	0.00
+#S07
+	4 	31.93 	74.70 	0.00
+#S08
+	4 	31.19 	70.00 	0.00
+#E09
+	4 	31.15 	74.52 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M00
+	104.7 	 2.05 	74.3 	1.68 	 74.3 	 1.68 	11.41 	  960 	  36
+#S01
+	103.8 	 1.94 	73.7 	1.52 	 73.7 	 1.52 	11.35 	  963 	  19
+#S02
+	100.9 	 1.97 	70.9 	1.61 	 70.9 	 1.61 	11.33 	  999 	  15
+#S03
+	103.7 	 1.83 	73.1 	1.52 	 73.1 	 1.52 	10.98 	  939 	  20
+#S04
+	101.8 	 1.87 	71.4 	1.73 	 71.4 	 1.73 	10.83 	  947 	  17
+#S05
+	102.9 	 2.24 	71.7 	1.55 	 71.7 	 1.55 	11.07 	  966 	  17
+#S06
+	101.2 	 1.71 	70.8 	1.51 	 70.8 	 1.51 	11.30 	  998 	  17
+#S07
+	105.5 	 2.06 	74.8 	1.68 	 74.7 	 1.71 	11.10 	  929 	  35
+#S08
+	100.5 	 1.92 	70.0 	1.50 	 70.0 	 1.50 	10.70 	  955 	  22
+#E09
+	104.4 	 1.94 	74.4 	1.65 	 74.4 	 1.65 	11.27 	  946 	  22
+#M00
+	105.2 	 1.97 	74.2 	1.62 	 74.2 	 1.62 	10.30 	  867 	  12
+#S01
+	104.5 	 2.08 	73.7 	1.86 	 73.7 	 1.86 	10.20 	  865 	  14
+#S02
+	101.7 	 1.87 	71.0 	1.56 	 71.0 	 1.56 	10.03 	  883 	  13
+#S03
+	104.6 	 1.85 	73.5 	1.48 	 73.5 	 1.48 	9.99 	  850 	  11
+#S04
+	102.8 	 1.81 	71.8 	1.63 	 71.8 	 1.63 	9.70 	  845 	  12
+#S05
+	104.0 	 2.24 	72.1 	1.70 	 72.1 	 1.70 	9.60 	  833 	  14
+#S06
+	101.5 	 1.69 	70.5 	1.42 	 70.5 	 1.42 	9.72 	  862 	  12
+#S07
+	106.2 	 2.06 	74.7 	1.71 	 74.7 	 1.71 	10.21 	  854 	  12
+#S08
+	100.6 	 1.74 	70.0 	1.46 	 70.0 	 1.46 	10.03 	  896 	  13
+#E09
+	105.1 	 1.65 	74.5 	1.36 	 74.5 	 1.36 	10.49 	  880 	  12
+#
+#Loop C - Comment
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+"bad noise sigma" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"bad noise sigma" 	"OK" 	"OK" 	
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip M00:	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S01:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  5	  0	  0	  0	  0	  0	  0	  0	  0	  0	  5	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M00:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S01:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E09:	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  0	  5	  0	  0	  0	  0	  0	  1	  0	  0	  0	  5	  0	  0	  0	  0
+#Link 1:	  0	  0	  0	  0	  0	  0	  0	  4	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 2:	  0	  5	  0	  0	  0	  0	  0	  5	  0	  0	  0	  5	  0	  0	  0	  0
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 0
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 896
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 902
+LAST CHANNEL   : 903
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 905
+LAST CHANNEL   : 905
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 914
+LAST CHANNEL   : 914
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 2143
+LAST CHANNEL   : 2143
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 2168
+LAST CHANNEL   : 2168
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 2289
+LAST CHANNEL   : 2289
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 2559
+LAST CHANNEL   : 2559
+#
+#9 defects found affecting 10 strips
+#2 maximum consecutive defects
+%Comment
+COMMENT        : FAIL due to chip 0 (under) noise sigma (> 25.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (under) noise sigma (> 25.000000)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/atlasitk/sctvar/results/star_barrel_LS_X_chipset_10_RC_180_9.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : star_barrel_LS_X_chipset_10
+TEST MADE BY   : LUND
+LOCATION NAME  : LUND
+Run number     : 180-12
+TEST_DATE      : 11/07/2023
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test     #FMC-DP connec"
+#TIME
+"16:20:44"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+10
+#POINTS
+0.19 	0.50 	0.81 	1.00 	1.27 	1.50 	2.00 	2.99 	3.99 	5.99 	
+#
+#
+%ResponseCurve
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M00
+	3 	1286.61 	4.14 	-613.94
+#S01
+	3 	1259.28 	4.06 	-600.89
+#S02
+	3 	1313.94 	4.42 	-627.89
+#S03
+	3 	1282.58 	4.19 	-611.74
+#S04
+	3 	1366.86 	4.57 	-654.09
+#S05
+	3 	1245.02 	4.14 	-592.62
+#S06
+	3 	1356.11 	4.57 	-648.77
+#S07
+	3 	1294.64 	4.17 	-617.27
+#S08
+	3 	1426.45 	4.85 	-683.88
+#E09
+	3 	1289.53 	4.13 	-615.94
+#M00
+	3 	1296.16 	4.18 	-618.14
+#S01
+	3 	1263.87 	4.09 	-602.35
+#S02
+	3 	1314.26 	4.44 	-627.25
+#S03
+	3 	1283.95 	4.18 	-611.92
+#S04
+	3 	1367.62 	4.56 	-653.82
+#S05
+	3 	1252.93 	4.16 	-595.78
+#S06
+	3 	1363.38 	4.62 	-651.88
+#S07
+	3 	1306.74 	4.22 	-622.73
+#S08
+	3 	1425.24 	4.86 	-683.23
+#E09
+	3 	1293.10 	4.15 	-617.17
+#
+#Loop B - Gain, Offset, Noise at 1.50fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M00
+	142.4 	 2.70 	74.9 	1.42 	 77.2 	 1.56 	11.66 	  974 	  38
+#S01
+	141.3 	 2.53 	74.6 	1.29 	 77.0 	 1.43 	11.63 	  975 	  20
+#S02
+	137.1 	 2.61 	71.9 	1.41 	 73.8 	 1.53 	11.69 	 1016 	  14
+#S03
+	140.9 	 2.41 	73.8 	1.31 	 76.1 	 1.45 	11.28 	  955 	  22
+#S04
+	138.2 	 2.58 	72.5 	1.57 	 74.4 	 1.72 	11.14 	  960 	  16
+#S05
+	139.2 	 2.82 	72.5 	1.25 	 74.7 	 1.35 	11.27 	  972 	  18
+#S06
+	137.2 	 2.32 	71.9 	1.36 	 73.8 	 1.46 	11.69 	 1016 	  18
+#S07
+	143.3 	 2.75 	74.9 	1.48 	 77.3 	 1.62 	11.30 	  943 	  37
+#S08
+	136.2 	 2.53 	71.5 	1.33 	 73.2 	 1.45 	11.07 	  968 	  24
+#E09
+	142.2 	 2.58 	75.2 	1.40 	 77.5 	 1.56 	11.50 	  957 	  25
+#M00
+	142.9 	 2.61 	74.7 	1.41 	 77.1 	 1.53 	10.44 	  873 	  13
+#S01
+	141.9 	 2.86 	74.4 	1.64 	 76.8 	 1.80 	10.37 	  871 	  13
+#S02
+	137.8 	 2.55 	71.7 	1.37 	 73.7 	 1.46 	10.30 	  898 	  11
+#S03
+	141.8 	 2.41 	74.0 	1.26 	 76.3 	 1.38 	10.17 	  859 	  13
+#S04
+	139.3 	 2.45 	72.7 	1.43 	 74.6 	 1.57 	9.87 	  849 	  13
+#S05
+	140.4 	 2.90 	72.7 	1.37 	 75.0 	 1.50 	9.70 	  834 	  15
+#S06
+	137.3 	 2.39 	71.7 	1.33 	 73.5 	 1.45 	10.04 	  876 	  13
+#S07
+	143.9 	 2.76 	74.9 	1.43 	 77.2 	 1.57 	10.34 	  864 	  11
+#S08
+	136.2 	 2.29 	71.4 	1.28 	 73.0 	 1.38 	10.31 	  903 	  13
+#E09
+	142.8 	 2.12 	75.1 	1.19 	 77.5 	 1.28 	10.65 	  886 	  12
+#
+#Loop C - Comment
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+"bad noise sigma" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"bad noise sigma" 	"OK" 	"OK" 	
+#  M00  S01  S02  S03  S04  S05  S06  S07  S08  E09
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.50fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip M00:	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S01:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M00:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S01:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E09:	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  0	  3	  0	  0	  0	  0	  0	  1	  0	  0	  0	  3	  0	  0	  0	  0
+#Link 1:	  0	  0	  0	  0	  0	  0	  0	  3	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 2:	  0	  3	  0	  0	  0	  0	  0	  4	  0	  0	  0	  3	  0	  0	  0	  0
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 0
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 909
+LAST CHANNEL   : 909
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 911
+LAST CHANNEL   : 911
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 915
+LAST CHANNEL   : 915
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 2168
+LAST CHANNEL   : 2168
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 2289
+LAST CHANNEL   : 2289
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 2559
+LAST CHANNEL   : 2559
+#
+#7 defects found affecting 7 strips
+#1 maximum consecutive defects
+%Comment
+COMMENT        : FAIL due to chip 0 (under) noise sigma (> 25.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (under) noise sigma (> 25.000000)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/atlasitk/sctvar/results/star_barrel_LS_X_chipset_10_RC_180_12.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : star_barrel_LS_X_chipset_10
+TEST MADE BY   : LUND
+LOCATION NAME  : LUND
+Run number     : 180-22
+TEST_DATE      : 11/07/2023
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test     #FMC-DP connec"
+#TIME
+"16:25:23"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%NO
+#
+#	Offset	MeanOcc   	RMSOcc    	EstENC
+#M00
+	11.9 	5.1e-04 	2.7e-04 	 947
+#S01
+	11.8 	4.2e-04 	2.2e-04 	 937
+#S02
+	11.9 	4.0e-04 	1.9e-04 	 964
+#S03
+	12.1 	3.6e-04 	1.9e-04 	 918
+#S04
+	12.1 	3.3e-04 	2.6e-04 	 952
+#S05
+	12.0 	7.5e-04 	5.3e-04 	1001
+#S06
+	12.0 	7.1e-04 	3.3e-04 	 993
+#S07
+	11.8 	5.8e-04 	4.4e-04 	 954
+#S08
+	12.1 	2.6e-04 	1.5e-04 	 930
+#E09
+	11.8 	4.0e-04 	1.8e-04 	 931
+#M00
+	11.8 	1.5e-04 	9.8e-05 	 872
+#S01
+	11.9 	1.3e-04 	8.2e-05 	 887
+#S02
+	12.0 	1.1e-04 	7.9e-05 	 913
+#S03
+	12.1 	1.2e-04 	7.4e-05 	 887
+#S04
+	12.1 	7.7e-05 	5.5e-05 	 843
+#S05
+	12.2 	1.2e-04 	1.1e-04 	 880
+#S06
+	12.1 	8.8e-05 	6.6e-05 	 945
+#S07
+	11.9 	2.1e-04 	1.4e-04 	 861
+#S08
+	12.0 	1.1e-04 	6.9e-05 	 922
+#E09
+	11.7 	1.0e+00 	3.1e-03 	 883
+#
+#	fitpar0 fitpar1
+#M00
+#	-1.7301e+00	-2.1777e+01
+#S01
+#	-1.5838e+00	-2.2233e+01
+#S02
+#	-1.5334e+00	-2.0997e+01
+#S03
+#	-1.5378e+00	-2.3201e+01
+#S04
+#	-1.7409e+00	-2.1561e+01
+#S05
+#	-1.7600e+00	-1.9495e+01
+#S06
+#	-1.3964e+00	-1.9791e+01
+#S07
+#	-1.8666e+00	-2.1464e+01
+#S08
+#	-1.4254e+00	-2.2602e+01
+#E09
+#	-1.6789e+00	-2.2548e+01
+#M00
+#	-1.9878e+00	-2.5663e+01
+#S01
+#	-2.1850e+00	-2.4821e+01
+#S02
+#	-2.2592e+00	-2.3412e+01
+#S03
+#	-2.2966e+00	-2.4840e+01
+#S04
+#	-1.7173e+00	-2.7461e+01
+#S05
+#	-2.1407e+00	-2.5248e+01
+#S06
+#	-2.6279e+00	-2.1892e+01
+#S07
+#	-1.7846e+00	-2.6346e+01
+#S08
+#	-1.9565e+00	-2.2969e+01
+#E09
+#	-1.7952e+00	-2.5032e+01
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 18
+LAST CHANNEL   : 18
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 22
+LAST CHANNEL   : 26
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 31
+LAST CHANNEL   : 31
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 34
+LAST CHANNEL   : 36
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 39
+LAST CHANNEL   : 41
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 43
+LAST CHANNEL   : 44
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 46
+LAST CHANNEL   : 47
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 49
+LAST CHANNEL   : 50
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 52
+LAST CHANNEL   : 54
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 57
+LAST CHANNEL   : 57
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 60
+LAST CHANNEL   : 60
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 62
+LAST CHANNEL   : 67
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 69
+LAST CHANNEL   : 71
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 74
+LAST CHANNEL   : 79
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 87
+LAST CHANNEL   : 89
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 94
+LAST CHANNEL   : 94
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 100
+LAST CHANNEL   : 101
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 105
+LAST CHANNEL   : 107
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 110
+LAST CHANNEL   : 110
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 112
+LAST CHANNEL   : 116
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 119
+LAST CHANNEL   : 124
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 126
+LAST CHANNEL   : 126
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 129
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 135
+LAST CHANNEL   : 136
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 138
+LAST CHANNEL   : 139
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 145
+LAST CHANNEL   : 146
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 148
+LAST CHANNEL   : 149
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 151
+LAST CHANNEL   : 153
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 159
+LAST CHANNEL   : 160
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 163
+LAST CHANNEL   : 163
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 168
+LAST CHANNEL   : 168
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 170
+LAST CHANNEL   : 170
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 172
+LAST CHANNEL   : 172
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 180
+LAST CHANNEL   : 182
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 184
+LAST CHANNEL   : 184
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 187
+LAST CHANNEL   : 187
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 190
+LAST CHANNEL   : 191
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 193
+LAST CHANNEL   : 194
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 205
+LAST CHANNEL   : 205
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 229
+LAST CHANNEL   : 230
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 233
+LAST CHANNEL   : 233
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 238
+LAST CHANNEL   : 238
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 244
+LAST CHANNEL   : 244
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 250
+LAST CHANNEL   : 250
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 253
+LAST CHANNEL   : 253
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 255
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 256
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 258
+LAST CHANNEL   : 258
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 262
+LAST CHANNEL   : 262
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 264
+LAST CHANNEL   : 264
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 266
+LAST CHANNEL   : 267
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 269
+LAST CHANNEL   : 270
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 273
+LAST CHANNEL   : 273
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 276
+LAST CHANNEL   : 278
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 280
+LAST CHANNEL   : 280
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 284
+LAST CHANNEL   : 284
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 286
+LAST CHANNEL   : 286
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 295
+LAST CHANNEL   : 295
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 300
+LAST CHANNEL   : 300
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 303
+LAST CHANNEL   : 304
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 308
+LAST CHANNEL   : 308
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 313
+LAST CHANNEL   : 313
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 318
+LAST CHANNEL   : 319
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 322
+LAST CHANNEL   : 322
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 329
+LAST CHANNEL   : 330
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 332
+LAST CHANNEL   : 332
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 336
+LAST CHANNEL   : 336
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 351
+LAST CHANNEL   : 351
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 365
+LAST CHANNEL   : 365
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 370
+LAST CHANNEL   : 370
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 378
+LAST CHANNEL   : 378
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 414
+LAST CHANNEL   : 414
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 425
+LAST CHANNEL   : 425
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 432
+LAST CHANNEL   : 432
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 436
+LAST CHANNEL   : 436
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 439
+LAST CHANNEL   : 439
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 447
+LAST CHANNEL   : 450
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 454
+LAST CHANNEL   : 454
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 464
+LAST CHANNEL   : 464
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 467
+LAST CHANNEL   : 468
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 472
+LAST CHANNEL   : 474
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 479
+LAST CHANNEL   : 479
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 483
+LAST CHANNEL   : 483
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 490
+LAST CHANNEL   : 490
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 499
+LAST CHANNEL   : 499
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 504
+LAST CHANNEL   : 504
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 512
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 518
+LAST CHANNEL   : 518
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 540
+LAST CHANNEL   : 540
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 604
+LAST CHANNEL   : 604
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 606
+LAST CHANNEL   : 607
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 615
+LAST CHANNEL   : 615
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 617
+LAST CHANNEL   : 617
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 619
+LAST CHANNEL   : 623
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 626
+LAST CHANNEL   : 635
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 637
+LAST CHANNEL   : 638
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 660
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 662
+LAST CHANNEL   : 677
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 679
+LAST CHANNEL   : 680
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 684
+LAST CHANNEL   : 687
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 690
+LAST CHANNEL   : 690
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 692
+LAST CHANNEL   : 699
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 701
+LAST CHANNEL   : 703
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 705
+LAST CHANNEL   : 705
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 708
+LAST CHANNEL   : 710
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 714
+LAST CHANNEL   : 714
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 716
+LAST CHANNEL   : 716
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 723
+LAST CHANNEL   : 723
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 728
+LAST CHANNEL   : 728
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 730
+LAST CHANNEL   : 730
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 739
+LAST CHANNEL   : 739
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 741
+LAST CHANNEL   : 741
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 745
+LAST CHANNEL   : 745
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 749
+LAST CHANNEL   : 752
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 758
+LAST CHANNEL   : 764
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 766
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 770
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 772
+LAST CHANNEL   : 772
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 774
+LAST CHANNEL   : 777
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 780
+LAST CHANNEL   : 781
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 783
+LAST CHANNEL   : 788
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 790
+LAST CHANNEL   : 790
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 792
+LAST CHANNEL   : 794
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 796
+LAST CHANNEL   : 796
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 798
+LAST CHANNEL   : 798
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 800
+LAST CHANNEL   : 805
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 810
+LAST CHANNEL   : 810
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 812
+LAST CHANNEL   : 816
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 820
+LAST CHANNEL   : 823
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 825
+LAST CHANNEL   : 825
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 830
+LAST CHANNEL   : 832
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 834
+LAST CHANNEL   : 859
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 861
+LAST CHANNEL   : 867
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 871
+LAST CHANNEL   : 873
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 875
+LAST CHANNEL   : 876
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 879
+LAST CHANNEL   : 881
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 883
+LAST CHANNEL   : 886
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 888
+LAST CHANNEL   : 889
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 892
+LAST CHANNEL   : 893
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 895
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 916
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 918
+LAST CHANNEL   : 919
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 921
+LAST CHANNEL   : 938
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 941
+LAST CHANNEL   : 941
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 943
+LAST CHANNEL   : 945
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 950
+LAST CHANNEL   : 951
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 955
+LAST CHANNEL   : 955
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 960
+LAST CHANNEL   : 960
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 962
+LAST CHANNEL   : 963
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 965
+LAST CHANNEL   : 965
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 972
+LAST CHANNEL   : 972
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 983
+LAST CHANNEL   : 983
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 989
+LAST CHANNEL   : 989
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 993
+LAST CHANNEL   : 993
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 997
+LAST CHANNEL   : 998
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1000
+LAST CHANNEL   : 1000
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1047
+LAST CHANNEL   : 1047
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1058
+LAST CHANNEL   : 1058
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1065
+LAST CHANNEL   : 1065
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1070
+LAST CHANNEL   : 1070
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1076
+LAST CHANNEL   : 1076
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1083
+LAST CHANNEL   : 1083
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1086
+LAST CHANNEL   : 1086
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1088
+LAST CHANNEL   : 1088
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1093
+LAST CHANNEL   : 1093
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1111
+LAST CHANNEL   : 1111
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1128
+LAST CHANNEL   : 1128
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1160
+LAST CHANNEL   : 1161
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1165
+LAST CHANNEL   : 1165
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1167
+LAST CHANNEL   : 1167
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1170
+LAST CHANNEL   : 1170
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1174
+LAST CHANNEL   : 1174
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1177
+LAST CHANNEL   : 1177
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1179
+LAST CHANNEL   : 1179
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1182
+LAST CHANNEL   : 1183
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1185
+LAST CHANNEL   : 1185
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1191
+LAST CHANNEL   : 1191
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1203
+LAST CHANNEL   : 1203
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1205
+LAST CHANNEL   : 1205
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1207
+LAST CHANNEL   : 1209
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1211
+LAST CHANNEL   : 1212
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1214
+LAST CHANNEL   : 1214
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1216
+LAST CHANNEL   : 1217
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1230
+LAST CHANNEL   : 1230
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1232
+LAST CHANNEL   : 1234
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1237
+LAST CHANNEL   : 1237
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1240
+LAST CHANNEL   : 1240
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1242
+LAST CHANNEL   : 1242
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1253
+LAST CHANNEL   : 1253
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1260
+LAST CHANNEL   : 1260
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1279
+LAST CHANNEL   : 1279
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2893
+LAST CHANNEL   : 2893
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3461
+LAST CHANNEL   : 3462
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3733
+LAST CHANNEL   : 3733
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3783
+LAST CHANNEL   : 3783
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3803
+LAST CHANNEL   : 3803
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3824
+LAST CHANNEL   : 3824
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3968
+LAST CHANNEL   : 4095
+#
+#198 defects found
+%Comment
+COMMENT        : FAIL due to 585 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 128 consecutive bad strips (more than 8)
+#

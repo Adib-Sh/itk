@@ -1,0 +1,183 @@
+{
+    "date": "2024-01-19T16:09:53.000Z",
+    "defects": [
+        {
+            "description": "Empty bins (1)",
+            "name": "SD_EMPTY",
+            "properties": {
+                "chip_bank": "under",
+                "chip_in_histo": 8
+            }
+        },
+        {
+            "description": "High SD width: 20.4 (module average 14.7)",
+            "name": "SD_HIGH_WIDTH",
+            "properties": {
+                "chip_bank": "under",
+                "chip_in_histo": 8
+            }
+        }
+    ],
+    "institution": "LUND",
+    "passed": false,
+    "problems": true,
+    "properties": {
+        "DCS": {
+            "ABC_temp_raw_1": 2470.0,
+            "ABC_temp_raw_10": 2407.0,
+            "ABC_temp_raw_2": 2603.0,
+            "ABC_temp_raw_3": 2521.0,
+            "ABC_temp_raw_4": 2530.0,
+            "ABC_temp_raw_5": 2411.0,
+            "ABC_temp_raw_6": 2266.0,
+            "ABC_temp_raw_7": 2498.0,
+            "ABC_temp_raw_8": 2490.0,
+            "ABC_temp_raw_9": 2467.0,
+            "AMAC_AM600BG": 656.0,
+            "AMAC_AM900BG": 965.0,
+            "AMAC_AMref": 131.0,
+            "AMAC_BG600": 688.0,
+            "AMAC_CAL": 4.0,
+            "AMAC_CALx": 42.0,
+            "AMAC_CALy": 43.0,
+            "AMAC_CHIPGND": 17.0,
+            "AMAC_CTAT": 497.0,
+            "AMAC_Cur10V": 1561.7716064453125,
+            "AMAC_Cur1V5": 2206.140380859375,
+            "AMAC_DCDCin": 11700.0,
+            "AMAC_DCDCinHigh": 913.0,
+            "AMAC_DCDCinLow": 912.0,
+            "AMAC_DCDCoutHigh": 846.0,
+            "AMAC_DCDCoutLow": 828.0,
+            "AMAC_HGND": 17.0,
+            "AMAC_HVret": 496.5000305175781,
+            "AMAC_HVret_V": 97.0,
+            "AMAC_Hrefx": 35.0,
+            "AMAC_Hrefy": 23.0,
+            "AMAC_LinPolCurrent": 32.52032470703125,
+            "AMAC_NTCpb": 28.414819717407227,
+            "AMAC_NTCpb_V": 799.0,
+            "AMAC_NTCx": 23.545740127563477,
+            "AMAC_NTCx_V": 701.0,
+            "AMAC_NTCy": -32.372825622558594,
+            "AMAC_NTCy_V": 283.0,
+            "AMAC_PTAT_V": 1338.0,
+            "AMAC_Shuntx": 162.0,
+            "AMAC_Shunty": 158.0,
+            "AMAC_VDCDC": 1400.0,
+            "AMAC_VDDHI": 3452.0,
+            "AMAC_VDDLRhigh": 839.0,
+            "AMAC_VDDLRlow": 839.0,
+            "AMAC_VREG": 1285.5,
+            "HCC_temp_raw": 454.0,
+            "HCC_temp_rough_cal": -1.105987548828125
+        },
+        "FRACTION": 0.57,
+        "det_info": {
+            "ABC_Fuse": [
+                "8943d857",
+                "8943d856",
+                "8943d855",
+                "8943d853",
+                "8943d852",
+                "8943d851",
+                "8943d850",
+                "8943d84f",
+                "8943d84e",
+                "8943d84d"
+            ],
+            "AMAC_FuseID": "40147b",
+            "AMAC_ShuntX": "0",
+            "AMAC_ShuntY": "0",
+            "AMAC_Side": "X",
+            "Address": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "Channel": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "DUT_type": "Barrel",
+            "HCC_Fuse": "20401216",
+            "ccr_identifier": "0",
+            "daq_stream": "8",
+            "name": "JaneDoe"
+        },
+        "scan_info": {
+            "event_count": 32
+        },
+        "system_info": {
+            "Analysis_time": "2024-01-19T16:09:53.000Z",
+            "Firmware revision": "0xb5fb",
+            "GIT URL": "https://gitlab.cern.ch/atlas-itk-strips-daq/itsdaq-sw.git/-/tree/70018b79248f486e912e4a7487f320ce83eeed24",
+            "GIT branch": "",
+            "GIT build date": "2024-01-18 19:55:24 +0000 (Thu, 18 Jan 2024)",
+            "GIT commit date": "2024-01-17 13:29:11 +0000 (Wed, 17 Jan 2024)",
+            "GIT describe": "itsdaq_23_3_2023-1044-g70018b792",
+            "GIT modified": "locally modified",
+            "GIT revision": "70018b79248f486e912e4a7487f320ce83eeed24",
+            "Location": "COLDBOX",
+            "User": "EWAL",
+            "analysis_version": "3.43",
+            "dedication": "New dedication as we're going for PPA",
+            "host": "itkdaq"
+        }
+    },
+    "results": {
+        "StrobeDelay_away": [
+            23,
+            23,
+            25,
+            19,
+            26,
+            27,
+            22,
+            20,
+            22,
+            23,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ],
+        "StrobeDelay_under": [
+            23,
+            23,
+            25,
+            19,
+            25,
+            27,
+            22,
+            20,
+            26,
+            23,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ]
+    },
+    "runNumber": "433-50",
+    "testType": "STROBE_DELAY_PPA"
+}

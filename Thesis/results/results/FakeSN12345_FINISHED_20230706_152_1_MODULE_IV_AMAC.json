@@ -1,0 +1,104 @@
+{
+    "component": "FakeSN12345",
+    "date": "2023-07-06T12:27:31.000Z",
+    "passed": true,
+    "problems": false,
+    "properties": {
+        "AMAC_CURRENT_RANGE": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "AMAC_READINGS": 1000,
+        "det_info": {
+            "AMAC_FuseID": "40147b",
+            "name": "star_barrel_LS_X_chipset_10"
+        },
+        "scan_info": {
+            "AMAC_ILIMIT": 20,
+            "PS_ILIMIT": 25,
+            "SET_VOLTAGE": [
+                0.0,
+                -10.0,
+                -20.0,
+                -30.0,
+                -40.0,
+                -50.0,
+                -50.0,
+                -50.0,
+                -50.0
+            ]
+        },
+        "sensor_type": "BARREL_LS_MODULE",
+        "system_info": {
+            "Firmware revision": "0xb5fb",
+            "GIT URL": "https://gitlab.cern.ch/atlas-itk-strips-daq/itsdaq-sw.git/-/tree/b9a5b33fea316d90d9f09cbc39f7953d622a8ac5",
+            "GIT branch": "",
+            "GIT build date": "2023-07-06 12:23:12 +0000 (Thu, 06 Jul 2023)",
+            "GIT commit date": "2023-05-31 14:41:57 +0000 (Wed, 31 May 2023)",
+            "GIT describe": "itsdaq_23_3_2023-170-gb9a5b33",
+            "GIT modified": "locally modified",
+            "GIT revision": "b9a5b33fea316d90d9f09cbc39f7953d622a8ac5",
+            "analysis_version": "3.43",
+            "dedication": "New dedication as we're going for PPA"
+        }
+    },
+    "results": {
+        "CURRENT": [
+            -6.878868103027344,
+            49.63649368286133,
+            72.5885238647461,
+            89.80493927001953,
+            98.5427474975586,
+            102.89004516601563,
+            104.36482238769531,
+            103.06302642822266,
+            103.11587524414063
+        ],
+        "CURRENT_RMS": [
+            1.0373210906982422,
+            1.0789588689804077,
+            1.1713173389434814,
+            1.1525425910949707,
+            1.238695502281189,
+            1.2338402271270752,
+            1.151992917060852,
+            1.2688442468643188,
+            1.2540900707244873
+        ],
+        "HUMIDITY": 1.5,
+        "I_500V": 0.0,
+        "PS_CURRENT": [
+            0.0,
+            -1.103600025177002,
+            -2.132999897003174,
+            -3.1526999473571777,
+            -4.170199871063232,
+            -5.180200099945068,
+            -5.17579984664917,
+            -5.173999786376953,
+            -5.176199913024902
+        ],
+        "TEMPERATURE": 22.0,
+        "VBD": 9.990000452351092e+37,
+        "VOLTAGE": [
+            0.0,
+            -10.0,
+            -19.920000076293945,
+            -29.920000076293945,
+            -39.959999084472656,
+            -49.97999954223633,
+            -49.97999954223633,
+            -50.0,
+            -50.0
+        ]
+    },
+    "runNumber": "152-1",
+    "testType": "MODULE_IV_AMAC"
+}

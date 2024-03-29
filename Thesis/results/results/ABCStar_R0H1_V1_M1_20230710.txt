@@ -1,0 +1,114 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R0H1_V1_M1
+TEST MADE BY   : LUND
+LOCATION NAME  : LUND
+Run number     : 165-1
+TEST_DATE      : 10/07/2023
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test     #FMC-DP connec"
+#TIME
+"14:57:46"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  X09    E00  S01  S02  S03  S04  S05  S06  S07  M08
+-1 -1 48 43 -1 -1 13 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#  X09    E00  S01  S02  S03  S04  S05  S06  S07  M08
+-1 -1 48 43 -1 -1 13 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : E00 Low SD width: -1.0 (module average -0.5)
+#
+%Comment
+COMMENT        : S01 Low SD width: -1.0 (module average -0.5)
+#
+%Comment
+COMMENT        : S02 High SD width: 0.9 (module average -0.5)
+#
+%Comment
+COMMENT        : S03 High SD width: 1.0 (module average -0.5)
+#
+%Comment
+COMMENT        : S04 Low SD width: -1.0 (module average -0.5)
+#
+%Comment
+COMMENT        : S05 Low SD width: -1.0 (module average -0.5)
+#
+%Comment
+COMMENT        : S06 High SD width: 1.0 (module average -0.5)
+#
+%Comment
+COMMENT        : S07 Low SD width: -1.0 (module average -0.5)
+#
+%Comment
+COMMENT        : M08 Low SD width: -1.0 (module average -0.5)
+#
+%Comment
+COMMENT        : X09 Low SD width: -1.0 (module average -0.5)
+#
+%Comment
+COMMENT        : X10 Low SD width: -1.0 (module average -0.5)
+#
+%Comment
+COMMENT        : E00 Low SD width: -1.0 (module average -0.5)
+#
+%Comment
+COMMENT        : S01 Low SD width: -1.0 (module average -0.5)
+#
+%Comment
+COMMENT        : S02 High SD width: 0.2 (module average -0.5)
+#
+%Comment
+COMMENT        : S03 High SD width: 0.2 (module average -0.5)
+#
+%Comment
+COMMENT        : S04 Low SD width: -1.0 (module average -0.5)
+#
+%Comment
+COMMENT        : S05 Low SD width: -1.0 (module average -0.5)
+#
+%Comment
+COMMENT        : S06 High SD width: 0.9 (module average -0.5)
+#
+%Comment
+COMMENT        : S07 Low SD width: -1.0 (module average -0.5)
+#
+%Comment
+COMMENT        : M08 Low SD width: -1.0 (module average -0.5)
+#
+%Comment
+COMMENT        : X09 Low SD width: -1.0 (module average -0.5)
+#
+%Comment
+COMMENT        : X10 Low SD width: -1.0 (module average -0.5)
+#
