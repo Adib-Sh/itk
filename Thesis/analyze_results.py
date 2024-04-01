@@ -57,27 +57,30 @@ coeffs = np.polyfit(combined_list1, combined_list2, 1)
 fitted_line_x = np.linspace(min(combined_list1), max(combined_list1), 100)
 fitted_line_y = np.polyval(coeffs, fitted_line_x)
 
-#plt.scatter(vt50_under, gain_under, marker='o', linestyle='-')
-plt.plot(fitted_line_x, fitted_line_y, color='r', linestyle='-', linewidth=3)
+plt.scatter(gain_under, vt50_under, marker='o', linestyle='-')
+plt.plot(fitted_line_x, fitted_line_y, color = 'r', linestyle='-', linewidth=3, label=f'Fit to the full data')
 
 plt.grid(True)
 
 
 
 # Plot each sublist from list1 against corresponding sublist from list2
-for sublist1, sublist2 in zip(gain_under, vt50_under):
-    plt.scatter(sublist1, sublist2, marker="o", facecolor="none", edgecolors=colors)
+for sublist1, sublist2, color in zip(gain_under, vt50_under, colors):
+    #plt.scatter(sublist1, sublist2, marker="o", facecolor="none", edgecolors=colors)
     # Calculate linear fit for the current pair of sublists
     coeffs = np.polyfit(sublist1, sublist2, 1)
     fitted_line = np.polyval(coeffs, sublist1)
 
     # Plot the linear fit line
-    plt.plot(sublist1, fitted_line, linestyle='--')
+    plt.plot(sublist1, fitted_line, color=color, linestyle='--')
 
 # Add labels
 plt.title('Gain vs. vt50_under')
 plt.xlabel('Gain')
 plt.ylabel('vt50_under')
+plt.legend(f'Fit')
+plt.legend()
+
 
 # Show the plot
 plt.show()
