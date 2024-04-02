@@ -4,12 +4,30 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-path = os.getcwd()
-with open(path + "\\results\\20240314\\ABCStar_R5H0_ppa_20240314_502_3_RESPONSE_CURVE_PPA.json", "r") as file:
-    data = json.load(file)
 
 
+class get_data():
+    def __init__(self):
+        self.path = os.getcwd()
+        self.rc_file = self.path + "\\results\\20240314\\ABCStar_R5H1_ppa_20240314_502_3_RESPONSE_CURVE_PPA.json"
+        self.no_file = self.path + "\\results\\20240314\\ABCStar_R5H1_ppa_20240314_502_16_NO_PPA.json"
 
+    
+    def rc_data(self):
+        with open(self.rc_file, "r") as file:
+            data = json.load(file)
+            
+        return data
+    
+    def no_data(self):
+        with open(self.no_file, "r") as file:
+            data = json.load(file)
+            
+        return data
+    
+#Read Data
+reader = get_data()
+rc_data = reader.rc_data()["results"]
 '''
 KEYS:
     ['gain_away', 'gain_mean_away', 'gain_mean_under', 'gain_rms_away',
@@ -20,68 +38,61 @@ KEYS:
      'rc_fit_under', 'vt50_away', 'vt50_mean_away', 'vt50_mean_under',
      'vt50_rms_away', 'vt50_rms_under', 'vt50_under']
 '''
-results = data["results"]
-gain_under =  results["gain_under"]
-gain_away =  results["gain_away"]
+no_data = reader.no_data()["results"]
+'''
+KEYS:
+    ['enc_est_away', 'enc_est_under', 'occupancy_mean_away', 'occupancy_mean_under',
+     'occupancy_rms_away', 'occupancy_rms_under', 'offset_away', 'offset_under']
+'''
 
-vt50_under = results["vt50_under"]
-vt50_away = results["vt50_away"]
+#Data for plots
 
-innse_under = results["innse_under"]
-innse_away = results["innse_away"]
+#RC data
+gain_under =  rc_data["gain_under"]
+gain_away =  rc_data["gain_away"]
+gain_mean_under =  rc_data["gain_mean_under"]
+gain_mean_away =  rc_data["gain_mean_away"]
+gain_mean_under =  [np.mean(sublist) for sublist in rc_data["gain_under"]]
+gain_mean_away =  [np.mean(sublist) for sublist in rc_data["gain_away"]]
+
+vt50_under = rc_data["vt50_under"]
+vt50_away = rc_data["vt50_away"]
+vt50_mean_under = rc_data["vt50_mean_under"]
+vt50_mean_away = rc_data["vt50_mean_away"]
+vt50_mean_under = [np.mean(sublist) for sublist in rc_data["vt50_under"]]
+vt50_mean_away = [np.mean(sublist) for sublist in rc_data["vt50_away"]]
+
+innse_under = rc_data["innse_under"]
+innse_away = rc_data["innse_away"]
+innse_mean_under = rc_data["innse_mean_under"]
+innse_mean_away = rc_data["innse_mean_away"]
+innse_mean_under = [np.mean(sublist) for sublist in rc_data["innse_under"]]
+innse_mean_away = [np.mean(sublist) for sublist in rc_data["innse_away"]]
+
+outnse_under = rc_data["outnse_under"]
+outnse_away = rc_data["outnse_away"]
 
 
-channels_len = sum(len(results) for results in results["gain_under"])
-#channels_len = len(gain_under)
-channel = np.linspace(0, 100, channels_len)
+
+#NO data
+enc_est_under =  no_data["enc_est_under"]
+enc_est_away =  no_data["enc_est_away"]
+
+occupancy_mean_under = no_data["occupancy_mean_under"]
+occupancy_mean_away = no_data["occupancy_mean_away"]
+
+offset_under = no_data["offset_under"]
+offset_away = no_data["offset_away"]
 
 #Plots
-colors = ['b', 'g', 'r', 'c', 'm', 'y', 'k', 'orange', 'purple']
-'''
-for sublist, color in zip(gain_under, colors):
-    plt.scatter(range(len(sublist)), sublist, color=color, label=f'List {colors.index(color)+1}')
-# Add labels and legend
-plt.title('Scatter plot of values in sublists')
-plt.xlabel('Index')
-plt.ylabel('Value')
+
+xval= vt50_mean_under
+yval= gain_mean_under
+#channels_len = sum(len(results) for results in yval)
+channels_len = len(yval)
+channels = np.linspace(0, channels_len, channels_len)
+plt.scatter(channels, yval, marker='o', linestyle='-')
+plt.title('vt50_under vs. gain_under')
+plt.xlabel('vt50_under')
+plt.ylabel('gain_under')
 plt.legend()
-
-# Show the plot
-plt.show()
-'''
-
-combined_list1 = [item for sublist in gain_under for item in sublist]
-combined_list2 = [item for sublist in vt50_under for item in sublist]
-
-coeffs = np.polyfit(combined_list1, combined_list2, 1)
-fitted_line_x = np.linspace(min(combined_list1), max(combined_list1), 100)
-fitted_line_y = np.polyval(coeffs, fitted_line_x)
-
-plt.scatter(gain_under, vt50_under, marker='o', linestyle='-')
-plt.plot(fitted_line_x, fitted_line_y, color = 'r', linestyle='-', linewidth=3, label=f'Fit to the full data')
-
-plt.grid(True)
-
-
-
-# Plot each sublist from list1 against corresponding sublist from list2
-for sublist1, sublist2, color in zip(gain_under, vt50_under, colors):
-    #plt.scatter(sublist1, sublist2, marker="o", facecolor="none", edgecolors=colors)
-    # Calculate linear fit for the current pair of sublists
-    coeffs = np.polyfit(sublist1, sublist2, 1)
-    fitted_line = np.polyval(coeffs, sublist1)
-
-    # Plot the linear fit line
-    plt.plot(sublist1, fitted_line, color=color, linestyle='--')
-
-# Add labels
-plt.title('Gain vs. vt50_under')
-plt.xlabel('Gain')
-plt.ylabel('vt50_under')
-plt.legend(f'Fit')
-plt.legend()
-
-
-# Show the plot
-plt.show()
-
