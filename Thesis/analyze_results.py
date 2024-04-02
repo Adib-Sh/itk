@@ -86,13 +86,32 @@ offset_away = no_data["offset_away"]
 
 #Plots
 
-xval= vt50_mean_under
-yval= gain_mean_under
-#channels_len = sum(len(results) for results in yval)
-channels_len = len(yval)
+xval= vt50_under
+yval= gain_under
+channels_len = sum(len(results) for results in yval)
+#channels_len = len(yval)
 channels = np.linspace(0, channels_len, channels_len)
 plt.scatter(channels, yval, marker='o', linestyle='-')
 plt.title('vt50_under vs. gain_under')
 plt.xlabel('vt50_under')
 plt.ylabel('gain_under')
 plt.legend()
+plt.show()
+
+
+# Plot each read-out with individual fit
+###!!!Works only with detailed data NOT MEAN!!!###
+colors = ['b', 'g', 'r', 'c', 'm', 'y', 'k', 'orange', 'purple']
+for sublist1, sublist2, color in zip(xval, yval, colors):
+    plt.scatter(sublist1, sublist2, marker="o")
+    # Calculate linear fit for the current pair of sublists
+    coeffs = np.polyfit(sublist1, sublist2, 1)
+    fitted_line = np.polyval(coeffs, sublist1)
+    
+    # Plot the linear fit line
+    #plt.plot(sublist1, fitted_line, color=color, linestyle='--')
+plt.title('vt50_under vs. gain_under')
+plt.xlabel('vt50_under')
+plt.ylabel('gain_under')
+plt.legend()
+plt.show()
