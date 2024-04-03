@@ -9,8 +9,8 @@ import matplotlib.pyplot as plt
 class get_data():
     def __init__(self):
         self.path = os.getcwd()
-        self.rc_file = self.path + "\\results\\20240314\\ABCStar_R5H1_ppa_20240314_502_3_RESPONSE_CURVE_PPA.json"
-        self.no_file = self.path + "\\results\\20240314\\ABCStar_R5H1_ppa_20240314_502_16_NO_PPA.json"
+        self.rc_file = self.path + "/results/20240314/ABCStar_R5H1_ppa_20240314_502_3_RESPONSE_CURVE_PPA.json"
+        self.no_file = self.path + "/results/20240314/ABCStar_R5H1_ppa_20240314_502_16_NO_PPA.json"
 
     
     def rc_data(self):
