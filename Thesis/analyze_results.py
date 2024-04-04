@@ -5,12 +5,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-
+path = os.getcwd()
 class get_data():
     def __init__(self):
         self.path = os.getcwd()
-        self.rc_file = self.path + "\\results\\20240314\\ABCStar_R5H1_ppa_20240314_502_3_RESPONSE_CURVE_PPA.json"
-        self.no_file = self.path + "\\results\\20240314\\ABCStar_R5H1_ppa_20240314_502_16_NO_PPA.json"
+        self.rc_file = self.path + "/results/20240314/ABCStar_R5H1_ppa_20240314_502_3_RESPONSE_CURVE_PPA.json"
+        self.no_file = self.path + "/results/20240314/ABCStar_R5H1_ppa_20240314_502_16_NO_PPA.json"
 
     
     def rc_data(self):
@@ -99,6 +99,67 @@ plt.legend()
 plt.show()
 
 
+# Creating subplots
+fig, ax1 = plt.subplots()
+gain_under = [item for sublist in gain_under for item in sublist]
+innse_under = [item for sublist in innse_under for item in sublist]
+vt50_under = [item for sublist in vt50_under for item in sublist]
+
+gain_away = [item for sublist in gain_away for item in sublist]
+innse_away = [item for sublist in innse_away for item in sublist]
+vt50_away = [item for sublist in vt50_away for item in sublist]
+# Plotting the first set of data
+plt.figure(figsize=(16, 10))
+plt.suptitle('Plot of vt50/input noise/gain at each channel of Hybrid 1(under)', fontsize=20)
+x_divisions = np.linspace(min(channels), max(channels), num=10)
+
+plt.subplot(3, 2, 1)
+plt.plot(channels, gain_under, 'r-')
+plt.ylabel('gain')
+for i in range(0, 9, 2):
+    plt.axvspan(x_divisions[i], x_divisions[i+1], color='grey', alpha=0.3)
+    
+plt.subplot(3, 2, 2)
+plt.plot(channels, gain_away, 'r-')
+plt.ylabel('gain')
+for i in range(0, 9, 2):
+    plt.axvspan(x_divisions[i], x_divisions[i+1], color='grey', alpha=0.3)
+
+plt.subplot(3, 2, 3)
+plt.plot(channels, innse_under, 'g-')
+plt.ylabel('input noise')
+for i in range(0, 9, 2):
+    plt.axvspan(x_divisions[i], x_divisions[i+1], color='grey', alpha=0.3)
+    
+plt.subplot(3, 2, 4)
+plt.plot(channels, innse_away, 'g-')
+plt.ylabel('input noise')
+for i in range(0, 9, 2):
+    plt.axvspan(x_divisions[i], x_divisions[i+1], color='grey', alpha=0.3)
+
+plt.subplot(3, 2, 5)
+plt.plot(channels, vt50_under, 'b-')
+plt.ylabel('vt_50')
+for i in range(0, 9, 2):
+    plt.axvspan(x_divisions[i], x_divisions[i+1], color='grey', alpha=0.3)
+plt.xlabel('channels in under section')
+
+plt.subplot(3, 2, 6)
+plt.plot(channels, vt50_away, 'b-')
+plt.ylabel('vt_50')
+for i in range(0, 9, 2):
+    plt.axvspan(x_divisions[i], x_divisions[i+1], color='grey', alpha=0.3)
+plt.xlabel('channels in away section')
+
+
+
+
+plt.tight_layout()  # Adjust layout to prevent overlap
+plt.savefig(path+"/results/20240314/Plots/output_plot.png", dpi=500)
+plt.show()
+
+
+'''
 # Plot each read-out with individual fit
 ###!!!Works only with detailed data NOT MEAN!!!###
 colors = ['b', 'g', 'r', 'c', 'm', 'y', 'k', 'orange', 'purple']
@@ -115,3 +176,4 @@ plt.xlabel('vt50_under')
 plt.ylabel('gain_under')
 plt.legend()
 plt.show()
+'''
