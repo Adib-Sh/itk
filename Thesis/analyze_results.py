@@ -142,7 +142,7 @@ plt.plot(channels, vt50_under, 'b-')
 plt.ylabel('vt_50')
 for i in range(0, 9, 2):
     plt.axvspan(x_divisions[i], x_divisions[i+1], color='grey', alpha=0.3)
-plt.xlabel('channels in under section')
+plt.xlabel('channels in under   section')
 
 plt.subplot(3, 2, 6)
 plt.plot(channels, vt50_away, 'b-')
