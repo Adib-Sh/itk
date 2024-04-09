@@ -9,8 +9,8 @@ path = os.getcwd()
 class get_data():
     def __init__(self):
         self.path = os.getcwd()
-        self.rc_file = self.path + "/results/20240314/ABCStar_R5H1_ppa_20240314_502_3_RESPONSE_CURVE_PPA.json"
-        self.no_file = self.path + "/results/20240314/ABCStar_R5H1_ppa_20240314_502_16_NO_PPA.json"
+        self.rc_file = self.path + "/results/20240404/ABCStar_R5H0_ppa_20240404_520_37_RESPONSE_CURVE_PPA.json"
+        self.no_file = self.path + "/results/20240404/ABCStar_R5H0_ppa_20240404_520_50_NO_PPA.json"
 
     
     def rc_data(self):
@@ -155,7 +155,7 @@ plt.xlabel('channels in away section')
 
 
 plt.tight_layout()  # Adjust layout to prevent overlap
-plt.savefig(path+"/results/20240314/Plots/output_plot.png", dpi=500)
+plt.savefig(path+"\\results\\20240404\\Plots\\test_plot.png", dpi=500)
 plt.show()
 
 
