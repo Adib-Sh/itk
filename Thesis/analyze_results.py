@@ -9,7 +9,7 @@ path = os.getcwd()
 class get_data():
     def __init__(self):
         self.path = os.getcwd()
-        self.rc_file = self.path + "/results/20240404/ABCStar_R5H0_ppa_20240404_520_37_RESPONSE_CURVE_PPA.json"
+        self.rc_file = self.path + "/results/20240404/ABCStar_R5H0_ppa_20240404_520_7_RESPONSE_CURVE_PPA.json"
         self.no_file = self.path + "/results/20240404/ABCStar_R5H0_ppa_20240404_520_50_NO_PPA.json"
 
     
