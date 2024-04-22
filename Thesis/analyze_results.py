@@ -155,7 +155,7 @@ plt.xlabel('channels of away section')
 
 
 plt.tight_layout()  # Adjust layout to prevent overlap
-plt.savefig(path+"/results/20240404/Plots/test_plot.png", dpi=500)
+plt.savefig(path+"/results/20240404/Plots/LTRT_1_plot.png", dpi=300)
 plt.show()
 
 

@@ -9,7 +9,7 @@ path = os.getcwd()
 class get_data():
     def __init__(self):
         self.path = os.getcwd()
-        self.rc_file = self.path + "/results/20240404/amac_data.json"
+        self.rc_file = self.path + "/results/20240404/output20240404/AMAC_data_2024-04-04.json"
 
     
     def test_amac_data(self):
