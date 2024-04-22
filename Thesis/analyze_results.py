@@ -110,7 +110,7 @@ innse_away = [item for sublist in innse_away for item in sublist]
 vt50_away = [item for sublist in vt50_away for item in sublist]
 # Plotting the first set of data
 plt.figure(figsize=(16, 10))
-plt.suptitle('Plot of vt50/input noise/gain at each channel of Hybrid 1(under)', fontsize=20)
+plt.suptitle('Plot of vt50/input noise/gain at each channel', fontsize=20)
 x_divisions = np.linspace(min(channels), max(channels), num=10)
 
 plt.subplot(3, 2, 1)
@@ -142,20 +142,20 @@ plt.plot(channels, vt50_under, 'b-')
 plt.ylabel('vt_50')
 for i in range(0, 9, 2):
     plt.axvspan(x_divisions[i], x_divisions[i+1], color='grey', alpha=0.3)
-plt.xlabel('channels in under   section')
+plt.xlabel('channels of under section')
 
 plt.subplot(3, 2, 6)
 plt.plot(channels, vt50_away, 'b-')
 plt.ylabel('vt_50')
 for i in range(0, 9, 2):
     plt.axvspan(x_divisions[i], x_divisions[i+1], color='grey', alpha=0.3)
-plt.xlabel('channels in away section')
+plt.xlabel('channels of away section')
 
 
 
 
 plt.tight_layout()  # Adjust layout to prevent overlap
-plt.savefig(path+"\\results\\20240404\\Plots\\test_plot.png", dpi=500)
+plt.savefig(path+"/results/20240404/Plots/test_plot.png", dpi=500)
 plt.show()
 
 

@@ -9,7 +9,7 @@ path = os.getcwd()
 class get_data():
     def __init__(self):
         self.path = os.getcwd()
-        self.rc_file = self.path + "\\results\\20240404\\test_data.json"
+        self.rc_file = self.path + "/results/20240404/test_data.json"
 
     
     def test_env_data(self):
@@ -38,20 +38,6 @@ temp_4 =  test_env_data["thermometer.C4"]
 
 
 #Plots
-'''
-xval= vt50_under
-yval= gain_under
-channels_len = sum(len(results) for results in yval)
-#channels_len = len(yval)
-channels = np.linspace(0, channels_len, channels_len)
-plt.scatter(channels, yval, marker='o', linestyle='-')
-plt.title('vt50_under vs. gain_under')
-plt.xlabel('vt50_under')
-plt.ylabel('gain_under')
-plt.legend()
-plt.show()
-'''
-
 # Creating subplots
 # Plotting the first set of data
 plt.figure(figsize=(16, 10))
@@ -71,16 +57,18 @@ plt.xticks(ticks=range(0, len(time_labels), len(time_labels) // 9 + 1))
 plt.subplot(2, 2, 3)
 plt.plot(time_labels, dp4_temp, 'g-')
 plt.ylabel('dew_point_temp')
+plt.xlabel('timestamp')
 plt.xticks(ticks=range(0, len(time_labels), len(time_labels) // 9 + 1)) 
     
 plt.subplot(2, 2, 4)
 plt.plot(time_labels, temp_4, 'g-')
 plt.ylabel('temperature')
-plt.ylim(-35, 20)
+#plt.ylim(-35, 20)
+plt.xlabel('timestamp')
 plt.xticks(ticks=range(0, len(time_labels), len(time_labels) // 9 + 1)) 
 
 plt.tight_layout()  # Adjust layout to prevent overlap
-plt.savefig(path+"\\results\\20240404\\Plots\\env_plot.png", dpi=500)
+plt.savefig(path+"/results/20240404/Plots/env_plot2.png", dpi=500)
 plt.show()
 
 
