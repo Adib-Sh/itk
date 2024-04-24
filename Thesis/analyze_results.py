@@ -3,7 +3,7 @@ import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
+import math
 
 path = os.getcwd()
 class get_data():
@@ -91,16 +91,19 @@ yval= gain_under
 channels_len = sum(len(results) for results in yval)
 #channels_len = len(yval)
 channels = np.linspace(0, channels_len, channels_len)
+
+
+'''
 plt.scatter(channels, yval, marker='o', linestyle='-')
 plt.title('vt50_under vs. gain_under')
 plt.xlabel('vt50_under')
 plt.ylabel('gain_under')
 plt.legend()
 plt.show()
+'''
 
+# Creating subplots of RC
 
-# Creating subplots
-fig, ax1 = plt.subplots()
 gain_under = [item for sublist in gain_under for item in sublist]
 innse_under = [item for sublist in innse_under for item in sublist]
 vt50_under = [item for sublist in vt50_under for item in sublist]
@@ -108,7 +111,8 @@ vt50_under = [item for sublist in vt50_under for item in sublist]
 gain_away = [item for sublist in gain_away for item in sublist]
 innse_away = [item for sublist in innse_away for item in sublist]
 vt50_away = [item for sublist in vt50_away for item in sublist]
-# Plotting the first set of data
+
+# Plotting the first set of RC data
 plt.figure(figsize=(16, 10))
 plt.suptitle('Plot of vt50/input noise/gain at each channel', fontsize=20)
 x_divisions = np.linspace(min(channels), max(channels), num=10)
@@ -158,6 +162,74 @@ plt.tight_layout()  # Adjust layout to prevent overlap
 plt.savefig(path+"/results/20240404/Plots/LTRT_1_plot.png", dpi=300)
 plt.show()
 
+
+
+# Creating subplots of NO
+
+plt.figure(figsize=(30, 10))
+plt.suptitle('Plot of vt50/input noise/gain at each channel', fontsize=20)
+
+
+plt.subplot(2, 3, 1)
+xval = vt50_mean_under
+yval = occupancy_mean_under
+plt.scatter(xval, yval, c='r', s=10)
+plt.xlabel('VT50(under)')
+plt.ylabel('Occupancy (under)')
+plt.yscale('log')
+plt.ylim(0.0000001, 10)
+x_divisions = np.linspace(min(xval), max(xval), num=10)
+#for i in range(0, 9, 2):
+#    plt.axvspan(x_divisions[i], x_divisions[i+1], color='grey', alpha=0.3)
+
+plt.subplot(2, 3, 4)
+xval = vt50_mean_away
+yval = occupancy_mean_away
+plt.scatter(xval, yval, c='r', s=10)
+plt.xlabel('VT50(away)')
+plt.ylabel('Occupancy (away)')
+plt.yscale('log')
+plt.ylim(0.0000001, 10)
+
+
+plt.subplot(2, 3, 2)
+xval = enc_est_under
+yval = occupancy_mean_under
+plt.scatter(xval, yval, c='r', s=10)
+plt.xlabel('ENC (under)')
+plt.ylabel('Occupancy (under)')
+plt.yscale('log')
+plt.ylim(0.0000001, 10)
+
+
+plt.subplot(2, 3, 5)
+xval = enc_est_away
+yval = occupancy_mean_away
+plt.scatter(xval, yval, c='r', s=10)
+plt.xlabel('ENC(away)')
+plt.ylabel('Occupancy (away)')
+plt.yscale('log')
+plt.ylim(0.0000001, 10)
+
+
+plt.subplot(2, 3, 3)
+xval = gain_mean_under
+yval = occupancy_mean_under
+plt.scatter(xval, yval, c='r', s=10)
+plt.xlabel('Gai (under)')
+plt.ylabel('Occupancy (under)')
+plt.yscale('log')
+plt.ylim(0.0000001, 10)
+
+
+plt.subplot(2, 3, 6)
+xval = gain_mean_away
+yval = occupancy_mean_away
+plt.scatter(xval, yval, c='r', s=10)
+plt.xlabel('Gain(away)')
+plt.ylabel('Occupancy (away)')
+plt.yscale('log')
+plt.ylim(0.0000001, 10)
 
 '''
 # Plot each read-out with individual fit

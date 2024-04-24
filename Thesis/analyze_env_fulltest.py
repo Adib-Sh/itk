@@ -126,7 +126,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     
     # Plotting
     plt.figure(figsize=(25, 12))  # Adjust figure size as needed
-    plt.suptitle('Plot of test interval environmental data (2024.04.04)', fontsize=20)
+    plt.suptitle('Plot of test interval environmental data (2024.04.04)', fontsize=25)
     
     # First subplot (Temperature)
     plt.subplot(4, 3, i + 1)

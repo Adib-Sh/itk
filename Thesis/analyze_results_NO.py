@@ -29,9 +29,7 @@ offset_away = results["offset_away"]
 
 
 #Plots
-coeffs = np.polyfit(combined_list1, combined_list2, 1)
-fitted_line_x = np.linspace(min(combined_list1), max(combined_list1), 100)
-fitted_line_y = np.polyval(coeffs, fitted_line_x)
+
 
 plt.scatter(combined_list1, combined_list2, marker='o', linestyle='-')
 plt.plot(fitted_line_x, fitted_line_y, color = 'r', linestyle='-', linewidth=3, label=f'Fit to the full data')
