@@ -132,8 +132,8 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.subplot(4, 3, i + 1)
     plt.plot(time_labels_1, temp_4_1, 'g-', label=test_key_1)
     plt.ylabel('Temperature (°C)')
-    min_val = min(x for x in temp_4_1 if x is not None)-2
-    max_val = max(x for x in temp_4_1 if x is not None)+2
+    min_val = min(x for x in temp_4_1 if x is not None)-0.5
+    max_val = max(x for x in temp_4_1 if x is not None)+0.5
     plt.ylim(min_val, max_val)
     plt.title("LTRT COLD TEST 1")
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
@@ -141,7 +141,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     
     plt.subplot(4, 3, i + 2)
     plt.plot(time_labels_3, temp_4_3, 'r-', label=test_key_3)
-    plt.yticks([])  # Remove y-axis labels
+    #plt.yticks([])  # Remove y-axis labels
     plt.ylim(min_val, max_val)
     plt.xticks([])
     plt.title("IDLE")
@@ -150,7 +150,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     
     plt.subplot(4, 3, i + 3)
     plt.plot(time_labels_2, temp_4_2, 'b-', label=test_key_2)
-    plt.yticks([])  # Remove y-axis labels
+    #plt.yticks([])  # Remove y-axis labels
     plt.ylim(min_val, max_val)
     plt.xticks([])
     plt.title("LTRT COLD TEST 2")
@@ -160,9 +160,9 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     # Second subplot (Dew Point)
     plt.subplot(4, 3, i + 4)
     plt.plot(time_labels_1, dp4_1, 'g-', label=test_key_1)
-    plt.ylabel('Dew Point')
-    min_val = min(x for x in dp4_1 if x is not None)-2
-    max_val = max(x for x in dp4_1 if x is not None)+2
+    plt.ylabel('Dew Point (°C)')
+    min_val = min(x for x in dp4_1 if x is not None)-3
+    max_val = max(x for x in dp4_1 if x is not None)+1
     plt.ylim(min_val, max_val)
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
     #plt.xticks([])
@@ -170,14 +170,14 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.subplot(4, 3, i + 5)
     plt.plot(time_labels_3, dp4_3, 'r-', label=test_key_3)
     plt.ylim(min_val, max_val)
-    plt.yticks([])  # Remove y-axis labels
+    #plt.yticks([])  # Remove y-axis labels
     plt.xticks(ticks=range(0, len(time_labels_3), len(time_labels_3) // 9 + 1)) 
     #plt.xticks([])
     
     plt.subplot(4, 3, i + 6)
     plt.plot(time_labels_2, dp4_2, 'b-', label=test_key_2)
     plt.ylim(min_val, max_val)
-    plt.yticks([])  # Remove y-axis labels
+    #plt.yticks([])  # Remove y-axis labels
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
     #plt.xticks([])
     
@@ -193,14 +193,14 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     
     plt.subplot(4, 3, i + 8)
     plt.plot(time_labels_3, rh4_3, 'r-', label=test_key_3)
-    plt.yticks([])  # Remove y-axis labels
+    #plt.yticks([])  # Remove y-axis labels
     plt.ylim(min_val, max_val)
     plt.xticks(ticks=range(0, len(time_labels_3), len(time_labels_3) // 9 + 1)) 
     #plt.xticks([])
     
     plt.subplot(4, 3, i + 9)
     plt.plot(time_labels_2, rh4_2, 'b-', label=test_key_2)
-    plt.yticks([])  # Remove y-axis labels
+    #plt.yticks([])  # Remove y-axis labels
     plt.ylim(min_val, max_val)
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
     #plt.xticks([])
@@ -210,26 +210,28 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.plot(time_labels_1, rh4_temp_1, 'g-', label=test_key_1)
     plt.ylabel('RH Temperature (°C)')
     plt.xlabel('Timestamps')
-    min_val = min(x for x in rh4_temp_1 if x is not None)-0.2
-    max_val = max(x for x in rh4_temp_1 if x is not None)+0.2
+    min_val = 16#min(x for x in rh4_temp_1 if x is not None)-0.2
+    max_val = 21#max(x for x in rh4_temp_1 if x is not None)+0.2
     plt.ylim(min_val, max_val)
     
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
 
     plt.subplot(4, 3, i + 11)
     plt.plot(time_labels_3, rh4_temp_3, 'r-', label=test_key_3)
-    plt.yticks([])  # Remove y-axis labels
+    #plt.yticks([])  # Remove y-axis labels
     plt.xticks(ticks=range(0, len(time_labels_3), len(time_labels_3) // 9 + 1)) 
+    plt.ylim(min_val, max_val)
+    
     
     plt.subplot(4, 3, i + 12)
     plt.plot(time_labels_2, rh4_temp_2, 'b-', label=test_key_2)
-    plt.yticks([])  # Remove y-axis labels
+    #plt.yticks([])  # Remove y-axis labels
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
-
+    plt.ylim(min_val, max_val)
 
     
     plt.tight_layout(rect=[0, 0.03, 1, 0.95], h_pad=2)  # Adjust layout to add free space above the plot and leave space for the title
-    plt.savefig(path + "/results/20240404/Plots/env_plot_" + "20240404" + "_" + ".png", dpi=300)
+    plt.savefig(path + "/results/20240404/Plots/env_plot_" + "20240404" + ".png", dpi=300)
     #plt.savefig(path + "\\results\\20240404\\Plots\\env_plot_" + "20240404" + "_" + ".png", dpi=500)
     plt.show()
 
