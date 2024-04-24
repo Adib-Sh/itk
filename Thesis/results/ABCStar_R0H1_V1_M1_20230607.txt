@@ -1,0 +1,242 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R0H1_V1_M1
+TEST MADE BY   : LUND
+LOCATION NAME  : LUND
+Run number     : 117-1
+TEST_DATE      : 07/06/2023
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test     #FMC-DP connec"
+#TIME
+"15:02:07"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%NO
+#
+#	Offset	MeanOcc   	RMSOcc    	EstENC
+#E00
+	0.0 	0.0e+00 	0.0e+00 	   0
+#S01
+	0.0 	0.0e+00 	0.0e+00 	   0
+#S02
+	86.0 	4.1e-01 	1.4e-02 	47850
+#S03
+	88.4 	4.1e-01 	1.4e-02 	49012
+#S04
+	90.1 	4.1e-01 	1.1e-02 	49844
+#S05
+	5895.2 	4.1e-01 	1.2e-02 	51257
+#S06
+	97.5 	4.2e-01 	2.1e-02 	52868
+#S07
+	108.1 	4.0e-01 	1.6e-02 	57404
+#M08
+	123.2 	4.0e-01 	1.2e-02 	62329
+#X09
+	111.3 	4.0e-01 	1.2e-02 	57733
+#X10
+	127.9 	4.0e-01 	1.3e-02 	64865
+#E00
+	0.0 	0.0e+00 	0.0e+00 	   0
+#S01
+	0.0 	0.0e+00 	0.0e+00 	   0
+#S02
+	89.7 	4.1e-01 	1.3e-02 	49697
+#S03
+	91.7 	4.1e-01 	1.4e-02 	50555
+#S04
+	96.1 	4.2e-01 	1.4e-02 	52474
+#S05
+	97.1 	4.2e-01 	1.1e-02 	53171
+#S06
+	101.0 	4.1e-01 	1.1e-02 	55022
+#S07
+	111.7 	4.0e-01 	1.1e-02 	58916
+#M08
+	127.5 	4.0e-01 	9.9e-03 	64657
+#X09
+	117.9 	3.9e-01 	1.0e-02 	60533
+#X10
+	135.6 	4.0e-01 	9.8e-03 	67588
+#
+#	fitpar0 fitpar1
+#E00
+#	6.9513e-310	1.5143e-315
+#S01
+#	6.9513e-310	7.8254e-316
+#S02
+#	-8.0983e-01	-8.5305e-03
+#S03
+#	-8.1519e-01	-8.1306e-03
+#S04
+#	-8.0967e-01	-7.8614e-03
+#S05
+#	-8.1573e-01	-7.4341e-03
+#S06
+#	-8.2409e-01	-6.9878e-03
+#S07
+#	-8.3668e-01	-5.9271e-03
+#M08
+#	-8.3082e-01	-5.0275e-03
+#X09
+#	-8.4997e-01	-5.8598e-03
+#X10
+#	-8.3456e-01	-4.6421e-03
+#E00
+#	6.9527e-310	0.0000e+00
+#S01
+#	6.9513e-310	3.7549e-322
+#S02
+#	-8.0821e-01	-7.9081e-03
+#S03
+#	-8.1260e-01	-7.6418e-03
+#S04
+#	-8.0929e-01	-7.0931e-03
+#S05
+#	-8.0921e-01	-6.9085e-03
+#S06
+#	-8.2905e-01	-6.4514e-03
+#S07
+#	-8.3490e-01	-5.6269e-03
+#M08
+#	-8.2570e-01	-4.6719e-03
+#X09
+#	-8.4636e-01	-5.3302e-03
+#X10
+#	-8.3643e-01	-4.2756e-03
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1152
+LAST CHANNEL   : 1279
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1280
+LAST CHANNEL   : 1407
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3072
+LAST CHANNEL   : 3199
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3200
+LAST CHANNEL   : 3327
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3328
+LAST CHANNEL   : 3455
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3456
+LAST CHANNEL   : 3583
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3584
+LAST CHANNEL   : 3711
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3712
+LAST CHANNEL   : 3839
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3840
+LAST CHANNEL   : 3967
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3968
+LAST CHANNEL   : 4095
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 4096
+LAST CHANNEL   : 4223
+#
+#18 defects found
+%Comment
+COMMENT        : FAIL due to chip E00 low ENC (0.0 < 400)
+#
+%Comment
+COMMENT        : FAIL due to chip S01 low ENC (0.0 < 400)
+#
+%Comment
+COMMENT        : FAIL due to chip E00 low ENC (0.0 < 400)
+#
+%Comment
+COMMENT        : FAIL due to chip S01 low ENC (0.0 < 400)
+#
+%Comment
+COMMENT        : FAIL due to 2304 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 1152 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : No trim data found
+#

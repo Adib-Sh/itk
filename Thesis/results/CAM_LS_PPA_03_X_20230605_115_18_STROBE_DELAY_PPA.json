@@ -1,0 +1,121 @@
+{
+    "date": "2023-06-05T13:35:27.000Z",
+    "passed": true,
+    "problems": false,
+    "properties": {
+        "DCS": {
+            "ABC_temp_raw_0": 2275.0,
+            "ABC_temp_raw_1": 2272.0,
+            "ABC_temp_raw_2": 2433.0,
+            "ABC_temp_raw_3": 2401.0,
+            "ABC_temp_raw_4": 2430.0,
+            "ABC_temp_raw_5": 2288.0,
+            "ABC_temp_raw_6": 2288.0,
+            "ABC_temp_raw_7": 2250.0,
+            "ABC_temp_raw_8": 2343.0,
+            "ABC_temp_raw_9": 2184.0,
+            "HCC_temp_raw": 360.0,
+            "HCC_temp_rough_cal": 58.96000671386719
+        },
+        "FRACTION": 0.57,
+        "det_info": {
+            "ABC_Fuse": [
+                "89406852",
+                "89406853",
+                "89406854",
+                "89406855",
+                "89406856",
+                "89406857",
+                "89406858",
+                "89406859",
+                "8940685a",
+                "8940685b"
+            ],
+            "Address": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "Channel": [
+                9,
+                8,
+                7,
+                6,
+                5,
+                4,
+                3,
+                2,
+                1,
+                0
+            ],
+            "DUT_type": "ABCStar_Test     #FMC-DP connec",
+            "HCC_Fuse": "20006246",
+            "name": "CAM_LS_PPA_03_X"
+        },
+        "scan_info": {
+            "event_count": 32
+        },
+        "system_info": {
+            "Analysis_time": "2023-06-05T13:35:28.000Z",
+            "Firmware revision": "0xb5fb",
+            "GIT URL": "https://gitlab.cern.ch/atlas-itk-strips-daq/itsdaq-sw.git/-/tree/b9a5b33fea316d90d9f09cbc39f7953d622a8ac5",
+            "GIT branch": "",
+            "GIT build date": "2023-06-05 11:53:03 +0000 (Mon, 05 Jun 2023)",
+            "GIT commit date": "2023-05-31 14:41:57 +0000 (Wed, 31 May 2023)",
+            "GIT describe": "itsdaq_23_3_2023-170-gb9a5b33",
+            "GIT revision": "b9a5b33fea316d90d9f09cbc39f7953d622a8ac5",
+            "Location": "LUND",
+            "User": "LUND",
+            "analysis_version": "3.43",
+            "dedication": "New dedication as we're going for PPA",
+            "host": "itkdaq"
+        }
+    },
+    "results": {
+        "StrobeDelay_away": [
+            26,
+            25,
+            26,
+            25,
+            26,
+            25,
+            26,
+            26,
+            26,
+            23,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ],
+        "StrobeDelay_under": [
+            26,
+            25,
+            26,
+            24,
+            26,
+            25,
+            25,
+            24,
+            26,
+            23,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ]
+    },
+    "runNumber": "115-18",
+    "testType": "STROBE_DELAY_PPA"
+}

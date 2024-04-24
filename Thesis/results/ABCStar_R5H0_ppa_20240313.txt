@@ -1,0 +1,2566 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_ppa
+TEST MADE BY   : EWAL
+LOCATION NAME  : COLDBOX
+Run number     : 497-1
+TEST_DATE      : 13/03/2024
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"R5H0"
+#TIME
+"17:29:47"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  M02  S03  S04  S05  S06  S07  S08  S09  E10  X11
+22 25 24 23 21 21 22 26 24 -1 -1 -1 -1 -1 -1 -1 
+#
+#  M02  S03  S04  S05  S06  S07  S08  S09  E10  X11
+22 25 24 24 21 21 22 26 24 -1 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_ppa
+TEST MADE BY   : EWAL
+LOCATION NAME  : COLDBOX
+Run number     : 497-2
+TEST_DATE      : 13/03/2024
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"R5H0"
+#TIME
+"17:30:05"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"TrimDAC (bits)"
+#N_POINTS
+5
+#POINTS
+0.00 	8.00 	16.00 	24.00 	31.00 	
+#
+%Trim
+#
+#TRIM	CHARGE	TYPE	ALGORITHM
+	1.0 	2 	0
+#(trim whole module)
+#
+#	range	target	ntrim	vt50	vt50rms	tr_off	off_rms	tr_step	step_rms
+#Ch2
+	2	32.0	256	 32.0	 0.23	-40.6	 4.3	 0.42	 0.04
+#Ch3
+	2	32.0	255	 32.0	 0.22	-38.6	 5.0	 0.41	 0.04
+#Ch4
+	2	32.0	256	 31.9	 0.22	-36.1	 5.1	 0.41	 0.04
+#Ch5
+	2	32.0	256	 32.0	 0.23	-36.9	 7.7	 0.45	 0.07
+#Ch6
+	2	32.0	252	 32.0	 0.20	-60.1	25.5	 0.32	 0.07
+#Ch7
+	2	32.0	256	 32.0	 0.21	-39.3	 5.4	 0.48	 0.06
+#Ch8
+	2	32.0	255	 32.0	 0.21	-44.7	 4.2	 0.35	 0.03
+#Ch9
+	2	32.0	256	 32.0	 0.24	-43.1	 3.9	 0.36	 0.03
+#Ch10
+	2	32.0	256	 32.0	 0.23	-45.0	 4.1	 0.35	 0.03
+#Ch2
+	2	32.0	256	 32.0	 0.24	-30.3	 5.7	 0.51	 0.05
+#Ch3
+	2	32.0	255	 32.0	 0.26	-27.9	 5.7	 0.52	 0.05
+#Ch4
+	2	32.0	256	 32.0	 0.26	-27.7	 5.9	 0.51	 0.05
+#Ch5
+	2	32.0	256	 31.9	 0.25	-27.7	 6.2	 0.53	 0.05
+#Ch6
+	2	32.0	252	 32.0	 0.26	-29.3	 5.9	 0.49	 0.04
+#Ch7
+	2	32.0	256	 32.0	 0.25	-32.3	 5.4	 0.51	 0.04
+#Ch8
+	2	32.0	255	 32.0	 0.25	-33.8	 6.1	 0.43	 0.04
+#Ch9
+	2	32.0	256	 32.0	 0.25	-31.9	 5.0	 0.45	 0.04
+#Ch10
+	2	32.0	256	 32.0	 0.25	-34.9	 5.5	 0.42	 0.04
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1279
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 1280
+LAST CHANNEL   : 1535
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 1536
+LAST CHANNEL   : 1791
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 1792
+LAST CHANNEL   : 2047
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 2048
+LAST CHANNEL   : 2303
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 1536
+LAST CHANNEL   : 1791
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 1792
+LAST CHANNEL   : 2047
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 2048
+LAST CHANNEL   : 2303
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 2304
+LAST CHANNEL   : 2559
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 2560
+LAST CHANNEL   : 2815
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 2816
+LAST CHANNEL   : 3071
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 3072
+LAST CHANNEL   : 3327
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 3328
+LAST CHANNEL   : 3583
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 3584
+LAST CHANNEL   : 3839
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 198
+LAST CHANNEL   : 198
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 508
+LAST CHANNEL   : 508
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 601
+LAST CHANNEL   : 601
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 603
+LAST CHANNEL   : 604
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 605
+LAST CHANNEL   : 605
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 608
+LAST CHANNEL   : 609
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 4984
+LAST CHANNEL   : 4984
+#
+#25 defects found
+%Comment
+COMMENT        : L0Ch2 TR 2 step 0.62 (ideal 1.25 error 50.29%)
+#
+%Comment
+COMMENT        : L0Ch3 TR 2 step 0.63 (ideal 1.23 error 49.17%)
+#
+%Comment
+COMMENT        : L0Ch4 TR 2 step 0.63 (ideal 1.24 error 49.67%)
+#
+%Comment
+COMMENT        : L0Ch5 TR 2 step 0.69 (ideal 1.36 error 49.24%)
+#
+%Comment
+COMMENT        : L0Ch6 TR 2 step 0.47 (ideal 0.95 error 49.84%)
+#
+%Comment
+COMMENT        : L0Ch7 TR 2 step 0.62 (ideal 1.44 error 56.80%)
+#
+%Comment
+COMMENT        : L0Ch8 TR 2 step 0.52 (ideal 1.04 error 50.43%)
+#
+%Comment
+COMMENT        : L0Ch9 TR 2 step 0.54 (ideal 1.08 error 49.97%)
+#
+%Comment
+COMMENT        : L0Ch10 TR 2 step 0.51 (ideal 1.05 error 51.31%)
+#
+%Comment
+COMMENT        : L1Ch2 TR 2 step 0.78 (ideal 1.53 error 49.32%)
+#
+%Comment
+COMMENT        : L1Ch3 TR 2 step 0.78 (ideal 1.56 error 49.81%)
+#
+%Comment
+COMMENT        : L1Ch4 TR 2 step 0.77 (ideal 1.53 error 49.55%)
+#
+%Comment
+COMMENT        : L1Ch5 TR 2 step 0.79 (ideal 1.59 error 50.47%)
+#
+%Comment
+COMMENT        : L1Ch6 TR 2 step 0.74 (ideal 1.48 error 49.66%)
+#
+%Comment
+COMMENT        : L1Ch7 TR 2 step 0.76 (ideal 1.52 error 49.66%)
+#
+%Comment
+COMMENT        : L1Ch8 TR 2 step 0.66 (ideal 1.29 error 48.59%)
+#
+%Comment
+COMMENT        : L1Ch9 TR 2 step 0.70 (ideal 1.36 error 48.18%)
+#
+%Comment
+COMMENT        : L1Ch10 TR 2 step 0.66 (ideal 1.27 error 48.43%)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/atlasitk/sctvar/results/ABCStar_R5H0_ppa_tr2_20240313.trim
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_ppa
+TEST MADE BY   : EWAL
+LOCATION NAME  : COLDBOX
+Run number     : 497-7
+TEST_DATE      : 13/03/2024
+PASSED         : NO
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"R5H0"
+#TIME
+"17:30:40"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"TrimDAC (bits)"
+#N_POINTS
+5
+#POINTS
+0.00 	8.00 	16.00 	24.00 	31.00 	
+#
+%Trim
+#
+#TRIM	CHARGE	TYPE	ALGORITHM
+	1.0 	4 	0
+#(trim whole module)
+#
+#	range	target	ntrim	vt50	vt50rms	tr_off	off_rms	tr_step	step_rms
+#Ch2
+	4	36.0	256	 36.0	 0.26	-34.4	 3.3	 0.51	 0.04
+#Ch3
+	4	36.0	256	 36.0	 0.27	-32.6	 3.7	 0.51	 0.04
+#Ch4
+	4	36.0	256	 36.0	 0.27	-30.7	 3.7	 0.51	 0.04
+#Ch5
+	4	36.0	256	 36.0	 0.29	-30.9	 5.8	 0.57	 0.09
+#Ch6
+	4	36.0	256	 36.0	 0.24	-57.5	33.7	 0.37	 0.11
+#Ch7
+	4	36.0	256	 36.0	 0.26	-36.6	 4.9	 0.53	 0.05
+#Ch8
+	4	36.0	255	 36.0	 0.27	-37.8	 3.6	 0.43	 0.04
+#Ch9
+	4	36.0	256	 36.0	 0.29	-36.4	 3.3	 0.45	 0.03
+#Ch10
+	4	36.0	256	 36.0	 0.27	-38.7	 2.9	 0.43	 0.04
+#Ch2
+	4	36.0	256	 36.0	 0.27	-24.9	 4.8	 0.65	 0.06
+#Ch3
+	4	36.0	256	 36.0	 0.31	-22.9	 4.5	 0.66	 0.06
+#Ch4
+	4	36.0	256	 36.0	 0.30	-22.7	 4.3	 0.65	 0.05
+#Ch5
+	4	36.0	256	 36.0	 0.29	-23.2	 4.4	 0.66	 0.06
+#Ch6
+	4	36.0	256	 35.9	 0.29	-24.3	 4.6	 0.63	 0.05
+#Ch7
+	4	36.0	256	 36.0	 0.30	-27.1	 4.1	 0.64	 0.05
+#Ch8
+	4	36.0	255	 36.0	 0.28	-27.9	 4.7	 0.55	 0.04
+#Ch9
+	4	36.0	256	 36.0	 0.29	-26.1	 3.9	 0.59	 0.06
+#Ch10
+	4	36.0	256	 36.0	 0.29	-28.9	 4.0	 0.54	 0.04
+#
+#No defects found!
+#
+%TEST Rawdata
+FILENAME       : /home/atlasitk/sctvar/results/ABCStar_R5H0_ppa_tr4_20240313.trim
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_ppa
+TEST MADE BY   : EWAL
+LOCATION NAME  : COLDBOX
+Run number     : 497-12
+TEST_DATE      : 13/03/2024
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"R5H0"
+#TIME
+"17:31:13"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"TrimDAC (bits)"
+#N_POINTS
+5
+#POINTS
+0.00 	8.00 	16.00 	24.00 	31.00 	
+#
+%Trim
+#
+#TRIM	CHARGE	TYPE	ALGORITHM
+	1.0 	6 	0
+#(trim whole module)
+#
+#	range	target	ntrim	vt50	vt50rms	tr_off	off_rms	tr_step	step_rms
+#Ch2
+	6	41.0	256	 41.0	 0.32	-29.2	 2.9	 0.62	 0.05
+#Ch3
+	6	41.0	256	 41.0	 0.34	-27.0	 3.4	 0.63	 0.05
+#Ch4
+	6	41.0	256	 41.0	 0.35	-25.5	 3.1	 0.63	 0.05
+#Ch5
+	6	41.0	256	 41.0	 0.32	-26.1	 5.6	 0.69	 0.12
+#Ch6
+	6	41.0	256	 41.0	 0.31	-41.6	13.9	 0.47	 0.08
+#Ch7
+	6	41.0	256	 41.0	 0.34	-32.1	 3.5	 0.62	 0.05
+#Ch8
+	6	41.0	256	 41.0	 0.37	-32.3	 2.9	 0.52	 0.04
+#Ch9
+	6	41.0	256	 41.0	 0.35	-30.8	 2.4	 0.54	 0.03
+#Ch10
+	6	41.0	256	 41.0	 0.36	-33.1	 2.6	 0.51	 0.04
+#Ch2
+	6	41.0	256	 41.0	 0.35	-21.4	 3.6	 0.78	 0.05
+#Ch3
+	6	41.0	256	 41.0	 0.34	-19.8	 3.5	 0.78	 0.06
+#Ch4
+	6	41.0	256	 41.0	 0.34	-19.5	 3.7	 0.77	 0.05
+#Ch5
+	6	41.0	256	 41.1	 0.36	-19.8	 3.6	 0.79	 0.06
+#Ch6
+	6	41.0	256	 41.0	 0.36	-20.8	 3.7	 0.74	 0.05
+#Ch7
+	6	41.0	256	 41.0	 0.33	-23.0	 3.4	 0.76	 0.06
+#Ch8
+	6	41.0	256	 41.0	 0.34	-23.5	 3.7	 0.66	 0.05
+#Ch9
+	6	41.0	256	 41.0	 0.34	-22.2	 2.8	 0.70	 0.05
+#Ch10
+	6	41.0	256	 41.0	 0.34	-24.5	 3.3	 0.66	 0.05
+#
+#No defects found!
+#
+%TEST Rawdata
+FILENAME       : /home/atlasitk/sctvar/results/ABCStar_R5H0_ppa_tr6_20240313.trim
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_ppa
+TEST MADE BY   : EWAL
+LOCATION NAME  : COLDBOX
+Run number     : 497-17
+TEST_DATE      : 13/03/2024
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"R5H0"
+#TIME
+"17:31:47"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"TrimDAC (bits)"
+#N_POINTS
+5
+#POINTS
+0.00 	8.00 	16.00 	24.00 	31.00 	
+#
+%Trim
+#
+#TRIM	CHARGE	TYPE	ALGORITHM
+	1.0 	8 	0
+#(trim whole module)
+#
+#	range	target	ntrim	vt50	vt50rms	tr_off	off_rms	tr_step	step_rms
+#Ch2
+	8	47.0	256	 47.0	 0.40	-24.6	 2.5	 0.76	 0.06
+#Ch3
+	8	47.0	256	 47.0	 0.39	-23.1	 2.9	 0.76	 0.05
+#Ch4
+	8	47.0	256	 47.0	 0.43	-21.9	 2.8	 0.76	 0.04
+#Ch5
+	8	47.0	256	 47.0	 0.42	-22.7	 4.6	 0.82	 0.13
+#Ch6
+	8	47.0	256	 47.0	 0.39	-35.9	13.2	 0.57	 0.11
+#Ch7
+	8	47.0	256	 47.0	 0.39	-27.4	 3.8	 0.76	 0.06
+#Ch8
+	8	47.0	256	 47.0	 0.37	-26.6	 2.3	 0.65	 0.04
+#Ch9
+	8	47.0	256	 47.0	 0.42	-25.0	 2.0	 0.69	 0.04
+#Ch10
+	8	47.0	256	 47.0	 0.46	-26.1	 1.9	 0.67	 0.05
+#Ch2
+	8	47.0	256	 47.0	 0.43	-19.0	 3.3	 0.90	 0.06
+#Ch3
+	8	47.0	256	 47.0	 0.41	-17.6	 3.5	 0.91	 0.06
+#Ch4
+	8	47.0	256	 47.0	 0.40	-17.7	 3.6	 0.89	 0.06
+#Ch5
+	8	47.0	256	 47.0	 0.38	-17.9	 3.4	 0.91	 0.06
+#Ch6
+	8	47.0	256	 47.0	 0.39	-18.6	 3.6	 0.87	 0.05
+#Ch7
+	8	47.0	256	 47.0	 0.44	-20.5	 3.2	 0.89	 0.05
+#Ch8
+	8	47.0	256	 47.0	 0.44	-20.2	 3.7	 0.79	 0.05
+#Ch9
+	8	47.0	256	 47.0	 0.43	-18.7	 2.9	 0.86	 0.05
+#Ch10
+	8	47.0	256	 47.0	 0.45	-20.3	 3.2	 0.82	 0.06
+#
+#No defects found!
+#
+%TEST Rawdata
+FILENAME       : /home/atlasitk/sctvar/results/ABCStar_R5H0_ppa_tr8_20240313.trim
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_ppa
+TEST MADE BY   : EWAL
+LOCATION NAME  : COLDBOX
+Run number     : 497-2
+TEST_DATE      : 13/03/2024
+PASSED         : NO
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"R5H0"
+#TIME
+"17:30:05"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%Trim
+#
+#TRIM	CHARGE	TYPE	ALGORITHM
+	1.0 	-1 	0
+#(trim whole module)
+#
+#	range	target	ntrim	vt50	vt50rms	tr_off	off_rms	tr_step	step_rms
+#Ch2
+	2	26.0	256	 26.0	 0.21	-40.6	 4.3	 0.42	 0.04
+#Ch3
+	2	26.0	256	 26.0	 0.21	-38.6	 5.0	 0.41	 0.04
+#Ch4
+	2	26.0	256	 26.0	 0.21	-36.1	 5.1	 0.41	 0.04
+#Ch5
+	2	26.0	256	 26.0	 0.21	-36.9	 7.7	 0.45	 0.07
+#Ch6
+	6	26.0	241	 26.0	 0.24	-41.6	13.9	 0.47	 0.08
+#Ch7
+	2	26.0	252	 26.0	 0.22	-39.3	 5.4	 0.48	 0.06
+#Ch8
+	2	26.0	256	 26.0	 0.19	-44.7	 4.2	 0.35	 0.03
+#Ch9
+	2	26.0	256	 26.0	 0.19	-43.1	 3.9	 0.36	 0.03
+#Ch10
+	2	26.0	256	 26.0	 0.18	-45.0	 4.1	 0.35	 0.03
+#Ch2
+	2	26.0	256	 26.0	 0.21	-30.3	 5.7	 0.51	 0.05
+#Ch3
+	2	26.0	256	 26.0	 0.22	-27.9	 5.7	 0.52	 0.05
+#Ch4
+	2	26.0	256	 26.0	 0.22	-27.7	 5.9	 0.51	 0.05
+#Ch5
+	2	26.0	256	 26.0	 0.22	-27.7	 6.2	 0.53	 0.05
+#Ch6
+	6	26.0	241	 26.0	 0.30	-20.8	 3.7	 0.74	 0.05
+#Ch7
+	2	26.0	252	 26.0	 0.23	-32.3	 5.4	 0.51	 0.04
+#Ch8
+	2	26.0	256	 26.0	 0.21	-33.8	 6.1	 0.43	 0.04
+#Ch9
+	2	26.0	256	 26.0	 0.21	-31.9	 5.0	 0.45	 0.04
+#Ch10
+	2	26.0	256	 26.0	 0.21	-34.9	 5.5	 0.42	 0.04
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 1280
+LAST CHANNEL   : 1535
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 1536
+LAST CHANNEL   : 1791
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 1792
+LAST CHANNEL   : 2047
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 2048
+LAST CHANNEL   : 2303
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 1536
+LAST CHANNEL   : 1791
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 1792
+LAST CHANNEL   : 2047
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 2048
+LAST CHANNEL   : 2303
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 2304
+LAST CHANNEL   : 2559
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 2816
+LAST CHANNEL   : 3071
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 3072
+LAST CHANNEL   : 3327
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 3328
+LAST CHANNEL   : 3583
+#
+%Defect
+DEFECT NAME    : TR_RANGE
+FIRST CHANNEL  : 3584
+LAST CHANNEL   : 3839
+#
+%Defect
+DEFECT NAME    : TR_STEP
+FIRST CHANNEL  : 508
+LAST CHANNEL   : 508
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 649
+LAST CHANNEL   : 649
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 652
+LAST CHANNEL   : 652
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 691
+LAST CHANNEL   : 691
+#
+%Defect
+DEFECT NAME    : TR_NOTRIM
+FIRST CHANNEL  : 748
+LAST CHANNEL   : 748
+#
+#21 defects found
+%Comment
+COMMENT        : L0Ch2 TR 2 step 0.62 (ideal 1.25 error 50.29%)
+#
+%Comment
+COMMENT        : L0Ch3 TR 2 step 0.63 (ideal 1.23 error 49.17%)
+#
+%Comment
+COMMENT        : L0Ch4 TR 2 step 0.63 (ideal 1.24 error 49.67%)
+#
+%Comment
+COMMENT        : L0Ch5 TR 2 step 0.69 (ideal 1.36 error 49.24%)
+#
+%Comment
+COMMENT        : L0Ch7 TR 2 step 0.62 (ideal 1.44 error 56.80%)
+#
+%Comment
+COMMENT        : L0Ch8 TR 2 step 0.52 (ideal 1.04 error 50.43%)
+#
+%Comment
+COMMENT        : L0Ch9 TR 2 step 0.54 (ideal 1.08 error 49.97%)
+#
+%Comment
+COMMENT        : L0Ch10 TR 2 step 0.51 (ideal 1.05 error 51.31%)
+#
+%Comment
+COMMENT        : L1Ch2 TR 2 step 0.78 (ideal 1.53 error 49.32%)
+#
+%Comment
+COMMENT        : L1Ch3 TR 2 step 0.78 (ideal 1.56 error 49.81%)
+#
+%Comment
+COMMENT        : L1Ch4 TR 2 step 0.77 (ideal 1.53 error 49.55%)
+#
+%Comment
+COMMENT        : L1Ch5 TR 2 step 0.79 (ideal 1.59 error 50.47%)
+#
+%Comment
+COMMENT        : L1Ch7 TR 2 step 0.76 (ideal 1.52 error 49.66%)
+#
+%Comment
+COMMENT        : L1Ch8 TR 2 step 0.66 (ideal 1.29 error 48.59%)
+#
+%Comment
+COMMENT        : L1Ch9 TR 2 step 0.70 (ideal 1.36 error 48.18%)
+#
+%Comment
+COMMENT        : L1Ch10 TR 2 step 0.66 (ideal 1.27 error 48.43%)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/atlasitk/sctvar/results/ABCStar_R5H0_ppa_tr-1_20240313.trim
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_ppa
+TEST MADE BY   : EWAL
+LOCATION NAME  : COLDBOX
+Run number     : 497-22
+TEST_DATE      : 13/03/2024
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"R5H0"
+#TIME
+"17:36:13"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+10
+#POINTS
+0.19 	0.50 	0.81 	1.00 	1.27 	1.50 	2.00 	2.99 	3.99 	5.99 	
+#
+#
+%ResponseCurve
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M02
+	3 	836.38 	7.27 	-432.93
+#S03
+	3 	836.16 	7.26 	-433.06
+#S04
+	3 	868.59 	-4.37 	-413.76
+#S05
+	3 	836.37 	7.27 	-432.94
+#S06
+	3 	835.75 	7.25 	-433.31
+#S07
+	3 	835.90 	7.26 	-433.22
+#S08
+	3 	835.58 	7.26 	-433.41
+#S09
+	3 	870.82 	-4.06 	-412.30
+#E10
+	3 	850.00 	-401580060.15 	-425.00
+#M02
+	3 	837.83 	7.26 	-432.06
+#S03
+	3 	837.47 	7.26 	-432.28
+#S04
+	3 	1395.23 	4.76 	-671.02
+#S05
+	3 	1452.22 	4.91 	-701.56
+#S06
+	3 	837.26 	7.27 	-432.40
+#S07
+	3 	837.70 	7.26 	-432.14
+#S08
+	3 	837.11 	7.27 	-432.49
+#S09
+	3 	836.87 	7.27 	-432.63
+#E10
+	3 	836.83 	7.27 	-432.66
+#
+#Loop B - Gain, Offset, Noise at 1.50fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M02
+	###    Too many defects in this chip!    ###
+#S03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#E10
+	###    Too many defects in this chip!    ###
+#M02
+	###    Too many defects in this chip!    ###
+#S03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#E10
+	###    Too many defects in this chip!    ###
+#
+#Loop C - Comment
+#  M02  S03  S04  S05  S06  S07  S08  S09  E10  X11
+"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#  M02  S03  S04  S05  S06  S07  S08  S09  E10  X11
+"very low gain" 	"very low gain" 	"OK" 	"OK" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#BadChannelSummary - not for the database
+#  at 1.50fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip M02:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	127	  0	  0	127	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S04:	  0	118	  0	  0	118	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	 10
+#Chip S05:	  0	 84	  0	  0	 84	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	 44
+#Chip S06:	 21	107	 21	  0	107	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  6	122	  6	  0	122	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	126	  0	  0	126	  0	  0	  0	  0	  0	  0	  0	  2	  0	  0	  2
+#Chip S09:	  0	127	  0	  0	127	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  1
+#Chip E10:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M02:	  0	  7	  0	  0	  6	  0	  1	  1	  0	  0	  0	  1	  0	  0	  0	120
+#Chip S03:	  0	  3	  0	  0	  2	  0	  1	  1	  0	  0	  0	  1	  0	  0	  0	124
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	127
+#Chip S05:	  0	  1	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	126
+#Chip S06:	  9	  5	  9	  0	  5	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	114
+#Chip S07:	  2	  7	  2	  0	  7	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	119
+#Chip S08:	  0	  5	  0	  0	  5	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	123
+#Chip S09:	  0	  1	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  6	  0	  0	127
+#Chip E10:	  0	  9	  0	  0	  9	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	119
+#Link 0:	 27	1067	 27	  0	1067	  0	  0	  0	  0	  0	  0	  0	  5	  0	  0	 58
+#Link 1:	 11	 38	 11	  0	 36	  0	  2	  2	  0	  0	  0	  2	  7	  0	  0	1099
+#Link 2:	 38	1105	 38	  0	1103	  0	  2	  2	  0	  0	  0	  2	 12	  0	  0	1157
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 212
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 214
+LAST CHANNEL   : 270
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 272
+LAST CHANNEL   : 279
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 281
+LAST CHANNEL   : 309
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 311
+LAST CHANNEL   : 312
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 314
+LAST CHANNEL   : 323
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 325
+LAST CHANNEL   : 337
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 339
+LAST CHANNEL   : 348
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 350
+LAST CHANNEL   : 363
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 365
+LAST CHANNEL   : 368
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 370
+LAST CHANNEL   : 372
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 374
+LAST CHANNEL   : 404
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 406
+LAST CHANNEL   : 412
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 415
+LAST CHANNEL   : 423
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 428
+LAST CHANNEL   : 428
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 431
+LAST CHANNEL   : 431
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 433
+LAST CHANNEL   : 433
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 435
+LAST CHANNEL   : 435
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 457
+LAST CHANNEL   : 457
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 468
+LAST CHANNEL   : 470
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 472
+LAST CHANNEL   : 479
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 481
+LAST CHANNEL   : 555
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 556
+LAST CHANNEL   : 557
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 558
+LAST CHANNEL   : 558
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 559
+LAST CHANNEL   : 560
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 561
+LAST CHANNEL   : 561
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 562
+LAST CHANNEL   : 563
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 564
+LAST CHANNEL   : 599
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 600
+LAST CHANNEL   : 603
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 604
+LAST CHANNEL   : 604
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 605
+LAST CHANNEL   : 609
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 610
+LAST CHANNEL   : 610
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 611
+LAST CHANNEL   : 615
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 616
+LAST CHANNEL   : 616
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 617
+LAST CHANNEL   : 617
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 618
+LAST CHANNEL   : 645
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 646
+LAST CHANNEL   : 646
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 647
+LAST CHANNEL   : 648
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 649
+LAST CHANNEL   : 649
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 650
+LAST CHANNEL   : 651
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 652
+LAST CHANNEL   : 652
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 653
+LAST CHANNEL   : 690
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 691
+LAST CHANNEL   : 691
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 692
+LAST CHANNEL   : 693
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 694
+LAST CHANNEL   : 694
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 695
+LAST CHANNEL   : 747
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 748
+LAST CHANNEL   : 748
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 749
+LAST CHANNEL   : 772
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 774
+LAST CHANNEL   : 804
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 806
+LAST CHANNEL   : 917
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 919
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : -1
+LAST CHANNEL   : 126
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1152
+LAST CHANNEL   : 1152
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1153
+LAST CHANNEL   : 1153
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 1154
+LAST CHANNEL   : 1154
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1155
+LAST CHANNEL   : 1155
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1191
+LAST CHANNEL   : 1191
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1193
+LAST CHANNEL   : 1193
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1212
+LAST CHANNEL   : 1212
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1223
+LAST CHANNEL   : 1223
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 127
+LAST CHANNEL   : 254
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1282
+LAST CHANNEL   : 1282
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 1283
+LAST CHANNEL   : 1283
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1284
+LAST CHANNEL   : 1284
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1401
+LAST CHANNEL   : 1401
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1538
+LAST CHANNEL   : 1538
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 511
+LAST CHANNEL   : 638
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 1708
+LAST CHANNEL   : 1716
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1719
+LAST CHANNEL   : 1719
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1735
+LAST CHANNEL   : 1735
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1746
+LAST CHANNEL   : 1746
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1783
+LAST CHANNEL   : 1783
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1789
+LAST CHANNEL   : 1789
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 639
+LAST CHANNEL   : 766
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 1796
+LAST CHANNEL   : 1796
+#
+%Defect
+DEFECT NAME    : DEAD
+FIRST CHANNEL  : 1817
+LAST CHANNEL   : 1817
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1823
+LAST CHANNEL   : 1824
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1833
+LAST CHANNEL   : 1833
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1877
+LAST CHANNEL   : 1877
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1881
+LAST CHANNEL   : 1881
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1907
+LAST CHANNEL   : 1907
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1912
+LAST CHANNEL   : 1912
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 767
+LAST CHANNEL   : 894
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1960
+LAST CHANNEL   : 1960
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1965
+LAST CHANNEL   : 1965
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 2023
+LAST CHANNEL   : 2023
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 2026
+LAST CHANNEL   : 2026
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 2045
+LAST CHANNEL   : 2045
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 895
+LAST CHANNEL   : 1022
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 2174
+LAST CHANNEL   : 2174
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 1023
+LAST CHANNEL   : 1150
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 2205
+LAST CHANNEL   : 2205
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 2226
+LAST CHANNEL   : 2226
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 2231
+LAST CHANNEL   : 2231
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 2239
+LAST CHANNEL   : 2239
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 2241
+LAST CHANNEL   : 2241
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 2246
+LAST CHANNEL   : 2246
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 2263
+LAST CHANNEL   : 2263
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 2302
+LAST CHANNEL   : 2303
+#
+#108 defects found affecting 1145 strips
+#292 maximum consecutive defects
+%Comment
+COMMENT        : Chip 0 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 1 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 2 (under) fit range adjusted (0.0fC - 1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 3 (under) fit range adjusted (0.0fC - 1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 4 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 5 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 6 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 7 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 8 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : FAIL due to chip 0 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 3 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 8 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 0 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 8 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to 1145 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 292 consecutive bad strips (more than 8)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/atlasitk/sctvar/results/ABCStar_R5H0_ppa_RC_497_22.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_ppa
+TEST MADE BY   : EWAL
+LOCATION NAME  : COLDBOX
+Run number     : 498-1
+TEST_DATE      : 13/03/2024
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"R5H0"
+#TIME
+"17:59:47"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+10
+#POINTS
+0.19 	0.50 	0.81 	1.00 	1.27 	1.50 	2.00 	2.99 	3.99 	5.99 	
+#
+#
+%ResponseCurve
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M02
+	3 	836.08 	7.26 	-433.12
+#S03
+	3 	835.81 	7.26 	-433.28
+#S04
+	3 	836.04 	7.26 	-433.14
+#S05
+	3 	836.20 	7.26 	-433.04
+#S06
+	3 	834.65 	7.25 	-433.98
+#S07
+	3 	835.86 	7.26 	-433.25
+#S08
+	3 	835.10 	7.26 	-433.71
+#S09
+	3 	834.75 	7.26 	-433.93
+#E10
+	3 	834.74 	7.25 	-433.94
+#M02
+	3 	837.69 	7.26 	-432.15
+#S03
+	3 	837.29 	7.26 	-432.39
+#S04
+	3 	1401.78 	4.96 	-681.61
+#S05
+	3 	1408.51 	4.88 	-685.77
+#S06
+	3 	837.74 	7.27 	-432.11
+#S07
+	3 	837.23 	7.26 	-432.43
+#S08
+	3 	836.50 	7.27 	-432.86
+#S09
+	3 	836.00 	7.25 	-433.17
+#E10
+	3 	836.04 	7.26 	-433.14
+#
+#Loop B - Gain, Offset, Noise at 1.50fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M02
+	###    Too many defects in this chip!    ###
+#S03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#E10
+	###    Too many defects in this chip!    ###
+#M02
+	###    Too many defects in this chip!    ###
+#S03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#E10
+	###    Too many defects in this chip!    ###
+#
+#Loop C - Comment
+#  M02  S03  S04  S05  S06  S07  S08  S09  E10  X11
+"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#  M02  S03  S04  S05  S06  S07  S08  S09  E10  X11
+"very low gain" 	"very low gain" 	"OK" 	"OK" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#BadChannelSummary - not for the database
+#  at 1.50fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip M02:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E10:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M02:	  0	127	  0	  0	126	  0	  1	  1	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S03:	  0	127	  0	  0	126	  0	  1	  1	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S04:	  0	118	  0	  0	118	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  9
+#Chip S05:	  0	126	  0	  0	126	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S06:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E10:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  0	1152	  0	  0	1152	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 1:	  0	1138	  0	  0	1136	  0	  2	  2	  0	  0	  0	  2	  0	  0	  0	 10
+#Link 2:	  0	2290	  0	  0	2288	  0	  2	  2	  0	  0	  0	  2	  0	  0	  0	 10
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : -1
+LAST CHANNEL   : 126
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1152
+LAST CHANNEL   : 1152
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1153
+LAST CHANNEL   : 1153
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 1154
+LAST CHANNEL   : 1154
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 127
+LAST CHANNEL   : 254
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1155
+LAST CHANNEL   : 1282
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 1283
+LAST CHANNEL   : 1283
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1284
+LAST CHANNEL   : 1400
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 1401
+LAST CHANNEL   : 1401
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1402
+LAST CHANNEL   : 1420
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1422
+LAST CHANNEL   : 1422
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1424
+LAST CHANNEL   : 1436
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1438
+LAST CHANNEL   : 1442
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1444
+LAST CHANNEL   : 1444
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1446
+LAST CHANNEL   : 1468
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1470
+LAST CHANNEL   : 1476
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1478
+LAST CHANNEL   : 1486
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1488
+LAST CHANNEL   : 1494
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1496
+LAST CHANNEL   : 1534
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1536
+LAST CHANNEL   : 1556
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1558
+LAST CHANNEL   : 1660
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 511
+LAST CHANNEL   : 638
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 639
+LAST CHANNEL   : 766
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 767
+LAST CHANNEL   : 894
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 895
+LAST CHANNEL   : 1022
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 1023
+LAST CHANNEL   : 1150
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1662
+LAST CHANNEL   : 2303
+#
+#37 defects found affecting 2292 strips
+#1152 maximum consecutive defects
+%Comment
+COMMENT        : Chip 0 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 1 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 2 (under) fit range adjusted (0.0fC - 1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 3 (under) fit range adjusted (0.0fC - 1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 4 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 5 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 6 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 7 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 8 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : FAIL due to chip 0 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 3 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 8 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 0 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 8 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to 2292 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 1152 consecutive bad strips (more than 8)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/atlasitk/sctvar/results/ABCStar_R5H0_ppa_RC_498_1.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_ppa
+TEST MADE BY   : EWAL
+LOCATION NAME  : COLDBOX
+Run number     : 499-1
+TEST_DATE      : 13/03/2024
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"itkdaq"
+#VERSION
+"3.43"
+#DUT
+"R5H0"
+#TIME
+"18:14:39"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+10
+#POINTS
+0.19 	0.50 	0.81 	1.00 	1.27 	1.50 	2.00 	2.99 	3.99 	5.99 	
+#
+#
+%ResponseCurve
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#M02
+	3 	836.15 	7.26 	-433.07
+#S03
+	3 	835.89 	7.26 	-433.23
+#S04
+	3 	836.13 	7.26 	-433.08
+#S05
+	3 	836.27 	7.27 	-433.00
+#S06
+	3 	834.26 	7.25 	-434.23
+#S07
+	3 	835.94 	7.25 	-433.20
+#S08
+	3 	835.35 	7.25 	-433.56
+#S09
+	3 	835.02 	7.25 	-433.76
+#E10
+	3 	834.98 	7.26 	-433.78
+#M02
+	3 	1334.94 	4.41 	-652.61
+#S03
+	3 	1291.71 	4.70 	-626.05
+#S04
+	3 	1391.87 	4.94 	-676.53
+#S05
+	3 	1433.29 	5.01 	-697.73
+#S06
+	3 	837.81 	7.28 	-432.08
+#S07
+	3 	837.40 	7.26 	-432.33
+#S08
+	3 	836.70 	7.26 	-432.74
+#S09
+	3 	836.23 	7.25 	-433.03
+#E10
+	3 	836.28 	7.26 	-433.00
+#
+#Loop B - Gain, Offset, Noise at 1.50fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#M02
+	###    Too many defects in this chip!    ###
+#S03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#E10
+	###    Too many defects in this chip!    ###
+#M02
+	###    Too many defects in this chip!    ###
+#S03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#E10
+	###    Too many defects in this chip!    ###
+#
+#Loop C - Comment
+#  M02  S03  S04  S05  S06  S07  S08  S09  E10  X11
+"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#  M02  S03  S04  S05  S06  S07  S08  S09  E10  X11
+"OK" 	"OK" 	"OK" 	"OK" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#BadChannelSummary - not for the database
+#  at 1.50fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip M02:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	126	  0	  0	126	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2
+#Chip S06:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E10:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M02:	  0	122	  0	  0	122	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  4
+#Chip S03:	  0	115	  0	  0	115	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 11
+#Chip S04:	  0	114	  0	  0	114	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 13
+#Chip S05:	  0	121	  0	  0	121	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  6
+#Chip S06:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E10:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  0	1150	  0	  0	1150	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2
+#Link 1:	  0	1112	  0	  0	1112	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 34
+#Link 2:	  0	2262	  0	  0	2262	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 36
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 446
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 448
+LAST CHANNEL   : 453
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 455
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1153
+LAST CHANNEL   : 1153
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1155
+LAST CHANNEL   : 1220
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1222
+LAST CHANNEL   : 1243
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1245
+LAST CHANNEL   : 1245
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1247
+LAST CHANNEL   : 1273
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1275
+LAST CHANNEL   : 1279
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1281
+LAST CHANNEL   : 1282
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1284
+LAST CHANNEL   : 1301
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1303
+LAST CHANNEL   : 1303
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1305
+LAST CHANNEL   : 1322
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1324
+LAST CHANNEL   : 1326
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1328
+LAST CHANNEL   : 1331
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1333
+LAST CHANNEL   : 1334
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1336
+LAST CHANNEL   : 1358
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1360
+LAST CHANNEL   : 1389
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1391
+LAST CHANNEL   : 1395
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1397
+LAST CHANNEL   : 1399
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1402
+LAST CHANNEL   : 1414
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1416
+LAST CHANNEL   : 1420
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1422
+LAST CHANNEL   : 1422
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1424
+LAST CHANNEL   : 1428
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1430
+LAST CHANNEL   : 1433
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1435
+LAST CHANNEL   : 1459
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1461
+LAST CHANNEL   : 1478
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1480
+LAST CHANNEL   : 1481
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1483
+LAST CHANNEL   : 1483
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1485
+LAST CHANNEL   : 1486
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1488
+LAST CHANNEL   : 1494
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1496
+LAST CHANNEL   : 1499
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1501
+LAST CHANNEL   : 1521
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1523
+LAST CHANNEL   : 1524
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1526
+LAST CHANNEL   : 1566
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1568
+LAST CHANNEL   : 1582
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1584
+LAST CHANNEL   : 1584
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1586
+LAST CHANNEL   : 1606
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1608
+LAST CHANNEL   : 1612
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1614
+LAST CHANNEL   : 1618
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1620
+LAST CHANNEL   : 1660
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 511
+LAST CHANNEL   : 638
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 639
+LAST CHANNEL   : 766
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 767
+LAST CHANNEL   : 894
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 895
+LAST CHANNEL   : 1022
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 1023
+LAST CHANNEL   : 1150
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1662
+LAST CHANNEL   : 2303
+#
+#56 defects found affecting 2262 strips
+#697 maximum consecutive defects
+%Comment
+COMMENT        : Chip 0 (under) fit range adjusted (0.0fC - 1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 1 (under) fit range adjusted (0.0fC - 1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 2 (under) fit range adjusted (0.0fC - 1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 3 (under) fit range adjusted (0.0fC - 1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 4 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 5 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 6 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 7 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 8 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : FAIL due to chip 0 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 3 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 8 (under) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 8 (away) very low gain (< 55.000000)
+#
+%Comment
+COMMENT        : FAIL due to 2262 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 697 consecutive bad strips (more than 8)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/atlasitk/sctvar/results/ABCStar_R5H0_ppa_RC_499_1.txt
+#
