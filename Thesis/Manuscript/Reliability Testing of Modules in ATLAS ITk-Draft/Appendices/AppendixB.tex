@@ -87,3 +87,28 @@
 
 
 \end{comment}
+
+\section{DCS AMAC field}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|}
+    \hline
+    Measurement & Description                                                                                       \\ \hline \hline
+    Vin         & \begin{tabular}[c]{@{}c@{}}Input Voltage to DC/DC converter with \\ a $1/15$ divider\end{tabular} \\ \hline
+    Vout        & DC/DC converter output                                                                            \\ \hline
+    VDDLR       & Linear regulator output                                                                           \\ \hline
+    NTCx        & Hybrid x NTC temperature                                                                          \\ \hline
+    NTCx        & Hybrid y NTC temperature                                                                          \\ \hline
+    NTCpb       & Powrboard NTC temperature                                                                         \\ \hline
+    Iin         & DC/DC converter input current                                                                     \\ \hline
+    Iin\_Lo     & \begin{tabular}[c]{@{}c@{}}Current measurement calibration test\\ point low\end{tabular}          \\ \hline
+    Iin\_Hi     & \begin{tabular}[c]{@{}c@{}}Current measurement calibration test\\ point high\end{tabular}         \\ \hline
+    Iout        & DC/DC converter outputcurrent                                                                     \\ \hline
+    Iout\_Lo    & \begin{tabular}[c]{@{}c@{}}Current measurement calibration test\\ point low\end{tabular}          \\ \hline
+    Iout\_Hi    & \begin{tabular}[c]{@{}c@{}}Current measurement calibration test\\ point high\end{tabular}         \\ \hline
+    HVret       & Sensor HV bias return current                                                                     \\ \hline
+    \end{tabular}
+    \caption{Table of DCS AMAC fields with description of each measurement}
+    \label{tab:AMAC_params}
+\end{table}

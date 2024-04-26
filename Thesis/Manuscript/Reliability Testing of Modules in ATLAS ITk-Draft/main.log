@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.20)  24 APR 2024 15:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.20)  25 APR 2024 12:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1204,7 +1204,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
 
 ]
-<Figures/Intro/Detector reduce.png, id=225, 1129.21875pt x 583.42969pt>
+<Figures/Intro/Detector reduce.png, id=230, 1129.21875pt x 583.42969pt>
 File: Figures/Intro/Detector reduce.png Graphic file (type png)
 <use Figures/Intro/Detector reduce.png>
 Package pdftex.def Info: Figures/Intro/Detector reduce.png  used on input line 
@@ -1246,12 +1246,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-<Figures/Intro/component.PNG, id=240, 354.57469pt x 245.41687pt>
+<Figures/Intro/component.PNG, id=245, 354.57469pt x 245.41687pt>
 File: Figures/Intro/component.PNG Graphic file (type png)
 <use Figures/Intro/component.PNG>
 Package pdftex.def Info: Figures/Intro/component.PNG  used on input line 66.
 (pdftex.def)             Requested size: 184.99127pt x 128.0374pt.
-<Figures/Intro/fig_07Edited.png, id=241, 963.6pt x 542.025pt>
+<Figures/Intro/fig_07Edited.png, id=246, 963.6pt x 542.025pt>
 File: Figures/Intro/fig_07Edited.png Graphic file (type png)
 <use Figures/Intro/fig_07Edited.png>
 Package pdftex.def Info: Figures/Intro/fig_07Edited.png  used on input line 72.
@@ -1365,7 +1365,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
-<Figures/modules/modulelayout.jpg, id=256, 642.4pt x 480.79625pt>
+<Figures/modules/modulelayout.jpg, id=261, 642.4pt x 480.79625pt>
 File: Figures/modules/modulelayout.jpg Graphic file (type jpg)
 <use Figures/modules/modulelayout.jpg>
 Package pdftex.def Info: Figures/modules/modulelayout.jpg  used on input line 2
@@ -1396,13 +1396,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
-<Figures/modules/Pnjunction.png, id=258, 597.23125pt x 643.40375pt>
+<Figures/modules/Pnjunction.png, id=263, 597.23125pt x 643.40375pt>
 File: Figures/modules/Pnjunction.png Graphic file (type png)
 <use Figures/modules/Pnjunction.png>
 Package pdftex.def Info: Figures/modules/Pnjunction.png  used on input line 35.
 
 (pdftex.def)             Requested size: 184.93929pt x 199.2371pt.
-<Figures/modules/striplayout.PNG, id=259, 285.31593pt x 169.38281pt>
+<Figures/modules/striplayout.PNG, id=264, 285.31593pt x 169.38281pt>
 File: Figures/modules/striplayout.PNG Graphic file (type png)
 <use Figures/modules/striplayout.PNG>
 Package pdftex.def Info: Figures/modules/striplayout.PNG  used on input line 41
@@ -1470,7 +1470,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--75
 LaTeX Warning: Reference `tab:moduleLaout' on page 8 undefined on input line 77
 .
 
-<Figures/modules/Barrel_Modules.png, id=279, 470.75874pt x 271.0125pt>
+<Figures/modules/Barrel_Modules.png, id=284, 470.75874pt x 271.0125pt>
 File: Figures/modules/Barrel_Modules.png Graphic file (type png)
 <use Figures/modules/Barrel_Modules.png>
 Package pdftex.def Info: Figures/modules/Barrel_Modules.png  used on input line
@@ -1481,7 +1481,7 @@ Overfull \hbox (10.95465pt too wide) in paragraph at lines 82--83
  [][] 
  []
 
-<Figures/modules/EC_Modules.png, id=280, 1061.9675pt x 643.40375pt>
+<Figures/modules/EC_Modules.png, id=285, 1061.9675pt x 643.40375pt>
 File: Figures/modules/EC_Modules.png Graphic file (type png)
 <use Figures/modules/EC_Modules.png>
 Package pdftex.def Info: Figures/modules/EC_Modules.png  used on input line 87.
@@ -1525,12 +1525,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<Figures/test/coldbox-1.jpg, id=292, 792.9625pt x 1410.26875pt>
+<Figures/test/coldbox-1.jpg, id=297, 792.9625pt x 1410.26875pt>
 File: Figures/test/coldbox-1.jpg Graphic file (type jpg)
 <use Figures/test/coldbox-1.jpg>
 Package pdftex.def Info: Figures/test/coldbox-1.jpg  used on input line 18.
 (pdftex.def)             Requested size: 127.97765pt x 227.60583pt.
-<Figures/test/coldbox-2.jpg, id=293, 836.12375pt x 1486.55376pt>
+<Figures/test/coldbox-2.jpg, id=298, 836.12375pt x 1486.55376pt>
 File: Figures/test/coldbox-2.jpg Graphic file (type jpg)
 <use Figures/test/coldbox-2.jpg>
 Package pdftex.def Info: Figures/test/coldbox-2.jpg  used on input line 24.
@@ -1590,7 +1590,7 @@ Overfull \hbox (5.1651pt too wide) in paragraph at lines 51--52
 ing them in a cen-tral database
  []
 
-<Figures/test/test diagram2.png, id=319, 1445.4pt x 813.0375pt>
+<Figures/test/test diagram2.png, id=324, 1445.4pt x 813.0375pt>
 File: Figures/test/test diagram2.png Graphic file (type png)
 <use Figures/test/test diagram2.png>
 Package pdftex.def Info: Figures/test/test diagram2.png  used on input line 55.
@@ -1604,13 +1604,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-[11]
-
-LaTeX Warning: Reference `tab:AMAC_params' on page 12 undefined on input line 6
-7.
-
-[12 <./Figures/test/test diagram2.png>]
-<Figures/modules/occupancy.PNG, id=335, 852.93657pt x 404.26031pt>
+[11] [12 <./Figures/test/test diagram2.png>]
+<Figures/modules/occupancy.PNG, id=342, 852.93657pt x 404.26031pt>
 File: Figures/modules/occupancy.PNG Graphic file (type png)
 <use Figures/modules/occupancy.PNG>
 Package pdftex.def Info: Figures/modules/occupancy.PNG  used on input line 79.
@@ -1639,7 +1634,7 @@ Underfull \hbox (badness 1242) in paragraph at lines 80--80
 
 LaTeX Warning: Citation 'barr' on page 13 undefined on input line 86.
 
-<Figures/modules/threshold.png, id=336, 501.875pt x 388.45125pt>
+<Figures/modules/threshold.png, id=343, 501.875pt x 388.45125pt>
 File: Figures/modules/threshold.png Graphic file (type png)
 <use Figures/modules/threshold.png>
 Package pdftex.def Info: Figures/modules/threshold.png  used on input line 92.
@@ -1674,7 +1669,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-<Figures/test/IV1.png, id=361, 569.12625pt x 388.45125pt>
+<Figures/test/IV1.png, id=368, 569.12625pt x 388.45125pt>
 File: Figures/test/IV1.png Graphic file (type png)
 <use Figures/test/IV1.png>
 Package pdftex.def Info: Figures/test/IV1.png  used on input line 191.
@@ -1684,7 +1679,7 @@ Overfull \hbox (10.95744pt too wide) in paragraph at lines 191--192
  [][] 
  []
 
-<Figures/test/IV2.png, id=362, 569.12625pt x 388.45125pt>
+<Figures/test/IV2.png, id=369, 569.12625pt x 388.45125pt>
 File: Figures/test/IV2.png Graphic file (type png)
 <use Figures/test/IV2.png>
 Package pdftex.def Info: Figures/test/IV2.png  used on input line 197.
@@ -1783,86 +1778,104 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-<Figures/results/test_period.png, id=380, 1189.44376pt x 262.9825pt>
+<Figures/results/test_period.png, id=387, 1189.44376pt x 262.9825pt>
 File: Figures/results/test_period.png Graphic file (type png)
 <use Figures/results/test_period.png>
-Package pdftex.def Info: Figures/results/test_period.png  used on input line 24
+Package pdftex.def Info: Figures/results/test_period.png  used on input line 23
 .
 (pdftex.def)             Requested size: 398.32547pt x 88.06857pt.
-<Figures/results/LTRT_1_plot.png, id=386, 1156.32pt x 722.7pt>
+<Figures/results/LTRT_1_plot.png, id=393, 1156.32pt x 722.7pt>
 File: Figures/results/LTRT_1_plot.png Graphic file (type png)
 <use Figures/results/LTRT_1_plot.png>
 Package pdftex.def Info: Figures/results/LTRT_1_plot.png  used on input line 33
 .
 (pdftex.def)             Requested size: 199.16547pt x 124.47841pt.
-<Figures/results/LTRT_2_plot.png, id=387, 1156.32pt x 722.7pt>
+
+Overfull \hbox (10.9518pt too wide) in paragraph at lines 33--34
+ [][] 
+ []
+
+<Figures/results/LTRT_2_plot.png, id=394, 1156.32pt x 722.7pt>
 File: Figures/results/LTRT_2_plot.png Graphic file (type png)
 <use Figures/results/LTRT_2_plot.png>
 Package pdftex.def Info: Figures/results/LTRT_2_plot.png  used on input line 40
 .
 (pdftex.def)             Requested size: 199.16547pt x 124.47841pt.
 
+Overfull \hbox (10.9518pt too wide) in paragraph at lines 40--41
+ [][] 
+ []
+
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+<Figures/results/env_plot_20240404.png, id=397, 1806.75pt x 867.24pt>
+File: Figures/results/env_plot_20240404.png Graphic file (type png)
+<use Figures/results/env_plot_20240404.png>
+Package pdftex.def Info: Figures/results/env_plot_20240404.png  used on input l
+ine 54.
+(pdftex.def)             Requested size: 341.41139pt x 163.87747pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:amac_1' on page 19 undefined on input line 59.
+
+
+LaTeX Warning: Reference `fig:amac_1_large' on page 19 undefined on input line 
+59.
+
+<Figures/results/amac_el_plot_20240404_.png, id=402, 1806.75pt x 867.24pt>
+File: Figures/results/amac_el_plot_20240404_.png Graphic file (type png)
+<use Figures/results/amac_el_plot_20240404_.png>
+Package pdftex.def Info: Figures/results/amac_el_plot_20240404_.png  used on in
+put line 64.
+(pdftex.def)             Requested size: 341.41139pt x 163.87747pt.
+<Figures/results/amac_temp_plot_20240404_.png, id=403, 1806.75pt x 867.24pt>
+File: Figures/results/amac_temp_plot_20240404_.png Graphic file (type png)
+<use Figures/results/amac_temp_plot_20240404_.png>
+Package pdftex.def Info: Figures/results/amac_temp_plot_20240404_.png  used on 
+input line 71.
+(pdftex.def)             Requested size: 341.41139pt x 163.87747pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
 
 1: section
-[19 <./Figures/results/test_period.png (PNG copy)> <./Figures/results/LTRT_1_pl
-ot.png>]
-<Figures/results/env_plot_20240404_.png, id=401, 1806.75pt x 867.24pt>
-File: Figures/results/env_plot_20240404_.png Graphic file (type png)
-<use Figures/results/env_plot_20240404_.png>
-Package pdftex.def Info: Figures/results/env_plot_20240404_.png  used on input 
-line 51.
-(pdftex.def)             Requested size: 341.41139pt x 163.87747pt.
+[19 <./Figures/results/test_period.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
+ []
 
-LaTeX Warning: File `Figures/results/amac_plot_20240404_.png' not found on inpu
-t line 60.
-
-
-! Package pdftex.def Error: File `Figures/results/amac_plot_20240404_.png' not 
-found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 ...]{Figures/results/amac_plot_20240404_.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
-0.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [20 <./Figures/results/LTRT_2_plot.png> <./Figures/results/env_plot_20240404_
-.png>] [21{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super
--t1.enc}]
+) [20 <./Figures/results/LTRT_1_plot.png> <./Figures/results/LTRT_2_plot.png> <
+./Figures/results/env_plot_20240404.png>] [21 <./Figures/results/amac_el_plot_2
+0240404_.png> <./Figures/results/amac_temp_plot_20240404_.png>]
 \openout2 = `Appendices/AppendixA.aux'.
 
- (./Appendices/AppendixA.tex [22
+
+(./Appendices/AppendixA.tex [22
 
 
 
 
 ]
 Appendix A.
-<Figures/modules/Appendix/layout1.png, id=427, 381.67593pt x 204.01219pt>
+<Figures/modules/Appendix/layout1.png, id=439, 381.67593pt x 204.01219pt>
 File: Figures/modules/Appendix/layout1.png Graphic file (type png)
 <use Figures/modules/Appendix/layout1.png>
 Package pdftex.def Info: Figures/modules/Appendix/layout1.png  used on input li
 ne 11.
 (pdftex.def)             Requested size: 341.44933pt x 182.51039pt.
-<Figures/modules/Appendix/layout2.png, id=428, 454.3374pt x 307.8702pt>
+<Figures/modules/Appendix/layout2.png, id=440, 454.3374pt x 307.8702pt>
 File: Figures/modules/Appendix/layout2.png Graphic file (type png)
 <use Figures/modules/Appendix/layout2.png>
 Package pdftex.def Info: Figures/modules/Appendix/layout2.png  used on input li
@@ -1899,30 +1912,30 @@ LaTeX Warning: Citation 'tishelman2024quality' on page 24 undefined on input li
 ne 31.
 
 [24]
-<Figures/test/p-supplies.jpg, id=442, 1009.52156pt x 567.62062pt>
+<Figures/test/p-supplies.jpg, id=454, 1009.52156pt x 567.62062pt>
 File: Figures/test/p-supplies.jpg Graphic file (type jpg)
 <use Figures/test/p-supplies.jpg>
 Package pdftex.def Info: Figures/test/p-supplies.jpg  used on input line 40.
 (pdftex.def)             Requested size: 398.33304pt x 223.9695pt.
-<Figures/test/LV.jpg, id=443, 939.51pt x 1670.24pt>
+<Figures/test/LV.jpg, id=455, 939.51pt x 1670.24pt>
 File: Figures/test/LV.jpg Graphic file (type jpg)
 <use Figures/test/LV.jpg>
 Package pdftex.def Info: Figures/test/LV.jpg  used on input line 41.
 (pdftex.def)             Requested size: 112.01955pt x 199.14586pt.
-<Figures/test/HV.jpg, id=444, 1456.44125pt x 819.06pt>
+<Figures/test/HV.jpg, id=456, 1456.44125pt x 819.06pt>
 File: Figures/test/HV.jpg Graphic file (type jpg)
 <use Figures/test/HV.jpg>
 Package pdftex.def Info: Figures/test/HV.jpg  used on input line 42.
 (pdftex.def)             Requested size: 284.52715pt x 160.00975pt.
  [25 <./Figures/test/p-supplies.jpg> <./Figures/test/LV.jpg> <./Figures/test/HV
 .jpg>]
-<Figures/test/connections-2.jpg, id=449, 1175.89313pt x 661.72218pt>
+<Figures/test/connections-2.jpg, id=461, 1175.89313pt x 661.72218pt>
 File: Figures/test/connections-2.jpg Graphic file (type jpg)
 <use Figures/test/connections-2.jpg>
 Package pdftex.def Info: Figures/test/connections-2.jpg  used on input line 51.
 
 (pdftex.def)             Requested size: 284.51678pt x 160.109pt.
-<Figures/test/airflow-1.jpg, id=450, 1436.36626pt x 808.01875pt>
+<Figures/test/airflow-1.jpg, id=462, 1436.36626pt x 808.01875pt>
 File: Figures/test/airflow-1.jpg Graphic file (type jpg)
 <use Figures/test/airflow-1.jpg>
 Package pdftex.def Info: Figures/test/airflow-1.jpg  used on input line 58.
@@ -1932,7 +1945,7 @@ Overfull \hbox (25.17175pt too wide) in paragraph at lines 58--59
  [][] 
  []
 
-<Figures/test/airflow-2.jpg, id=451, 1515.6625pt x 852.18375pt>
+<Figures/test/airflow-2.jpg, id=463, 1515.6625pt x 852.18375pt>
 File: Figures/test/airflow-2.jpg Graphic file (type jpg)
 <use Figures/test/airflow-2.jpg>
 Package pdftex.def Info: Figures/test/airflow-2.jpg  used on input line 64.
@@ -1942,7 +1955,7 @@ Overfull \hbox (25.18024pt too wide) in paragraph at lines 64--65
  [][] 
  []
 
-<Figures/test/airflow-3.jpg, id=452, 1612.0225pt x 906.38625pt>
+<Figures/test/airflow-3.jpg, id=464, 1612.0225pt x 906.38625pt>
 File: Figures/test/airflow-3.jpg Graphic file (type jpg)
 <use Figures/test/airflow-3.jpg>
 Package pdftex.def Info: Figures/test/airflow-3.jpg  used on input line 70.
@@ -1954,13 +1967,13 @@ Overfull \hbox (25.16922pt too wide) in paragraph at lines 70--71
 
 [26 <./Figures/test/connections-2.jpg> <./Figures/test/airflow-1.jpg> <./Figure
 s/test/airflow-2.jpg> <./Figures/test/airflow-3.jpg>]
-<Figures/test/connections-5.jpg, id=457, 1047.915pt x 589.4522pt>
+<Figures/test/connections-5.jpg, id=469, 1047.915pt x 589.4522pt>
 File: Figures/test/connections-5.jpg Graphic file (type jpg)
 <use Figures/test/connections-5.jpg>
 Package pdftex.def Info: Figures/test/connections-5.jpg  used on input line 81.
 
 (pdftex.def)             Requested size: 284.52382pt x 160.04465pt.
-<Figures/test/connections-3.jpg, id=458, 1227.08438pt x 690.32906pt>
+<Figures/test/connections-3.jpg, id=470, 1227.08438pt x 690.32906pt>
 File: Figures/test/connections-3.jpg Graphic file (type jpg)
 <use Figures/test/connections-3.jpg>
 Package pdftex.def Info: Figures/test/connections-3.jpg  used on input line 90.
@@ -1971,7 +1984,7 @@ Overfull \hbox (10.95113pt too wide) in paragraph at lines 90--91
  [][] 
  []
 
-<Figures/test/connections-6.jpg, id=459, 1482.53876pt x 834.11626pt>
+<Figures/test/connections-6.jpg, id=471, 1482.53876pt x 834.11626pt>
 File: Figures/test/connections-6.jpg Graphic file (type jpg)
 <use Figures/test/connections-6.jpg>
 Package pdftex.def Info: Figures/test/connections-6.jpg  used on input line 96.
@@ -1982,7 +1995,7 @@ Overfull \hbox (10.9477pt too wide) in paragraph at lines 96--97
  [][] 
  []
 
-<Figures/test/connections-4.jpg, id=460, 1507.6325pt x 848.16875pt>
+<Figures/test/connections-4.jpg, id=472, 1507.6325pt x 848.16875pt>
 File: Figures/test/connections-4.jpg Graphic file (type jpg)
 <use Figures/test/connections-4.jpg>
 Package pdftex.def Info: Figures/test/connections-4.jpg  used on input line 102
@@ -1995,25 +2008,25 @@ Overfull \hbox (10.93706pt too wide) in paragraph at lines 102--103
 
 [27 <./Figures/test/connections-5.jpg> <./Figures/test/connections-3.jpg> <./Fi
 gures/test/connections-6.jpg> <./Figures/test/connections-4.jpg>]
-<Figures/test/interlock.jpg, id=466, 945.5325pt x 1680.2775pt>
+<Figures/test/interlock.jpg, id=478, 945.5325pt x 1680.2775pt>
 File: Figures/test/interlock.jpg Graphic file (type jpg)
 <use Figures/test/interlock.jpg>
 Package pdftex.def Info: Figures/test/interlock.jpg  used on input line 113.
 (pdftex.def)             Requested size: 176.11827pt x 312.9745pt.
  [28 <./Figures/test/interlock.jpg>]
-<Figures/test/installation-4.jpg, id=471, 864.22874pt x 1536.74126pt>
+<Figures/test/installation-4.jpg, id=483, 864.22874pt x 1536.74126pt>
 File: Figures/test/installation-4.jpg Graphic file (type jpg)
 <use Figures/test/installation-4.jpg>
 Package pdftex.def Info: Figures/test/installation-4.jpg  used on input line 12
 3.
 (pdftex.def)             Requested size: 135.99806pt x 241.827pt.
-<Figures/test/installation-2.jpg, id=472, 833.1125pt x 1481.535pt>
+<Figures/test/installation-2.jpg, id=484, 833.1125pt x 1481.535pt>
 File: Figures/test/installation-2.jpg Graphic file (type jpg)
 <use Figures/test/installation-2.jpg>
 Package pdftex.def Info: Figures/test/installation-2.jpg  used on input line 12
 9.
 (pdftex.def)             Requested size: 135.99571pt x 241.84299pt.
-<Figures/test/installation-1.jpg, id=473, 816.04875pt x 1451.4225pt>
+<Figures/test/installation-1.jpg, id=485, 816.04875pt x 1451.4225pt>
 File: Figures/test/installation-1.jpg Graphic file (type jpg)
 <use Figures/test/installation-1.jpg>
 Package pdftex.def Info: Figures/test/installation-1.jpg  used on input line 13
@@ -2047,10 +2060,10 @@ Overfull \hbox (17.81964pt too wide) in paragraph at lines 154--155
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: Figures/results/env_plot_20240404_.png Graphic file (type png)
-<use Figures/results/env_plot_20240404_.png>
-Package pdftex.def Info: Figures/results/env_plot_20240404_.png  used on input 
-line 161.
+File: Figures/results/env_plot_20240404.png Graphic file (type png)
+<use Figures/results/env_plot_20240404.png>
+Package pdftex.def Info: Figures/results/env_plot_20240404.png  used on input l
+ine 161.
 (pdftex.def)             Requested size: 711.32889pt x 341.43787pt.
 
 Overfull \hbox (17.83067pt too wide) in paragraph at lines 161--162
@@ -2060,39 +2073,45 @@ Overfull \hbox (17.83067pt too wide) in paragraph at lines 161--162
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+File: Figures/results/amac_el_plot_20240404_.png Graphic file (type png)
+<use Figures/results/amac_el_plot_20240404_.png>
+Package pdftex.def Info: Figures/results/amac_el_plot_20240404_.png  used on in
+put line 168.
+(pdftex.def)             Requested size: 711.32889pt x 341.43787pt.
 
-LaTeX Warning: File `Figures/results/amac_plot_20240404_.png' not found on inpu
-t line 168.
-
-
-! Package pdftex.def Error: File `Figures/results/amac_plot_20240404_.png' not 
-found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168 ...{Figures/results/amac_plot_20240404_.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (17.83067pt too wide) in paragraph at lines 168--169
+ [][] 
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [30] [31] [32] [33] [34]
+File: Figures/results/amac_temp_plot_20240404_.png Graphic file (type png)
+<use Figures/results/amac_temp_plot_20240404_.png>
+Package pdftex.def Info: Figures/results/amac_temp_plot_20240404_.png  used on 
+input line 175.
+(pdftex.def)             Requested size: 711.32889pt x 341.43787pt.
+
+Overfull \hbox (17.83067pt too wide) in paragraph at lines 175--176
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [30] [31] [32] [33] [34] [35]
 \openout2 = `Appendices/AppendixB.aux'.
 
- (./Appendices/AppendixB.tex
+ (./Appendices/AppendixB.tex [36
+
+
+
+
+]
 Appendix B.
 Excluding 'comment' comment.)
 1: section
-[35
-
-
-
-
-] [36
+[37] [38
 
 
 
@@ -2106,7 +2125,7 @@ Excluding 'comment' comment. Excluding 'comment' comment.
 LaTeX Warning: Empty bibliography on input line 295.
 
 1: section
-[37] (./main.aux (./Chapters/Introduction.aux) (./Chapters/Modules.aux)
+[39] (./main.aux (./Chapters/Introduction.aux) (./Chapters/Modules.aux)
 (./Chapters/Test.aux) (./Chapters/Results.aux) (./Appendices/AppendixA.aux)
 (./Appendices/AppendixB.aux))
 
@@ -2116,7 +2135,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E5A8FF98EC4F06AE59D36097CA999545;5611.
+(rerunfilecheck)             Checksum: 7D3C33932312C785FE99EE015A16D0F9;5743.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -2127,26 +2146,25 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31601 strings out of 476025
- 685153 string characters out of 5790017
+ 31565 strings out of 476025
+ 683775 string characters out of 5790017
  1879388 words of memory out of 5000000
- 51434 multiletter control sequences out of 15000+600000
- 576536 words of font info for 159 fonts, out of 8000000 for 9000
+ 51411 multiletter control sequences out of 15000+600000
+ 576222 words of font info for 158 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,20n,93p,2128b,2838s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/
 local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/loca
-l/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/
-texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive
-/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2023/t
-exmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2023/texmf-di
-st/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (39 pages, 16159469 bytes).
+l/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texli
+ve/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2023
+/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (41 pages, 17258138 bytes).
 PDF statistics:
- 591 PDF objects out of 1000 (max. 8388607)
- 472 compressed objects within 5 object streams
- 122 named destinations out of 1000 (max. 500000)
- 493 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 616 PDF objects out of 1000 (max. 8388607)
+ 487 compressed objects within 5 object streams
+ 126 named destinations out of 1000 (max. 500000)
+ 511 words of extra memory for PDF output out of 10000 (max. 10000000)
 

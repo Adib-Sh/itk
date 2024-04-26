@@ -27,14 +27,15 @@
 \contentsline {subsection}{\numberline {3.2.4}Noise occupancy}{16}{subsection.47}%
 \contentsline {subsection}{\numberline {3.2.5}I-V test}{16}{subsection.48}%
 \contentsline {chapter}{\numberline {4}Results}{19}{chapter.50}%
-\contentsline {chapter}{\numberline {A}Additional figures and plots}{23}{appendix.57}%
-\contentsline {section}{\numberline {A.1}ITK detector and modules layout}{23}{section.58}%
-\contentsline {section}{\numberline {A.2}Barel and Enc-cap modules}{24}{section.60}%
-\contentsline {section}{\numberline {A.3}Coldbox}{25}{section.62}%
-\contentsline {subsection}{\numberline {A.3.1}Power supllies}{25}{subsection.63}%
-\contentsline {subsection}{\numberline {A.3.2}Temperature and air flow}{26}{subsection.65}%
-\contentsline {subsection}{\numberline {A.3.3}Electronics and connections}{27}{subsection.68}%
-\contentsline {subsection}{\numberline {A.3.4}Interlock}{28}{subsection.71}%
-\contentsline {subsection}{\numberline {A.3.5}Installation of modules}{29}{subsection.73}%
-\contentsline {section}{\numberline {A.4}Large format of Results' plots}{30}{section.75}%
-\contentsline {chapter}{\numberline {B}Appendix B: Additional tables}{35}{appendix.80}%
+\contentsline {chapter}{\numberline {A}Additional figures and plots}{23}{appendix.56}%
+\contentsline {section}{\numberline {A.1}ITK detector and modules layout}{23}{section.57}%
+\contentsline {section}{\numberline {A.2}Barel and Enc-cap modules}{24}{section.59}%
+\contentsline {section}{\numberline {A.3}Coldbox}{25}{section.61}%
+\contentsline {subsection}{\numberline {A.3.1}Power supllies}{25}{subsection.62}%
+\contentsline {subsection}{\numberline {A.3.2}Temperature and air flow}{26}{subsection.64}%
+\contentsline {subsection}{\numberline {A.3.3}Electronics and connections}{27}{subsection.67}%
+\contentsline {subsection}{\numberline {A.3.4}Interlock}{28}{subsection.70}%
+\contentsline {subsection}{\numberline {A.3.5}Installation of modules}{29}{subsection.72}%
+\contentsline {section}{\numberline {A.4}Large format of Results' plots}{30}{section.74}%
+\contentsline {chapter}{\numberline {B}Appendix B: Additional tables}{37}{appendix.80}%
+\contentsline {section}{\numberline {B.1}DCS AMAC field}{37}{section.81}%
