@@ -1,0 +1,41 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Modules}{5}{chapter.8}%
+\contentsline {section}{\numberline {2.1}ITk Strip Module Design }{5}{section.9}%
+\contentsline {subsection}{\numberline {2.1.1}n$^+$-in-p silicon sensor}{5}{subsection.12}%
+\contentsline {subsection}{\numberline {2.1.2}Hybrid}{7}{subsection.14}%
+\contentsline {subsection}{\numberline {2.1.3}Power board}{7}{subsection.15}%
+\contentsline {section}{\numberline {2.2}ITk Detector Design}{7}{section.16}%
+\contentsline {subsection}{\numberline {2.2.1}Barrel modules}{8}{subsection.17}%
+\contentsline {subsection}{\numberline {2.2.2}End-cap modules}{8}{subsection.18}%
+\contentsline {chapter}{\numberline {3}Test and Test setup}{9}{chapter.20}%
+\contentsline {section}{\numberline {3.1}Test Setup}{9}{section.21}%
+\contentsline {subsection}{\numberline {3.1.1}Coldbox}{9}{subsection.23}%
+\contentsline {subsection}{\numberline {3.1.2}Test Software and Controls}{11}{subsection.25}%
+\contentsline {subsection}{\numberline {3.1.3}The Environmental Data}{11}{subsection.28}%
+\contentsline {subsection}{\numberline {3.1.4}The Electrical Data}{12}{subsection.29}%
+\contentsline {subsection}{\numberline {3.1.5}Physics behind the tests}{12}{subsection.30}%
+\contentsline {subsubsection}{Occupancy}{12}{section*.31}%
+\contentsline {subsubsection}{Gain}{13}{section*.33}%
+\contentsline {subsubsection}{Threshold (Voltage threshold)}{13}{section*.34}%
+\contentsline {subsubsection}{Noise}{14}{section*.36}%
+\contentsline {subsubsection}{Dew point}{14}{section*.38}%
+\contentsline {section}{\numberline {3.2}ABCstar full test}{15}{section.43}%
+\contentsline {subsection}{\numberline {3.2.1}Trim range test}{15}{subsection.44}%
+\contentsline {subsection}{\numberline {3.2.2}Strobe delay test}{15}{subsection.45}%
+\contentsline {subsection}{\numberline {3.2.3}Response curve}{16}{subsection.46}%
+\contentsline {subsection}{\numberline {3.2.4}Noise occupancy}{16}{subsection.47}%
+\contentsline {subsection}{\numberline {3.2.5}I-V test}{16}{subsection.48}%
+\contentsline {chapter}{\numberline {4}Results}{19}{chapter.50}%
+\contentsline {chapter}{\numberline {A}Additional figures and plots}{23}{appendix.56}%
+\contentsline {section}{\numberline {A.1}ITK detector and modules layout}{23}{section.57}%
+\contentsline {section}{\numberline {A.2}Barel and Enc-cap modules}{24}{section.59}%
+\contentsline {section}{\numberline {A.3}Coldbox}{25}{section.61}%
+\contentsline {subsection}{\numberline {A.3.1}Power supllies}{25}{subsection.62}%
+\contentsline {subsection}{\numberline {A.3.2}Temperature and air flow}{26}{subsection.64}%
+\contentsline {subsection}{\numberline {A.3.3}Electronics and connections}{27}{subsection.67}%
+\contentsline {subsection}{\numberline {A.3.4}Interlock}{28}{subsection.70}%
+\contentsline {subsection}{\numberline {A.3.5}Installation of modules}{29}{subsection.72}%
+\contentsline {section}{\numberline {A.4}Large format of Results' plots}{30}{section.74}%
+\contentsline {chapter}{\numberline {B}Appendix B: Additional tables}{37}{appendix.80}%
+\contentsline {section}{\numberline {B.1}DCS AMAC field}{37}{section.81}%

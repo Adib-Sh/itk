@@ -1269,4 +1269,802 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
  []
 
 
-LaTeX Warning: Citation 'sykora2019itk' on p
+LaTeX Warning: Citation 'sykora2019itk' on page 7 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Collaboration:390920' on page 7 undefined on input line 64.
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+LaTeX Warning: Reference `fig:picModules' on page 8 undefined on input line 77.
+
+
+LaTeX Warning: Reference `fig:picModules-large' on page 8 undefined on input line 77.
+
+
+LaTeX Warning: Reference `tab:moduleLaout' on page 8 undefined on input line 77.
+
+<Figures/modules/Barrel_Modules.png, id=84, 470.75874pt x 271.0125pt>
+File: Figures/modules/Barrel_Modules.png Graphic file (type png)
+<use Figures/modules/Barrel_Modules.png>
+Package pdftex.def Info: Figures/modules/Barrel_Modules.png  used on input line 82.
+(pdftex.def)             Requested size: 199.16832pt x 114.65979pt.
+
+Overfull \hbox (10.95465pt too wide) in paragraph at lines 82--83
+ [][] 
+ []
+
+<Figures/modules/EC_Modules.png, id=85, 1061.9675pt x 643.40375pt>
+File: Figures/modules/EC_Modules.png Graphic file (type png)
+<use Figures/modules/EC_Modules.png>
+Package pdftex.def Info: Figures/modules/EC_Modules.png  used on input line 87.
+(pdftex.def)             Requested size: 199.16702pt x 120.66736pt.
+
+Overfull \hbox (10.95335pt too wide) in paragraph at lines 87--88
+ [][] 
+ []
+
+
+LaTeX Warning: Citation 'tishelman2024quality' on page 8 undefined on input line 90.
+
+
+LaTeX Warning: Citation 'tishelman2024quality' on page 8 undefined on input line 90.
+
+
+LaTeX Warning: Reference `fig:additionalLayout' on page 8 undefined on input line 94.
+
+
+LaTeX Warning: Citation 'Collaboration:390920' on page 8 undefined on input line 94.
+
+
+Overfull \hbox (3.87334pt too wide) in paragraph at lines 94--95
+\T1/ppl/m/n/10.95 overviews of the de-tec-tor and mod-ules' lay-out are shown in Fig.[][]. 
+ []
+
+) [8 <./Figures/modules/Barrel_Modules.png> <./Figures/modules/EC_Modules.png>]
+\openout2 = `Chapters/Test.aux'.
+
+ (./Chapters/Test.tex
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+LaTeX Warning: Reference `fig:coldbox' on page 9 undefined on input line 12.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+<Figures/test/coldbox-1.jpg, id=95, 792.9625pt x 1410.26875pt>
+File: Figures/test/coldbox-1.jpg Graphic file (type jpg)
+<use Figures/test/coldbox-1.jpg>
+Package pdftex.def Info: Figures/test/coldbox-1.jpg  used on input line 18.
+(pdftex.def)             Requested size: 127.97765pt x 227.60583pt.
+<Figures/test/coldbox-2.jpg, id=96, 836.12375pt x 1486.55376pt>
+File: Figures/test/coldbox-2.jpg Graphic file (type jpg)
+<use Figures/test/coldbox-2.jpg>
+Package pdftex.def Info: Figures/test/coldbox-2.jpg  used on input line 24.
+(pdftex.def)             Requested size: 128.01582pt x 227.60077pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+LaTeX Warning: Reference `fig:supplies' on page 9 undefined on input line 34.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+1: section
+[9
+
+
+
+
+]
+
+LaTeX Warning: Reference `fig:cooling' on page 10 undefined on input line 36.
+
+
+LaTeX Warning: Reference `fig:airflow1' on page 10 undefined on input line 37.
+
+
+LaTeX Warning: Reference `fig:airflow3' on page 10 undefined on input line 37.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+ []
+
+
+LaTeX Warning: Reference `fig:connections' on page 10 undefined on input line 39.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+LaTeX Warning: Reference `eq:dewpoint' on page 10 undefined on input line 41.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+LaTeX Warning: Reference `fig:interlock' on page 10 undefined on input line 43.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+[10 <./Figures/test/coldbox-1.jpg> <./Figures/test/coldbox-2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+
+LaTeX Warning: Reference `fig:testworkflow' on page 11 undefined on input line 51.
+
+
+Overfull \hbox (5.1651pt too wide) in paragraph at lines 51--52
+\T1/ppl/m/n/10.95 taken into ac-count was keep-ing these records safe and keep-ing them in a cen-tral database
+ []
+
+<Figures/test/test diagram2.png, id=111, 1445.4pt x 813.0375pt>
+File: Figures/test/test diagram2.png Graphic file (type png)
+<use Figures/test/test diagram2.png>
+Package pdftex.def Info: Figures/test/test diagram2.png  used on input line 55.
+(pdftex.def)             Requested size: 284.53156pt x 160.049pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+[11]
+
+LaTeX Warning: Reference `tab:AMAC_params' on page 12 undefined on input line 67.
+
+
+LaTeX Warning: Reference `fig:occupancy' on page 12 undefined on input line 74.
+
+[12 <./Figures/test/test diagram2.png>]
+<Figures/modules/occupancy.PNG, id=130, 852.93657pt x 404.26031pt>
+File: Figures/modules/occupancy.PNG Graphic file (type png)
+<use Figures/modules/occupancy.PNG>
+Package pdftex.def Info: Figures/modules/occupancy.PNG  used on input line 79.
+(pdftex.def)             Requested size: 227.61491pt x 107.88103pt.
+
+
+LaTeX Warning: Citation 'materClassDetection' on page 13 undefined on input line 80.
+
+
+LaTeX Warning: Citation 'materClassDetection' on page 13 undefined on input line 80.
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 80--80
+ []\T1/ppl/m/sc/10 Figure 3.3: |\T1/ppl/m/n/10 The schematic view of the de-tec-tion of the par-ti-cles 
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 80--80
+ \T1/ppl/m/n/10 by the sil-i-con de-tec-tor with a) low oc-cu-pancy (left), and b) high 
+ []
+
+
+LaTeX Warning: Citation 'barr' on page 13 undefined on input line 86.
+
+<Figures/modules/threshold.png, id=131, 501.875pt x 388.45125pt>
+File: Figures/modules/threshold.png Graphic file (type png)
+<use Figures/modules/threshold.png>
+Package pdftex.def Info: Figures/modules/threshold.png  used on input line 92.
+(pdftex.def)             Requested size: 199.16888pt x 154.15672pt.
+
+LaTeX Warning: Reference `fig:threshold' on page 13 undefined on input line 96.
+
+[13 <./Figures/modules/occupancy.PNG> <./Figures/modules/threshold.png>] [14]
+Overfull \hbox (30.94534pt too wide) detected at line 138
+\OML/zplm/m/it/10.95 m[] \OT1/zplm/m/n/10.95 = [] \OML/zplm/m/it/10.95 m[] \OT1/zplm/m/n/10.95 = [] \OML/zplm/m/it/10.95 m[] \OT1/zplm/m/n/10.95 = [] \OML/zplm/m/it/10.95 m[] \OT1/zplm/m/n/10.95 = []
+ []
+
+
+LaTeX Warning: Citation 'DPformula' on page 15 undefined on input line 158.
+
+
+LaTeX Warning: Citation 'ARGOS2019112' on page 15 undefined on input line 167.
+
+
+LaTeX Warning: Citation 'ARGOS2019112' on page 15 undefined on input line 170.
+
+
+LaTeX Warning: Citation 'ARGOS2019112' on page 15 undefined on input line 173.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+
+ []
+
+
+LaTeX Warning: Reference `fig:IV' on page 16 undefined on input line 185.
+
+<Figures/test/IV1.png, id=163, 569.12625pt x 388.45125pt>
+File: Figures/test/IV1.png Graphic file (type png)
+<use Figures/test/IV1.png>
+Package pdftex.def Info: Figures/test/IV1.png  used on input line 191.
+(pdftex.def)             Requested size: 199.17111pt x 135.94218pt.
+
+Overfull \hbox (10.95744pt too wide) in paragraph at lines 191--192
+ [][] 
+ []
+
+<Figures/test/IV2.png, id=164, 569.12625pt x 388.45125pt>
+File: Figures/test/IV2.png Graphic file (type png)
+<use Figures/test/IV2.png>
+Package pdftex.def Info: Figures/test/IV2.png  used on input line 197.
+(pdftex.def)             Requested size: 199.17111pt x 135.94218pt.
+
+Overfull \hbox (10.95744pt too wide) in paragraph at lines 197--198
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [16] [17 <./Figures/test/IV1.png> <./Figures/test/IV2.png>]
+\openout2 = `Chapters/Results.aux'.
+
+ (./Chapters/Results.tex [18
+
+
+
+
+]
+Chapter 4.
+
+./Chapters/Results.tex:10: LaTeX Error: Command \keyword already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \newcommand{\keyword}[1]{\textbf{#1}}
+                                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Chapters/Results.tex:11: LaTeX Error: Command \tabhead already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \newcommand{\tabhead}[1]{\textbf{#1}}
+                                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Chapters/Results.tex:12: LaTeX Error: Command \code already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \newcommand{\code}[1]{\texttt{#1}}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Chapters/Results.tex:13: LaTeX Error: Command \file already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \newcommand{\file}[1]{\texttt{\bfseries#1}}
+                                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Chapters/Results.tex:14: LaTeX Error: Command \option already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \newcommand{\option}[1]{\texttt{\itshape#1}}
+                                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+<Figures/results/test_period.png, id=185, 1189.44376pt x 262.9825pt>
+File: Figures/results/test_period.png Graphic file (type png)
+<use Figures/results/test_period.png>
+Package pdftex.def Info: Figures/results/test_period.png  used on input line 23.
+(pdftex.def)             Requested size: 398.32547pt x 88.06857pt.
+
+LaTeX Warning: Reference `fig:LTRTinflux' on page 19 undefined on input line 28.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_1' on page 19 undefined on input line 28.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_2' on page 19 undefined on input line 28.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_1_large' on page 19 undefined on input line 28.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_2_large' on page 19 undefined on input line 28.
+
+<Figures/results/LTRT_1_plot.png, id=186, 1156.32pt x 722.7pt>
+File: Figures/results/LTRT_1_plot.png Graphic file (type png)
+<use Figures/results/LTRT_1_plot.png>
+Package pdftex.def Info: Figures/results/LTRT_1_plot.png  used on input line 33.
+(pdftex.def)             Requested size: 199.16547pt x 124.47841pt.
+
+Overfull \hbox (10.9518pt too wide) in paragraph at lines 33--34
+ [][] 
+ []
+
+<Figures/results/LTRT_2_plot.png, id=187, 1156.32pt x 722.7pt>
+File: Figures/results/LTRT_2_plot.png Graphic file (type png)
+<use Figures/results/LTRT_2_plot.png>
+Package pdftex.def Info: Figures/results/LTRT_2_plot.png  used on input line 40.
+(pdftex.def)             Requested size: 199.16547pt x 124.47841pt.
+
+Overfull \hbox (10.9518pt too wide) in paragraph at lines 40--41
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+LaTeX Warning: Reference `fig:env_1' on page 19 undefined on input line 50.
+
+
+LaTeX Warning: Reference `fig:env_1_large' on page 19 undefined on input line 50.
+
+<Figures/results/env_plot_20240404.png, id=188, 1806.75pt x 867.24pt>
+File: Figures/results/env_plot_20240404.png Graphic file (type png)
+<use Figures/results/env_plot_20240404.png>
+Package pdftex.def Info: Figures/results/env_plot_20240404.png  used on input line 54.
+(pdftex.def)             Requested size: 341.41139pt x 163.87747pt.
+
+LaTeX Warning: Reference `fig:LTRT_result_1' on page 19 undefined on input line 55.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_2' on page 19 undefined on input line 55.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_1' on page 19 undefined on input line 55.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_2' on page 19 undefined on input line 55.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:amac_1' on page 19 undefined on input line 59.
+
+
+LaTeX Warning: Reference `fig:amac_1_large' on page 19 undefined on input line 59.
+
+<Figures/results/amac_el_plot_20240404_.png, id=189, 1806.75pt x 867.24pt>
+File: Figures/results/amac_el_plot_20240404_.png Graphic file (type png)
+<use Figures/results/amac_el_plot_20240404_.png>
+Package pdftex.def Info: Figures/results/amac_el_plot_20240404_.png  used on input line 64.
+(pdftex.def)             Requested size: 341.41139pt x 163.87747pt.
+<Figures/results/amac_temp_plot_20240404_.png, id=190, 1806.75pt x 867.24pt>
+File: Figures/results/amac_temp_plot_20240404_.png Graphic file (type png)
+<use Figures/results/amac_temp_plot_20240404_.png>
+Package pdftex.def Info: Figures/results/amac_temp_plot_20240404_.png  used on input line 71.
+(pdftex.def)             Requested size: 341.41139pt x 163.87747pt.
+
+LaTeX Warning: Reference `fig:LTRT_result_1' on page 19 undefined on input line 75.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_2' on page 19 undefined on input line 75.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_1' on page 19 undefined on input line 75.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_2' on page 19 undefined on input line 75.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
+
+ []
+
+1: section
+[19 <./Figures/results/test_period.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:amac_el' on page 20 undefined on input line 82.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+LaTeX Warning: Reference `fig:amac_temp' on page 20 undefined on input line 84.
+
+) [20 <./Figures/results/LTRT_1_plot.png> <./Figures/results/LTRT_2_plot.png> <./Figures/results/env_plot_20240404.png>] [21 <./Figures/results/amac_el_plot_20240404_.png> <./Figures/results/amac_temp_plot_20240404_.png>]
+\openout2 = `Appendices/AppendixA.aux'.
+
+ (./Appendices/AppendixA.tex [22
+
+
+
+
+]
+Appendix A.
+<Figures/modules/Appendix/layout1.png, id=218, 381.67593pt x 204.01219pt>
+File: Figures/modules/Appendix/layout1.png Graphic file (type png)
+<use Figures/modules/Appendix/layout1.png>
+Package pdftex.def Info: Figures/modules/Appendix/layout1.png  used on input line 11.
+(pdftex.def)             Requested size: 341.44933pt x 182.51039pt.
+<Figures/modules/Appendix/layout2.png, id=219, 454.3374pt x 307.8702pt>
+File: Figures/modules/Appendix/layout2.png Graphic file (type png)
+<use Figures/modules/Appendix/layout2.png>
+Package pdftex.def Info: Figures/modules/Appendix/layout2.png  used on input line 12.
+(pdftex.def)             Requested size: 312.99399pt x 212.09242pt.
+
+LaTeX Warning: Citation 'Collaboration:390920' on page 23 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'Collaboration:390920' on page 23 undefined on input line 13.
+
+1: section
+[23 <./Figures/modules/Appendix/Layout1.PNG> <./Figures/modules/Appendix/layout2.png>]
+File: Figures/modules/Barrel_Modules.png Graphic file (type png)
+<use Figures/modules/Barrel_Modules.png>
+Package pdftex.def Info: Figures/modules/Barrel_Modules.png  used on input line 22.
+(pdftex.def)             Requested size: 398.34384pt x 229.32373pt.
+File: Figures/modules/EC_Modules.png Graphic file (type png)
+<use Figures/modules/EC_Modules.png>
+Package pdftex.def Info: Figures/modules/EC_Modules.png  used on input line 28.
+(pdftex.def)             Requested size: 398.33406pt x 241.33472pt.
+
+
+LaTeX Warning: Citation 'tishelman2024quality' on page 24 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'tishelman2024quality' on page 24 undefined on input line 31.
+
+[24]
+<Figures/test/p-supplies.jpg, id=237, 1009.52156pt x 567.62062pt>
+File: Figures/test/p-supplies.jpg Graphic file (type jpg)
+<use Figures/test/p-supplies.jpg>
+Package pdftex.def Info: Figures/test/p-supplies.jpg  used on input line 40.
+(pdftex.def)             Requested size: 398.33304pt x 223.9695pt.
+<Figures/test/LV.jpg, id=238, 939.51pt x 1670.24pt>
+File: Figures/test/LV.jpg Graphic file (type jpg)
+<use Figures/test/LV.jpg>
+Package pdftex.def Info: Figures/test/LV.jpg  used on input line 41.
+(pdftex.def)             Requested size: 112.01955pt x 199.14586pt.
+<Figures/test/HV.jpg, id=239, 1456.44125pt x 819.06pt>
+File: Figures/test/HV.jpg Graphic file (type jpg)
+<use Figures/test/HV.jpg>
+Package pdftex.def Info: Figures/test/HV.jpg  used on input line 42.
+(pdftex.def)             Requested size: 284.52715pt x 160.00975pt.
+ [25 <./Figures/test/p-supplies.jpg> <./Figures/test/LV.jpg> <./Figures/test/HV.jpg>]
+<Figures/test/connections-2.jpg, id=247, 1175.89313pt x 661.72218pt>
+File: Figures/test/connections-2.jpg Graphic file (type jpg)
+<use Figures/test/connections-2.jpg>
+Package pdftex.def Info: Figures/test/connections-2.jpg  used on input line 51.
+(pdftex.def)             Requested size: 284.51678pt x 160.109pt.
+<Figures/test/airflow-1.jpg, id=248, 1436.36626pt x 808.01875pt>
+File: Figures/test/airflow-1.jpg Graphic file (type jpg)
+<use Figures/test/airflow-1.jpg>
+Package pdftex.def Info: Figures/test/airflow-1.jpg  used on input line 58.
+(pdftex.def)             Requested size: 213.38542pt x 120.03862pt.
+
+Overfull \hbox (25.17175pt too wide) in paragraph at lines 58--59
+ [][] 
+ []
+
+<Figures/test/airflow-2.jpg, id=249, 1515.6625pt x 852.18375pt>
+File: Figures/test/airflow-2.jpg Graphic file (type jpg)
+<use Figures/test/airflow-2.jpg>
+Package pdftex.def Info: Figures/test/airflow-2.jpg  used on input line 64.
+(pdftex.def)             Requested size: 213.3939pt x 119.98108pt.
+
+Overfull \hbox (25.18024pt too wide) in paragraph at lines 64--65
+ [][] 
+ []
+
+<Figures/test/airflow-3.jpg, id=250, 1612.0225pt x 906.38625pt>
+File: Figures/test/airflow-3.jpg Graphic file (type jpg)
+<use Figures/test/airflow-3.jpg>
+Package pdftex.def Info: Figures/test/airflow-3.jpg  used on input line 70.
+(pdftex.def)             Requested size: 213.38289pt x 119.97804pt.
+
+Overfull \hbox (25.16922pt too wide) in paragraph at lines 70--71
+ [][] 
+ []
+
+[26 <./Figures/test/connections-2.jpg> <./Figures/test/airflow-1.jpg> <./Figures/test/airflow-2.jpg> <./Figures/test/airflow-3.jpg>]
+<Figures/test/connections-5.jpg, id=258, 1047.915pt x 589.4522pt>
+File: Figures/test/connections-5.jpg Graphic file (type jpg)
+<use Figures/test/connections-5.jpg>
+Package pdftex.def Info: Figures/test/connections-5.jpg  used on input line 81.
+(pdftex.def)             Requested size: 284.52382pt x 160.04465pt.
+<Figures/test/connections-3.jpg, id=259, 1227.08438pt x 690.32906pt>
+File: Figures/test/connections-3.jpg Graphic file (type jpg)
+<use Figures/test/connections-3.jpg>
+Package pdftex.def Info: Figures/test/connections-3.jpg  used on input line 90.
+(pdftex.def)             Requested size: 199.1648pt x 112.04547pt.
+
+Overfull \hbox (10.95113pt too wide) in paragraph at lines 90--91
+ [][] 
+ []
+
+<Figures/test/connections-6.jpg, id=260, 1482.53876pt x 834.11626pt>
+File: Figures/test/connections-6.jpg Graphic file (type jpg)
+<use Figures/test/connections-6.jpg>
+Package pdftex.def Info: Figures/test/connections-6.jpg  used on input line 96.
+(pdftex.def)             Requested size: 199.16136pt x 112.05354pt.
+
+Overfull \hbox (10.9477pt too wide) in paragraph at lines 96--97
+ [][] 
+ []
+
+<Figures/test/connections-4.jpg, id=261, 1507.6325pt x 848.16875pt>
+File: Figures/test/connections-4.jpg Graphic file (type jpg)
+<use Figures/test/connections-4.jpg>
+Package pdftex.def Info: Figures/test/connections-4.jpg  used on input line 102.
+(pdftex.def)             Requested size: 199.15073pt x 112.03885pt.
+
+Overfull \hbox (10.93706pt too wide) in paragraph at lines 102--103
+ [][] 
+ []
+
+[27 <./Figures/test/connections-5.jpg> <./Figures/test/connections-3.jpg> <./Figures/test/connections-6.jpg> <./Figures/test/connections-4.jpg>]
+<Figures/test/interlock.jpg, id=269, 945.5325pt x 1680.2775pt>
+File: Figures/test/interlock.jpg Graphic file (type jpg)
+<use Figures/test/interlock.jpg>
+Package pdftex.def Info: Figures/test/interlock.jpg  used on input line 113.
+(pdftex.def)             Requested size: 176.11827pt x 312.9745pt.
+ [28 <./Figures/test/interlock.jpg>]
+<Figures/test/installation-4.jpg, id=276, 864.22874pt x 1536.74126pt>
+File: Figures/test/installation-4.jpg Graphic file (type jpg)
+<use Figures/test/installation-4.jpg>
+Package pdftex.def Info: Figures/test/installation-4.jpg  used on input line 123.
+(pdftex.def)             Requested size: 135.99806pt x 241.827pt.
+<Figures/test/installation-2.jpg, id=277, 833.1125pt x 1481.535pt>
+File: Figures/test/installation-2.jpg Graphic file (type jpg)
+<use Figures/test/installation-2.jpg>
+Package pdftex.def Info: Figures/test/installation-2.jpg  used on input line 129.
+(pdftex.def)             Requested size: 135.99571pt x 241.84299pt.
+<Figures/test/installation-1.jpg, id=278, 816.04875pt x 1451.4225pt>
+File: Figures/test/installation-1.jpg Graphic file (type jpg)
+<use Figures/test/installation-1.jpg>
+Package pdftex.def Info: Figures/test/installation-1.jpg  used on input line 135.
+(pdftex.def)             Requested size: 135.97458pt x 241.8441pt.
+ [29 <./Figures/test/installation-4.jpg> <./Figures/test/installation-2.jpg> <./Figures/test/installation-1.jpg>]
+File: Figures/results/LTRT_1_plot.png Graphic file (type png)
+<use Figures/results/LTRT_1_plot.png>
+Package pdftex.def Info: Figures/results/LTRT_1_plot.png  used on input line 147.
+(pdftex.def)             Requested size: 711.31786pt x 444.57365pt.
+
+Overfull \hbox (17.81964pt too wide) in paragraph at lines 147--148
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Figures/results/LTRT_2_plot.png Graphic file (type png)
+<use Figures/results/LTRT_2_plot.png>
+Package pdftex.def Info: Figures/results/LTRT_2_plot.png  used on input line 154.
+(pdftex.def)             Requested size: 711.31786pt x 444.57365pt.
+
+Overfull \hbox (17.81964pt too wide) in paragraph at lines 154--155
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Figures/results/env_plot_20240404.png Graphic file (type png)
+<use Figures/results/env_plot_20240404.png>
+Package pdftex.def Info: Figures/results/env_plot_20240404.png  used on input line 161.
+(pdftex.def)             Requested size: 711.32889pt x 341.43787pt.
+
+Overfull \hbox (17.83067pt too wide) in paragraph at lines 161--162
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig:LTRT_result_1_large' on page 30 undefined on input line 162.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_2_large' on page 30 undefined on input line 162.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_1_large' on page 30 undefined on input line 162.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_2_large' on page 30 undefined on input line 162.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Figures/results/amac_el_plot_20240404_.png Graphic file (type png)
+<use Figures/results/amac_el_plot_20240404_.png>
+Package pdftex.def Info: Figures/results/amac_el_plot_20240404_.png  used on input line 168.
+(pdftex.def)             Requested size: 711.32889pt x 341.43787pt.
+
+Overfull \hbox (17.83067pt too wide) in paragraph at lines 168--169
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig:LTRT_result_1' on page 30 undefined on input line 169.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_2' on page 30 undefined on input line 169.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_1' on page 30 undefined on input line 169.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_2' on page 30 undefined on input line 169.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Figures/results/amac_temp_plot_20240404_.png Graphic file (type png)
+<use Figures/results/amac_temp_plot_20240404_.png>
+Package pdftex.def Info: Figures/results/amac_temp_plot_20240404_.png  used on input line 175.
+(pdftex.def)             Requested size: 711.32889pt x 341.43787pt.
+
+Overfull \hbox (17.83067pt too wide) in paragraph at lines 175--176
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig:LTRT_result_1' on page 30 undefined on input line 176.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_2' on page 30 undefined on input line 176.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_1' on page 30 undefined on input line 176.
+
+
+LaTeX Warning: Reference `fig:LTRT_result_2' on page 30 undefined on input line 176.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [30] [31] [32] [33] [34] [35]
+\openout2 = `Appendices/AppendixB.aux'.
+
+ (./Appendices/AppendixB.tex [36
+
+
+
+
+]
+Appendix B.
+Excluding 'comment' comment.)
+1: section
+[37] [38
+
+
+
+]
+Underfull \hbox (badness 10000) in alignment at lines 227--254
+[] []
+ []
+
+Excluding 'comment' comment. Excluding 'comment' comment.
+
+LaTeX Warning: Empty bibliography on input line 295.
+
+1: section
+[39] (./main.aux (./Chapters/Introduction.aux) (./Chapters/Modules.aux) (./Chapters/Test.aux) (./Chapters/Results.aux) (./Appendices/AppendixA.aux) (./Appendices/AppendixB.aux))
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  7D3C33932312C785FE99EE015A16D0F9;5743.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 31568 strings out of 474165
+ 682897 string characters out of 5749497
+ 1944542 words of memory out of 5000000
+ 53345 multiletter control sequences out of 15000+600000
+ 622004 words of font info for 162 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 96i,20n,94p,2232b,1876s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (41 pages, 17251125 bytes).
+PDF statistics:
+ 404 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
+ 126 named destinations out of 1000 (max. 500000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
+
