@@ -180,6 +180,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     #plt.ylim(min_val, max_val)
     plt.title("LTRT COLD TEST 1")
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
+    plt.grid(True) 
     #plt.xticks([])
     
     plt.subplot(4, 3, i + 2)
@@ -189,6 +190,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.xticks([])
     plt.title("IDLE")
     plt.xticks(ticks=range(0, len(time_labels_3), len(time_labels_3) // 9 + 1))
+    plt.grid(True) 
     #plt.xticks([])
     
     plt.subplot(4, 3, i + 3)
@@ -198,6 +200,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.xticks([])
     plt.title("LTRT COLD TEST 2")
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
+    plt.grid(True) 
     #plt.xticks([])
 
 
@@ -209,6 +212,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     #max_val = max(x for x in Iin if x is not None)+2
     plt.ylim(760, 860)
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
+    plt.grid(True) 
     #plt.xticks([])
     
     plt.subplot(4, 3, i + 5)
@@ -217,6 +221,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.ylim(760, 860)
     plt.xticks([])
     plt.xticks(ticks=range(0, len(time_labels_3), len(time_labels_3) // 9 + 1))
+    plt.grid(True) 
     #plt.xticks([])
     
     plt.subplot(4, 3, i + 6)
@@ -225,6 +230,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.ylim(760, 860)
     plt.xticks([])
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
+    plt.grid(True) 
     #plt.xticks([])
     
     '''
@@ -344,6 +350,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     max_val = max(x for x in Vin_2 if x is not None)+15
     plt.ylim(min_val, max_val)
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
+    plt.grid(True) 
     #plt.xticks([])
     
     
@@ -353,6 +360,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.ylim(min_val, max_val)
     plt.xticks([])
     plt.xticks(ticks=range(0, len(time_labels_3), len(time_labels_3) // 9 + 1))
+    plt.grid(True) 
     #plt.xticks([])
     
     plt.subplot(4, 3, i + 9)
@@ -361,6 +369,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.ylim(min_val, max_val)
     plt.xticks([])
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
+    plt.grid(True) 
     #plt.xticks([])
     
     
@@ -372,6 +381,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     max_val = max(x for x in Vout_1 if x is not None)+15
     plt.ylim(min_val, max_val)
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
+    plt.grid(True) 
     #plt.xticks([])
     
     plt.subplot(4, 3, i + 11)
@@ -380,6 +390,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.ylim(min_val, max_val)
     plt.xticks([])
     plt.xticks(ticks=range(0, len(time_labels_3), len(time_labels_3) // 9 + 1))
+    plt.grid(True) 
     #plt.xticks([])
     
     plt.subplot(4, 3, i + 12)
@@ -388,6 +399,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.ylim(min_val, max_val)
     plt.xticks([])
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
+    plt.grid(True) 
     #plt.xticks([])
     
     
@@ -408,6 +420,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     max_val = max(x for x in NTCx_2 if x is not None)+1
     plt.ylim(min_val, max_val)
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
+    plt.grid(True) 
     #plt.xticks([])
     
     plt.subplot(3, 3, i + 2)
@@ -417,6 +430,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.ylim(min_val, max_val)
     plt.xticks([])
     plt.xticks(ticks=range(0, len(time_labels_3), len(time_labels_3) // 9 + 1))
+    plt.grid(True) 
     #plt.xticks([])
     
     plt.subplot(3, 3, i + 3)
@@ -426,6 +440,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.ylim(min_val, max_val)
     plt.xticks([])
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
+    plt.grid(True) 
     #plt.xticks([])
     
     
@@ -436,6 +451,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     max_val = max(x for x in NTCy_1 if x is not None)+1
     plt.ylim(min_val, max_val)
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
+    plt.grid(True) 
     #plt.xticks([])
     
     plt.subplot(3, 3, i + 5)
@@ -444,6 +460,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.ylim(min_val, max_val)
     plt.xticks([])
     plt.xticks(ticks=range(0, len(time_labels_3), len(time_labels_3) // 9 + 1))
+    plt.grid(True) 
     #plt.xticks([])
     
     plt.subplot(3, 3, i + 6)
@@ -452,6 +469,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.ylim(min_val, max_val)
     plt.xticks([])
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
+    plt.grid(True) 
     #plt.xticks([])
     
     
@@ -462,6 +480,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     max_val = max(x for x in NTCpb_1 if x is not None)+1
     plt.ylim(min_val, max_val)
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
+    plt.grid(True) 
     #plt.xticks([])
     
     plt.subplot(3, 3, i + 8)
@@ -470,6 +489,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.ylim(min_val, max_val)
     plt.xticks([])
     plt.xticks(ticks=range(0, len(time_labels_3), len(time_labels_3) // 9 + 1))
+    plt.grid(True) 
     #plt.xticks([])
     
     plt.subplot(3, 3, i + 9)
@@ -478,6 +498,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.ylim(min_val, max_val)
     plt.xticks([])
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
+    plt.grid(True) 
     #plt.xticks([])
     
     
