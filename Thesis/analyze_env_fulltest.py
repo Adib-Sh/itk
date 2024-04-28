@@ -22,12 +22,48 @@ class get_data():
             
         return data
     
+#Read Test Dates
+test_time = {}
+results_lst1 = ["/results/20240404/ABCStar_R5H0_ppa_20240404_520_24_RESPONSE_CURVE_PPA.json",
+               "/results/20240404/ABCStar_R5H0_ppa_20240404_520_34_NO_PPA.json",
+               "/results/20240404/ABCStar_R5H0_ppa_20240404_520_19_PEDESTAL_TRIM_PPA.json",
+               "/results/20240404/ABCStar_R5H0_ppa_20240404_520_20_STROBE_DELAY_PPA.json"]
+
+test_time = {}
+for file in results_lst1:
+
+    reader = get_data(file)
+    data = reader.test_env_data()
+    # Extract the "date" field (assuming it exists)
+    date_str = data["date"]
+    # Convert date string to numerical format for plotting
+    #date_num = mdates.date2num(datetime.datetime.strptime(date_str, "%Y-%m-%d"))
+    test_time[file] = date_str
+
+results_lst2 = ["/results/20240404/ABCStar_R5H0_ppa_20240404_520_40_RESPONSE_CURVE_PPA.json",
+               "/results/20240404/ABCStar_R5H0_ppa_20240404_520_50_NO_PPA.json",
+               "/results/20240404/ABCStar_R5H0_ppa_20240404_520_35_PEDESTAL_TRIM_PPA.json",
+               "/results/20240404/ABCStar_R5H0_ppa_20240404_520_36_STROBE_DELAY_PPA.json"]
+    
+for file in results_lst2:
+
+    reader = get_data(file)
+    data = reader.test_env_data()
+    # Extract the "date" field (assuming it exists)
+    date_str = data["date"]
+    # Convert date string to numerical format for plotting
+    #date_num = mdates.date2num(datetime.datetime.strptime(date_str, "%Y-%m-%d"))
+    test_time[file] = date_str
     
 #Read Test Data
 file = "/results/20240404/output20240404/test_data_2024-04-04.json"
 #file = "\\results\\20240404\\output20240404\\test_data_2024-04-04.json"
 reader = get_data(file)
 data = reader.test_env_data()
+
+
+
+    
 
 
 #Data for plots
@@ -92,6 +128,10 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     test_data_2 = all_results[test_key_2]
     test_key_3 = test_keys[i + 2]
     test_data_3 = all_results[test_key_3]
+    
+    test_time_labels = [datetime.fromisoformat(t).strftime('%H:%M:%S') for t in test_time.values()]
+    test_time_labels1 = test_time_labels[:4]
+    test_time_labels2 = test_time_labels[4:]
 
     # Extract time and sensor data for each test
     time_labels_1 = [datetime.fromisoformat(t).strftime('%H:%M:%S') for t in test_data_1["time"]]
@@ -135,7 +175,15 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     min_val = min(x for x in temp_4_1 if x is not None)-0.5
     max_val = max(x for x in temp_4_1 if x is not None)+0.5
     plt.ylim(min_val, max_val)
+    plt.grid(True)
     plt.title("LTRT COLD TEST 1")
+    #plt.axvline(x="14:49:41", color='r', linestyle='--')
+
+    # Annotate the test start event
+    #plt.annotate(, 
+                 #xy=(time_labels[start_index], start_temp), 
+                 #xytext=(0, -20),  # Adjust the y position to be above the x-axis
+                 #textcoords='offset points')
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
     #plt.xticks([])
     
@@ -145,6 +193,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.ylim(min_val, max_val)
     plt.xticks([])
     plt.title("IDLE")
+    plt.grid(True)
     plt.xticks(ticks=range(0, len(time_labels_3), len(time_labels_3) // 9 + 1))
     #plt.xticks([])
     
@@ -154,6 +203,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.ylim(min_val, max_val)
     plt.xticks([])
     plt.title("LTRT COLD TEST 2")
+    plt.grid(True)
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
     #plt.xticks([])
 
@@ -164,12 +214,14 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     min_val = min(x for x in dp4_1 if x is not None)-3
     max_val = max(x for x in dp4_1 if x is not None)+1
     plt.ylim(min_val, max_val)
+    plt.grid(True)
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
     #plt.xticks([])
     
     plt.subplot(4, 3, i + 5)
     plt.plot(time_labels_3, dp4_3, 'r-', label=test_key_3)
     plt.ylim(min_val, max_val)
+    plt.grid(True)
     #plt.yticks([])  # Remove y-axis labels
     plt.xticks(ticks=range(0, len(time_labels_3), len(time_labels_3) // 9 + 1)) 
     #plt.xticks([])
@@ -177,6 +229,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.subplot(4, 3, i + 6)
     plt.plot(time_labels_2, dp4_2, 'b-', label=test_key_2)
     plt.ylim(min_val, max_val)
+    plt.grid(True)
     #plt.yticks([])  # Remove y-axis labels
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
     #plt.xticks([])
@@ -188,6 +241,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     min_val = min(x for x in rh4_1 if x is not None)-0.08
     max_val = max(x for x in rh4_1 if x is not None)+0.08
     plt.ylim(min_val, max_val)
+    plt.grid(True)
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
     #plt.xticks([])
     
@@ -195,6 +249,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.plot(time_labels_3, rh4_3, 'r-', label=test_key_3)
     #plt.yticks([])  # Remove y-axis labels
     plt.ylim(min_val, max_val)
+    plt.grid(True)
     plt.xticks(ticks=range(0, len(time_labels_3), len(time_labels_3) // 9 + 1)) 
     #plt.xticks([])
     
@@ -202,6 +257,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.plot(time_labels_2, rh4_2, 'b-', label=test_key_2)
     #plt.yticks([])  # Remove y-axis labels
     plt.ylim(min_val, max_val)
+    plt.grid(True)
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
     #plt.xticks([])
     
@@ -210,6 +266,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.plot(time_labels_1, rh4_temp_1, 'g-', label=test_key_1)
     plt.ylabel('RH Temperature (°C)')
     plt.xlabel('Timestamps')
+    plt.grid(True)
     min_val = 16#min(x for x in rh4_temp_1 if x is not None)-0.2
     max_val = 21#max(x for x in rh4_temp_1 if x is not None)+0.2
     plt.ylim(min_val, max_val)
@@ -219,6 +276,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.subplot(4, 3, i + 11)
     plt.plot(time_labels_3, rh4_temp_3, 'r-', label=test_key_3)
     #plt.yticks([])  # Remove y-axis labels
+    plt.grid(True)
     plt.xticks(ticks=range(0, len(time_labels_3), len(time_labels_3) // 9 + 1)) 
     plt.ylim(min_val, max_val)
     
@@ -226,6 +284,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     plt.subplot(4, 3, i + 12)
     plt.plot(time_labels_2, rh4_temp_2, 'b-', label=test_key_2)
     #plt.yticks([])  # Remove y-axis labels
+    plt.grid(True)
     plt.xticks(ticks=range(0, len(time_labels_1), len(time_labels_1) // 9 + 1)) 
     plt.ylim(min_val, max_val)
 
