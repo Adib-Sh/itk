@@ -9,7 +9,7 @@ path = os.getcwd()
 class get_data():
     def __init__(self):
         self.path = os.getcwd()
-        self.rc_file = self.path + "/results/20240404/ABCStar_R5H0_ppa_20240404_520_7_RESPONSE_CURVE_PPA.json"
+        self.rc_file = self.path + "/results/20240404/ABCStar_R5H0_ppa_20240404_520_24_RESPONSE_CURVE_PPA.json"
         self.no_file = self.path + "/results/20240404/ABCStar_R5H0_ppa_20240404_520_50_NO_PPA.json"
 
     
@@ -113,44 +113,44 @@ innse_away = [item for sublist in innse_away for item in sublist]
 vt50_away = [item for sublist in vt50_away for item in sublist]
 
 # Plotting the first set of RC data
-plt.figure(figsize=(16, 10))
-plt.suptitle('Plot of vt50/input noise/gain at each channel', fontsize=20)
+plt.figure(figsize=(14, 10))
+plt.suptitle('Response vs. channel at 1 fC', fontsize=20)
 x_divisions = np.linspace(min(channels), max(channels), num=10)
 
 plt.subplot(3, 2, 1)
 plt.plot(channels, gain_under, 'r-')
-plt.ylabel('gain')
+plt.ylabel('gain(mV/fC)')
 for i in range(0, 9, 2):
     plt.axvspan(x_divisions[i], x_divisions[i+1], color='grey', alpha=0.3)
     
 plt.subplot(3, 2, 2)
 plt.plot(channels, gain_away, 'r-')
-plt.ylabel('gain')
+plt.ylabel('gain(mV/fC)')
 for i in range(0, 9, 2):
     plt.axvspan(x_divisions[i], x_divisions[i+1], color='grey', alpha=0.3)
 
 plt.subplot(3, 2, 3)
 plt.plot(channels, innse_under, 'g-')
-plt.ylabel('input noise')
+plt.ylabel('input noise (ENC)')
 for i in range(0, 9, 2):
     plt.axvspan(x_divisions[i], x_divisions[i+1], color='grey', alpha=0.3)
     
 plt.subplot(3, 2, 4)
 plt.plot(channels, innse_away, 'g-')
-plt.ylabel('input noise')
+plt.ylabel('input noise (ENC)')
 for i in range(0, 9, 2):
     plt.axvspan(x_divisions[i], x_divisions[i+1], color='grey', alpha=0.3)
 
 plt.subplot(3, 2, 5)
 plt.plot(channels, vt50_under, 'b-')
-plt.ylabel('vt_50')
+plt.ylabel('vt_50 (mV)')
 for i in range(0, 9, 2):
     plt.axvspan(x_divisions[i], x_divisions[i+1], color='grey', alpha=0.3)
 plt.xlabel('channels of under section')
 
 plt.subplot(3, 2, 6)
 plt.plot(channels, vt50_away, 'b-')
-plt.ylabel('vt_50')
+plt.ylabel('vt_50 (mV)')
 for i in range(0, 9, 2):
     plt.axvspan(x_divisions[i], x_divisions[i+1], color='grey', alpha=0.3)
 plt.xlabel('channels of away section')

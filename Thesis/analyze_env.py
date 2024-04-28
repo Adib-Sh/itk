@@ -40,7 +40,7 @@ temp_4 =  test_env_data["thermometer.C4"]
 #Plots
 # Creating subplots
 # Plotting the first set of data
-plt.figure(figsize=(16, 10))
+plt.figure(figsize=(16, 8))
 plt.suptitle('Plot of test interval environmental data ', fontsize=20)
 
 

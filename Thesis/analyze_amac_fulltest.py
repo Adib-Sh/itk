@@ -505,7 +505,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     
     
     plt.tight_layout(rect=[0, 0.03, 1, 0.95], h_pad=2)  # Adjust layout to add free space above the plot and leave space for the title
-    plt.savefig(path + "/results/20240404/Plots/amac_temp_plot_" + "20240404" + "_" + ".png", dpi=300)
+    plt.savefig(path + "/results/20240404/Plots/amac_temp_plot_" + "20240404" + "_" + ".png", dpi=200)
     #plt.savefig(path + "\\results\\20240404\\Plots\\env_plot_" + "20240404" + "_" + ".png", dpi=500)
     plt.show()
 

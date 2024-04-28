@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 path = os.getcwd()
-with open(path + "\\results\\20240314\\ABCStar_R5H0_ppa_20240314_502_3_RESPONSE_CURVE_PPA.json", "r") as file:
+with open(path + "/results/20240314/ABCStar_R5H0_ppa_20240314_502_3_RESPONSE_CURVE_PPA.json", "r") as file:
     data = json.load(file)
 
 
