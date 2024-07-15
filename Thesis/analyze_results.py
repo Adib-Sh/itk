@@ -9,7 +9,7 @@ path = os.getcwd()
 class get_data():
     def __init__(self):
         self.path = os.getcwd()
-        self.rc_file = self.path + "/results/20240404/ABCStar_R5H0_ppa_20240404_520_24_RESPONSE_CURVE_PPA.json"
+        self.rc_file = self.path + "/results/20240404/ABCStar_R5H0_ppa_20240404_520_40_RESPONSE_CURVE_PPA.json"
         self.no_file = self.path + "/results/20240404/ABCStar_R5H0_ppa_20240404_520_50_NO_PPA.json"
 
     
@@ -122,7 +122,14 @@ plt.plot(channels, gain_under, 'r-')
 plt.ylabel('gain(mV/fC)')
 for i in range(0, 9, 2):
     plt.axvspan(x_divisions[i], x_divisions[i+1], color='grey', alpha=0.3)
-    
+plt.text(10, 80.5, 'ATLAS ITk', weight='bold', fontsize = 13)
+plt.text(230, 80.5, 'work in progress', fontsize = 10)
+
+plt.text(800, 80.5, 'preliminary test conducted', weight='bold', fontsize =  7)
+plt.text(800, 80, 'in coldbox @ Lund University', weight='bold', fontsize = 7)
+
+plt.text(800, 79, 'ITk Strip R5 PPA1', weight='bold', fontsize = 8)
+
 plt.subplot(3, 2, 2)
 plt.plot(channels, gain_away, 'r-')
 plt.ylabel('gain(mV/fC)')
@@ -159,13 +166,13 @@ plt.xlabel('channels of away section')
 
 
 plt.tight_layout()  # Adjust layout to prevent overlap
-plt.savefig(path+"/results/20240404/Plots/LTRT_1_plot.png", dpi=300)
+plt.savefig(path+"/results/20240404/Plots/LTRT_2_plot.png", dpi=300)
 plt.show()
 
 
 
 # Creating subplots of NO
-
+'''
 plt.figure(figsize=(30, 10))
 plt.suptitle('Plot of vt50/input noise/gain at each channel', fontsize=20)
 
@@ -230,7 +237,7 @@ plt.xlabel('Gain(away)')
 plt.ylabel('Occupancy (away)')
 plt.yscale('log')
 plt.ylim(0.0000001, 10)
-
+'''
 '''
 # Plot each read-out with individual fit
 ###!!!Works only with detailed data NOT MEAN!!!###

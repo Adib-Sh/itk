@@ -345,7 +345,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     # Seventh subplot (Vin)
     plt.subplot(4, 3, i + 7)
     plt.plot(time_labels_1, Vin_1, 'g-', label=test_key_1)
-    plt.ylabel('V in (V)')
+    plt.ylabel('V in (mV)')
     min_val = min(x for x in Vin_2 if x is not None)-15
     max_val = max(x for x in Vin_2 if x is not None)+15
     plt.ylim(min_val, max_val)
@@ -376,7 +376,7 @@ for i in range(0, num_tests, 3):  # Loop through test keys by increments of 3
     # Eighth subplot (Vout)
     plt.subplot(4, 3, i + 10)
     plt.plot(time_labels_1, Vout_1, 'g-', label=test_key_1)
-    plt.ylabel('V out (V)')
+    plt.ylabel('V out (mV)')
     min_val = min(x for x in Vout_1 if x is not None)-15
     max_val = max(x for x in Vout_1 if x is not None)+15
     plt.ylim(min_val, max_val)
